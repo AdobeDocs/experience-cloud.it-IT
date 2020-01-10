@@ -2,7 +2,7 @@
 title: Documentazione di Adobe Experience Cloud
 description: Questa pagina include un elenco completo di tutta la documentazione di Adobe Experience Cloud, oltre a guide utente ed esercitazioni per l’abilitazione.
 translation-type: tm+mt
-source-git-commit: 9f8c85d9589d67ad7e0e7adf627a8feca7beba68
+source-git-commit: 0ead691624a9a9e2e4f42333ac3ed5bb9f11ef68
 
 ---
 
@@ -298,18 +298,21 @@ Questa pagina include un elenco completo di tutta la documentazione di Adobe Exp
 <table>
 <thead>
   <tr>
-    <th>Guida utente</th>
-    <th></th>
+    <th>Guide utente</th>
+    <th>Esercitazioni</th>
   </tr>
 </thead>
 <tbody>
 <tr>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html"> Aiuto sull'orchestrazione del viaggio</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html"> Guida utente per l'orchestrazione del percorso</a></li>
     </ul>
   </td>
   <td>
+    <ul>
+      <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html"> Esercitazioni sull'orchestrazione del viaggio</a></li>
+    </ul>
   </td>
 </tr>
 </tbody>
