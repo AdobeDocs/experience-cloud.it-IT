@@ -2,7 +2,7 @@
 title: Documentazione di Adobe Experience Cloud
 description: Questa pagina include un elenco completo di tutta la documentazione di Adobe Experience Cloud, oltre a guide utente ed esercitazioni per l’abilitazione.
 translation-type: tm+mt
-source-git-commit: e3e9c587efc6228bc1465fca4141ce246a5cb310
+source-git-commit: 9a25d2e82e33e979d74b270e54f099a55cc6fd8f
 
 ---
 
@@ -207,7 +207,7 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
 </tbody>
 </table>
 
-## ![Icona](/help/assets/experience-cloud.png) Adobe Experience Platform
+## ![Icona](/help/assets/platform.png) Adobe Experience Platform
 
 <table>
 <thead>
