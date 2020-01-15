@@ -2,7 +2,7 @@
 title: Esercitazioni di Adobe Experience Cloud
 description: Collegamenti a tutte le esercitazioni e le guide di apprendimento di Experience Cloud
 translation-type: tm+mt
-source-git-commit: 61959d68f9d9ae4c656b81b4c91017a5d179627b
+source-git-commit: bea2fb5fe61711dcb8902569f4dc15dfb5546542
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 61959d68f9d9ae4c656b81b4c91017a5d179627b
 
 ## Analytics
 
-[Esercitazioni sull'apprendimento di Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)
+[Esercitazioni sull&#39;apprendimento di Analytics](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)
 
 ## Target
 
@@ -19,16 +19,16 @@ source-git-commit: 61959d68f9d9ae4c656b81b4c91017a5d179627b
 
 ## Audience Manager
 
-[Esercitazioni sull'apprendimento di Audience Manager](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html)
+[Esercitazioni sull&#39;apprendimento di Audience Manager](https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html)
 
 ## Servizi di base e servizi della piattaforma
 
-* [Esercitazioni per l'apprendimento dei servizi di base](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
+* [Esercitazioni per l&#39;apprendimento dei servizi di base](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
 * [Esercitazioni di apprendimento della piattaforma](https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html)
-* [Guida all’implementazione di Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)
-* [Implementazione di Experience Cloud nelle applicazioni Swift iOS mobili](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
-* [Implementazione di Experience Cloud nelle applicazioni iOS Objective-C per dispositivi mobili](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
-* [Implementazione di Experience Cloud nelle app Android per dispositivi mobili](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
+* [Guida all’implementazione di Launch](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/index.html)
+* [Implementazione di Experience Cloud nelle applicazioni Swift iOS mobili](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
+* [Implementazione di Experience Cloud nelle applicazioni iOS Objective-C per dispositivi mobili](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+* [Implementazione di Experience Cloud nelle app Android per dispositivi mobili](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-android-apps-with-launch/index.html)
 
 ## Campaign
 
@@ -38,10 +38,10 @@ source-git-commit: 61959d68f9d9ae4c656b81b4c91017a5d179627b
 ## Adobe Experience Manager
 
 * [Esercitazioni per l’apprendimento di AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/overview.html)
-* [Esercitazioni per l'apprendimento di AEM Forms](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/overview.html)
-* [Esercitazioni per l'apprendimento di AEM Sites](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/overview.html)
+* [Esercitazioni per l&#39;apprendimento di AEM Forms](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/overview.html)
+* [Esercitazioni per l&#39;apprendimento di AEM Sites](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/overview.html)
 * [Esercitazione WKND su AEM Sites](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
-* [Esercitazioni per l'apprendimento di AEM Foundation](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/overview.html)
+* [Esercitazioni per l&#39;apprendimento di AEM Foundation](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/overview.html)
 * [Esercitazione sulla cache del dispatcher AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/dispatcher-tutorial/overview.html)
 * [Esercitazione senza titolo di AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-with-aem-headless/overview.html)
 
@@ -61,40 +61,3 @@ Per consultare la guida di Advertising Cloud dal prodotto, fai clic sull’icona
 >* [Forum della community](https://forums.adobe.com/community/experience-cloud/)
 >* [Formazione e tutorial di Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
 
-
-<!--
-<table>
-<tr>
-  <td>
-    <a href="https://helpx.adobe.com/support/experience-cloud.html">
-    <img alt="Learn & Support" src="/assets/roles.png"/>
-    </a>
-    <div>
-    <a href="https://helpx.adobe.com/support/experience-cloud.html"><strong>Learn & Support</strong></a>
-    </div>
-    <em>Discover resources for learning Experience Cloud solutions.</em>
-    <br>
-  </td>
-  <td>
-    <a href="https://experienceleague.adobe.com/">
-      <img alt="experience league" src="/assets/design.png">
-    </a>
-    <div>
-    <a href="https://experienceleague.adobe.com/"><strong>Experience League</strong></a>
-    </div>
-    <em>Learn about key learning resources and upcoming events.</em>
-    <br>
-  </td>
-  <td>
-    <a href="https://forums.adobe.com/community/experience-cloud/">
-      <img alt="form" src="/assets/dev.png">
-    </a>
-    <div>
-    <a href="https://forums.adobe.com/community/experience-cloud/"><strong>Community Forums</strong></a>
-    </div>
-    <em>Interact with the Experience Cloud community.</em>
-    <br>
-  </td>
-</tr>
-</table>
--->
