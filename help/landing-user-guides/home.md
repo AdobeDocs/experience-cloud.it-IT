@@ -2,7 +2,7 @@
 title: Documentazione di Adobe Experience Cloud
 description: Questa pagina include un elenco completo di tutta la documentazione di Adobe Experience Cloud, oltre a guide utente ed esercitazioni per l’abilitazione.
 translation-type: tm+mt
-source-git-commit: bea2fb5fe61711dcb8902569f4dc15dfb5546542
+source-git-commit: 7802a6b11d6b358d8106f004212709b497c9ab2b
 
 ---
 
@@ -215,7 +215,8 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
       <li><a href="https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html"> Interfaccia servizi di base</a></li>
       <li><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Admin Console</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/id-service/using/home.html"> Guida al servizio ECID</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/mobile-services/using/home.html"> SDK di Mobile Services v4</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/mobile-services/using/home.html"> Guida di Mobile Services</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/mobile-services/using/home.html#section_3A500233347C4305AB545E298A827CEA"> SDK di Mobile Services v4</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/device-co-op/using/home.html"> Guida di Device Co-op</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/launch/using/overview.html"> Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html"> Guida di Gestione dinamica dei tag</a></li>
