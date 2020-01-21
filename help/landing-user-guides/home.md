@@ -2,7 +2,7 @@
 title: Documentazione di Adobe Experience Cloud
 description: Questa pagina include un elenco completo di tutta la documentazione di Adobe Experience Cloud, oltre a guide utente ed esercitazioni per l’abilitazione.
 translation-type: tm+mt
-source-git-commit: 65e52f4c85ad2a6efa7e09975e69bcd6f5ca01d1
+source-git-commit: 86b60471cb3fc660eb6c36469fedb77e9034dd78
 
 ---
 
@@ -41,7 +41,7 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
 <thead>
   <tr>
     <th>Guide utente</th>
-    <th>Esercitazioni e sviluppo</th>
+    <th>Esercitazioni e risorse</th>
   </tr>
 </thead>
 <tbody>
@@ -56,13 +56,16 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
       <li><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html"> Guida all'implementazione</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/import/home.html"> Guida all'importazione</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/integration/home.html"> Guida all'integrazione</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Guida all'analisi dei supporti</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/data-workbench/using/home.html"> Guida di Workbench dati</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html"> Customer Journey Analytics</a></li>
     </ul>
   </td>
   <td>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html"> Esercitazioni di Analytics</a></li>
-      <li><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"> API di Analytics</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/analytics/technotes/home.html"> Note tecniche di Analytics</a></li>
+      <li><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"> API di Analytics </a></li>
     </ul>
   </td>
 </tr>
