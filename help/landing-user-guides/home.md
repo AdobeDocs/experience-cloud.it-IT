@@ -2,7 +2,7 @@
 title: Documentazione di Adobe Experience Cloud
 description: Questa pagina include un elenco completo di tutta la documentazione di Adobe Experience Cloud, oltre a guide utente ed esercitazioni per l’abilitazione.
 translation-type: tm+mt
-source-git-commit: cc5c6fc4c0cff2107baffe1f3a2cbb6174e4bedf
+source-git-commit: aad5d5503b1041cc060bfa4b38bfbdfcd5b26e87
 
 ---
 
@@ -166,7 +166,7 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
 <tbody>
 <tr>
   <td>
-    <p><strong>AEM come servizio cloud</strong></p>
+    <p><strong>AEM come Cloud Service</strong></p>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html"> Experience Manager come guida utente del servizio cloud</a></li>
     </ul>
@@ -258,7 +258,7 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
   <td>
     <p><strong>Experience Platform</strong></p>
     <ul>
-      <li><a href="https://www.adobe.io/apis/experienceplatform/home/overview.html"> Documentazione sulla piattaforma Experience</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-platform/landing/home.html"> Documentazione sulla piattaforma Experience</a></li>
       <li><a href="https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html"> Note sulla versione della piattaforma</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/launch/using/overview.html"> Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/auditor/using/overview.html"> Auditor</a></li>
