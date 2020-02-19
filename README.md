@@ -1,6 +1,6 @@
 ---
 source-git-commit: ec724d95b7d0f0a72119c745fb124192863a9aee
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Contribuire agli articoli
@@ -19,7 +19,7 @@ Il modo in cui contribuisci dipende da chi sei e dal tipo di modifiche con le qu
 
 ### Modifiche minori
 
-Se contribuisci con piccoli aggiornamenti, consulta l’articolo e fai clic sul collegamento **Modifica** nell’articolo, per passare alla sorgente dell’articolo su GitHub. Quindi, utilizza l’interfaccia utente GitHub per effettuare gli aggiornamenti. See the general [Adobe Docs Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html) for more information.
+Se contribuisci con piccoli aggiornamenti, consulta l’articolo e fai clic sul collegamento **Modifica** nell’articolo, per passare alla sorgente dell’articolo su GitHub. Quindi, utilizza l’interfaccia utente GitHub per effettuare gli aggiornamenti. Per ulteriori informazioni, consulta la [Guida per i collaboratori per la documentazione di Adobe](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
 
 Le correzioni o i chiarimenti minori inviati per la documentazione e gli esempi di codice in questo archivio sono coperti dalle condizioni d’uso di Adobe.
 
@@ -33,7 +33,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Modifiche principali da dipendenti Adobe
 
-If you are a technical writer, program manager, or developer from the product team for an Adobe Experience Cloud solution and it's your job to contribute to or author technical articles, you should use the private repository [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
+Se sei un autore tecnico, un responsabile di programma o uno sviluppatore del team addetto ai prodotti di una soluzione Adobe Experience Cloud ed è tuo compito creare o contribuire ad articoli tecnici, devi utilizzare l’archivio [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs) privato. <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
 ## Strumenti e configurazione
 
