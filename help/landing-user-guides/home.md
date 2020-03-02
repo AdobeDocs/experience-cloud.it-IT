@@ -2,7 +2,7 @@
 title: Documentazione su Adobe Experience Cloud
 description: Questa pagina include un elenco completo di tutta la documentazione di Adobe Experience Cloud, oltre alle guide utente e alle esercitazioni per l’abilitazione.
 translation-type: tm+mt
-source-git-commit: 658bb2edfdf3ae6e53e5c672d3f08e0efff8ec7b
+source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
 
 ---
 
@@ -121,8 +121,8 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html"> Esercitazioni di Campaign Classic</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html"> Esercitazioni standard per le campagne</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html"> Esercitazioni di Campaign Classic</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/overview.html"> Esercitazioni standard per le campagne</a></li>
     </ul>
   </td>
 </tr>
