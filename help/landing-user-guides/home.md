@@ -2,7 +2,7 @@
 title: Documentazione su Adobe Experience Cloud
 description: Questa pagina include un elenco completo di tutta la documentazione di Adobe Experience Cloud, oltre alle guide utente e alle esercitazioni per l’abilitazione.
 translation-type: tm+mt
-source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
+source-git-commit: 77f00aaf2984d22e69e262432a66b526e8129a84
 
 ---
 
@@ -129,7 +129,7 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
 </tbody>
 </table>
 
-## ![Icon](/help/assets/audience-manager.png) Audience Manager
+## ![Icona](/help/assets/audience-manager.png) Audience Manager
 
 <table>
 <thead>
@@ -147,7 +147,7 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html">  Esercitazioni su Audience Manager</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html"> Esercitazioni su Audience Manager</a></li>
     </ul>
   </td>
 </tr>
@@ -244,7 +244,7 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
 </tbody>
 </table>
 
-## ![Icon](/help/assets/platform.png) Experience Platform
+## ![Icona](/help/assets/platform.png) Experience Platform
 
 <table>
 <thead>
@@ -277,7 +277,7 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
       <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html"> Esercitazioni sulla piattaforma di esperienze</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/index.html"> Guida all’implementazione di Launch</a></li>
       <li><a href="https://www.adobe.io/apis/experienceplatform/home/"> API per sviluppatori di Experience Platform</a></li>
-      <li><a href="https://www.adobe.io/apis/experienceplatform/home/services/web-sdk.html"> SDK Web per Experience Platform</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-platform/edge/home.html"> SDK Web per Experience Platform</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html"> Esercitazioni sull'orchestrazione del viaggio</a></li>
     </ul>
   </td>
@@ -312,7 +312,7 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
 </tbody>
 </table>
 
-## ![Icon](/help/assets/advertising-cloud.png) Advertising Cloud
+## ![Icona](/help/assets/advertising-cloud.png) Advertising Cloud
 
 Per consultare la guida di Advertising Cloud dal prodotto, fai clic sull’icona Guida (?) nella parte superiore di qualsiasi pagina.
 
