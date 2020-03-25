@@ -2,7 +2,7 @@
 title: Esercitazioni di Adobe Experience Cloud
 description: Collegamenti a tutte le esercitazioni e le guide di apprendimento di Experience Cloud
 translation-type: tm+mt
-source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
+source-git-commit: a4955bedb3032b18f1e7c57aa9b03c5f068fe03a
 
 ---
 
@@ -15,7 +15,9 @@ source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
 
 ## Target
 
-[Esercitazioni sull’apprendimento di Target](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)
+* [Esercitazioni sull’apprendimento di Target](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)
+* [Utilizzo di Recommendations in un sito Web](https://docs.adobe.com/content/help/en/target-learn/recommendations-in-a-website/overview.html)
+* [Adobe Target con Adobe Mobile Services SDK v4 per Android](https://docs.adobe.com/content/help/en/target-learn/mobile-sdk-v4-android/overview.html)
 
 ## Audience Manager
 
