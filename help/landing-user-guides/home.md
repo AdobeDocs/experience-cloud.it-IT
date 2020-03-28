@@ -2,7 +2,7 @@
 title: Documentazione su Adobe Experience Cloud
 description: Questa pagina include un elenco completo di tutta la documentazione di Adobe Experience Cloud, oltre alle guide utente e alle esercitazioni per l’abilitazione.
 translation-type: tm+mt
-source-git-commit: eede3f444c3bba202cb3a743a6c8f9513f5c0ecc
+source-git-commit: 2c27fc142ae16c5dc985b6790d7de2393c7cd863
 
 ---
 
@@ -49,15 +49,15 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
   <td>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html">Guida principale di Analytics</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/analytics/analyze/home.html"> Guida agli strumenti di Analytics</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/analytics/analyze/home.html"> Guida all’analisi di Analytics</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/admin/home.html"> Guida per l’amministratore</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/components/home.html"> Guida dei componenti</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/export/home.html"> Guida all’esportazione</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html"> Guida all’implementazione</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/import/home.html"> Guida all’importazione</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/integration/home.html"> Guida all’integrazione</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Guida all'analisi dei supporti</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/data-workbench/using/home.html"> Guida di Workbench dati</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Guida all'analisi dei supporti multimediali</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/data-workbench/using/home.html"> Guida di Data Workbench</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html"> Customer Journey Analytics</a></li>
     </ul>
   </td>
@@ -184,8 +184,8 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/dispatcher.html"> AEM Dispatcher</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html"> AEM Cloud Manager</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html"> Componenti core AEM</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/exc/using/overview.html"> Adobe Experience Cloud Library</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/introduction.html"> App desktop AEM</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/home.html"> AEM Brand Portal</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/aem-forms-automated-conversion-service/table-of-contents/introduction.html"> Servizio Automated Forms Conversion di AEM</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/dynamic-media-classic/using/home.html"> Contenuti multimediali dinamici Classic</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html"> Guida per sviluppatori di elementi multimediali dinamici</a></li>
@@ -258,7 +258,7 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
   <td>
     <p><strong>Experience Platform</strong></p>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-platform/landing/home.html"> Documentazione sulla piattaforma Experience</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-platform/landing/home.html"> Documentazione sulla piattaforma di esperienza</a></li>
       <li><a href="https://www.adobe.io/apis/experienceplatform/home/services/release-notes.html"> Note sulla versione della piattaforma</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/launch/using/overview.html"> Experience Platform Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/auditor/using/overview.html"> Auditor</a></li>
