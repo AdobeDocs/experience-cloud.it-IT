@@ -2,16 +2,16 @@
 title: Documentazione su Adobe Experience Cloud
 description: Questa pagina include un elenco completo di tutta la documentazione di Adobe Experience Cloud, oltre alle guide utente e alle esercitazioni per l’abilitazione.
 translation-type: tm+mt
-source-git-commit: 94b17629897a888d3df601dbba632afbd99905af
+source-git-commit: e0ce5a635394e3ca8fcf86169d33a43056a5b70c
 
 ---
 
 
 # Documentazione su Adobe Experience Cloud
 
-![Banner](/help/assets/experience-cloud-banner-3.png)
+![Banner](/help/assets/experience-cloud-banner-4.png)
 
-Questa pagina include un elenco completo delle guide utente ed esercitazioni di Adobe Experience Cloud.
+Questa pagina include un elenco completo delle guide utente e dei tutorial di Adobe Experience Cloud.
 
 ## ![Icona](/help/assets/experience-cloud.png) Note sulla versione
 
@@ -35,13 +35,13 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
 </tbody>
 </table>
 
-## ![Icon](/help/assets/analytics.png) Analytics
+## Analytics
 
 <table>
 <thead>
   <tr>
     <th>Guide utente</th>
-    <th>Esercitazioni e risorse</th>
+    <th>Tutorial e risorse</th>
   </tr>
 </thead>
 <tbody>
@@ -49,21 +49,21 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
   <td>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html">Guida principale di Analytics</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/analytics/analyze/home.html"> Guida all’analisi di Analytics</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/analytics/analyze/home.html"> Guida agli strumenti di Analytics</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/admin/home.html"> Guida per l’amministratore</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/components/home.html"> Guida dei componenti</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/export/home.html"> Guida all’esportazione</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html"> Guida all’implementazione</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/import/home.html"> Guida all’importazione</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/integration/home.html"> Guida all’integrazione</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Guida all'analisi dei supporti multimediali</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Guida all’analisi dei supporti multimediali</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/data-workbench/using/home.html"> Guida di Data Workbench</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html"> Customer Journey Analytics</a></li>
     </ul>
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html"> Esercitazioni di Analytics</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html"> Tutorial su Analytics</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/technotes/home.html"> Note tecniche di Analytics</a></li>
       <li><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"> API di Analytics</a></li>
     </ul>
@@ -72,7 +72,7 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
 </tbody>
 </table>
 
-## ![Destinazione icona](/help/assets/target.png)
+## Target
 
 <table>
 <thead>
@@ -90,19 +90,19 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html"> Esercitazioni Target</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html"> Tutorial su Target</a></li>
       <li><a href="https://developers.adobetarget.com/api/delivery-api/"> API lato server di Target</a></li>
-      <li><a href="https://github.com/adobe/target-nodejs-sdk"> SDK NodeJS di destinazione</a></li>
-      <li><a href="https://github.com/adobe/target-java-sdk"> Target Java SDK</a></li>
-      <li><a href="https://developers.adobetarget.com/api/recommendations/"> API Target Recommendations</a></li>
-      <li><a href="http://developers.adobetarget.com/api/#introduction"> Documentazione di Target Adobe.IO</a></li>
+      <li><a href="https://github.com/adobe/target-nodejs-sdk"> SDK NodeJS di Target</a></li>
+      <li><a href="https://github.com/adobe/target-java-sdk"> SDK Java di Target</a></li>
+      <li><a href="https://developers.adobetarget.com/api/recommendations/"> API di Target Recommendations</a></li>
+      <li><a href="http://developers.adobetarget.com/api/#introduction"> Documentazione di Adobe.IO su Target</a></li>
     </ul>
   </td>
 </tr>
 </tbody>
 </table>
 
-## ![Campagna icona](/help/assets/campaign.png)
+## Campaign
 
 <table>
 <thead>
@@ -121,15 +121,15 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html"> Esercitazioni di Campaign Classic</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/overview.html"> Esercitazioni standard per le campagne</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html"> Tutorial su Campaign Classic</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/overview.html"> Tutorial su Campaign Standard</a></li>
     </ul>
   </td>
 </tr>
 </tbody>
 </table>
 
-## ![Icona](/help/assets/audience-manager.png) Audience Manager
+## Audience Manager
 
 <table>
 <thead>
@@ -147,14 +147,14 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html"> Esercitazioni su Audience Manager</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html"> Tutorial su Audience Manager</a></li>
     </ul>
   </td>
 </tr>
 </tbody>
 </table>
 
-## ![Icona](/help/assets/aem.png) Adobe Experience Manager
+## Adobe Experience Manager
 
 <table>
 <thead>
@@ -168,9 +168,9 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
   <td>
     <p><strong>AEM come Cloud Service</strong></p>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html"> AEM come guida utente per i servizi cloud</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html"> Guide utente su AEM come Cloud Service</a></li>
     </ul>
-    <p><strong>Versioni AEM</strong></p>
+    <p><strong>Versioni di AEM</strong></p>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html"> Guida utente di AEM 6.5</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-64/user-guide/home.html"> Guida utente di AEM 6.4</a></li>
@@ -193,12 +193,12 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html"> AEM come Esercitazioni sul servizio cloud</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/assets/overview.html"> Esercitazioni su Risorse AEM</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/forms/overview.html"> Esercitazioni su AEM Forms</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/sites/overview.html"> Esercitazioni AEM Sites</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html"> Tutorial su AEM come Cloud Service</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/assets/overview.html"> Tutorial su AEM Assets</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/forms/overview.html"> Tutorial su AEM Forms</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/sites/overview.html"> Tutorial su AEM Sites</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html"> Esercitazione WKND su AEM Sites</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/assets/overview.html"> Esercitazioni AEM Foundation</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/assets/overview.html"> Tutorial su AEM Foundation</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/dispatcher-tutorial/overview.html"> Esercitazione sulla cache di AEM Dispatcher</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-with-aem-headless/overview.html"> Esercitazione su AEM Headless</a></li>
     </ul>
@@ -207,7 +207,7 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
 </tbody>
 </table>
 
-## ![Servizi di base per icone](/help/assets/experience-cloud.png) , amministrazione e implementazione
+## Servizi di base, amministrazione e implementazione
 
 <table>
 <thead>
@@ -222,18 +222,18 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/core-services/interface/experience-cloud.html"> Interfaccia servizi core</a></li>
       <li><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Admin Console</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/id-service/using/home.html"> Guida al servizio Experience Cloud ID</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/id-service/using/home.html"> Guida utente di Experience Cloud ID</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/mobile-services/using/home.html"> Guida di Mobile Services</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/mobile-services/using/home.html#section_3A500233347C4305AB545E298A827CEA"> SDK di Mobile Services v4</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/device-co-op/using/home.html"> Guida di Device Co-op</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/launch/using/overview.html"> Experience Platform Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html"> Guida alla gestione tag dinamica</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/places/using/home.html"> Servizio Places (in precedenza Location Service)</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/places/using/home.html"> Places Service (in precedenza Location Service)</a></li>
     </ul>
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html"> Esercitazioni sui servizi di base</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html"> Tutorial sui servizi core</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/index.html"> Guida all’implementazione di Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-ios-swift-apps-with-launch/index.html"> Implementazione di Experience Cloud nelle applicazioni iOS Swift per dispositivi mobili</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html"> Implementazione di Experience Cloud nelle applicazioni iOS Objective-C per dispositivi mobili</a></li>
@@ -244,7 +244,7 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
 </tbody>
 </table>
 
-## ![Icona](/help/assets/platform.png) Experience Platform
+## Experience Platform
 
 <table>
 <thead>
@@ -258,34 +258,35 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
   <td>
     <p><strong>Experience Platform</strong></p>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-platform/landing/home.html"> Documentazione sulla piattaforma Experience</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-platform/release-notes/latest.html"> Note sulla versione della piattaforma</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-platform/landing/home.html"> Documentazione su Experience Platform</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-platform/release-notes/latest.html"> Note sulla versione di Platform</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/launch/using/overview.html"> Experience Platform Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/auditor/using/overview.html"> Auditor</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html"> Strumento di debug</a></li>
     </ul>
-    <p><strong>Servizi applicazione basati su Experience Platform</strong></p>
+    <p><strong>Servizi di applicazioni basati su Experience Platform</strong></p>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html"> Customer Journey Analytics</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-platform/rtcdp/overview.html"> Guida alla piattaforma dati cliente in tempo reale</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html"> Guida utente per l'orchestrazione del percorso</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/places/using/home.html"> Servizio Luoghi</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html"> Guida utente di Journey Orchestration</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/places/using/home.html"> Places Service</a></li>
     </ul>
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html"> Esercitazioni sulla piattaforma di esperienze</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html"> Esercitazioni video sulla piattaforma di esperienze</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-platform/tutorials/home.html"> Tutorial su Experience Platform</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/index.html"> Guida all’implementazione di Launch</a></li>
       <li><a href="https://www.adobe.io/apis/experienceplatform/home/"> API per sviluppatori di Experience Platform</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/experience-platform/edge/home.html"> SDK Web per Experience Platform</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html"> Esercitazioni sull'orchestrazione del viaggio</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html"> Tutorial su Journey Orchestration</a></li>
     </ul>
   </td>
 </tr>
 </tbody>
 </table>
 
-## ![Icon](/help/assets/primetime.png) Primetime
+## Primetime
 
 <table>
 <thead>
@@ -312,7 +313,7 @@ Questa pagina include un elenco completo delle guide utente ed esercitazioni di 
 </tbody>
 </table>
 
-## ![Icona](/help/assets/advertising-cloud.png) Advertising Cloud
+## Advertising Cloud
 
 Per consultare la guida di Advertising Cloud dal prodotto, fai clic sull’icona Guida (?) nella parte superiore di qualsiasi pagina.
 
@@ -328,7 +329,7 @@ Per consultare la guida di Advertising Cloud dal prodotto, fai clic sull’icona
   <td>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html#adcloud"> Note sulla versione di Advertising Cloud</a></li>
-      <li><a href="https://helpx.adobe.com/support/advertising-cloud.html"> Formazione e supporto Advertising Cloud</a></li>
+      <li><a href="https://helpx.adobe.com/support/advertising-cloud.html"> Informazioni e supporto per Advertising Cloud</a></li>
     </ul>
   </td>
   <td>
@@ -337,7 +338,7 @@ Per consultare la guida di Advertising Cloud dal prodotto, fai clic sull’icona
 </tbody>
 </table>
 
-## ![Icona](/help/assets/marketo.png) Marketo
+## Marketo
 
 <table>
 <thead>
@@ -361,7 +362,7 @@ Per consultare la guida di Advertising Cloud dal prodotto, fai clic sull’icona
 </tbody>
 </table>
 
-## ![Icona](/help/assets/magento.png) Magento
+## Magento
 
 <table>
 <thead>
@@ -384,7 +385,7 @@ Per consultare la guida di Advertising Cloud dal prodotto, fai clic sull’icona
 </tbody>
 </table>
 
-## ![Icona](/help/assets/experience-cloud.png) Altre guide di Experience Cloud
+## Altre guide di Experience Cloud
 
 <table>
 <thead>
