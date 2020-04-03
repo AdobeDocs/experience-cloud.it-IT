@@ -9,7 +9,7 @@ source-git-commit: e0ce5a635394e3ca8fcf86169d33a43056a5b70c
 
 # Documentazione su Adobe Experience Cloud
 
-![Banner](/help/assets/experience-cloud-banner-4.png)
+![Banner](/help/assets/experience-cloud-banner-3.png)
 
 Questa pagina include un elenco completo delle guide utente e dei tutorial di Adobe Experience Cloud.
 
@@ -35,7 +35,7 @@ Questa pagina include un elenco completo delle guide utente e dei tutorial di Ad
 </tbody>
 </table>
 
-## Analytics
+## ![Icona](/help/assets/analytics.png) Analytics
 
 <table>
 <thead>
@@ -72,7 +72,7 @@ Questa pagina include un elenco completo delle guide utente e dei tutorial di Ad
 </tbody>
 </table>
 
-## Target
+## ![Icona](/help/assets/target.png) Target
 
 <table>
 <thead>
@@ -102,7 +102,7 @@ Questa pagina include un elenco completo delle guide utente e dei tutorial di Ad
 </tbody>
 </table>
 
-## Campaign
+## ![Icona](/help/assets/campaign.png) Campaign
 
 <table>
 <thead>
@@ -129,7 +129,7 @@ Questa pagina include un elenco completo delle guide utente e dei tutorial di Ad
 </tbody>
 </table>
 
-## Audience Manager
+## ![Icona](/help/assets/audience-manager.png) Audience Manager
 
 <table>
 <thead>
@@ -154,7 +154,7 @@ Questa pagina include un elenco completo delle guide utente e dei tutorial di Ad
 </tbody>
 </table>
 
-## Adobe Experience Manager
+## ![Icona](/help/assets/aem.png) Adobe Experience Manager
 
 <table>
 <thead>
@@ -207,7 +207,7 @@ Questa pagina include un elenco completo delle guide utente e dei tutorial di Ad
 </tbody>
 </table>
 
-## Servizi di base, amministrazione e implementazione
+## ![Icona](/help/assets/experience-cloud.png) Servizi core, amministrazione e implementazione
 
 <table>
 <thead>
@@ -244,7 +244,7 @@ Questa pagina include un elenco completo delle guide utente e dei tutorial di Ad
 </tbody>
 </table>
 
-## Experience Platform
+## ![Icona](/help/assets/platform.png) Experience Platform
 
 <table>
 <thead>
@@ -286,7 +286,7 @@ Questa pagina include un elenco completo delle guide utente e dei tutorial di Ad
 </tbody>
 </table>
 
-## Primetime
+## ![Icona](/help/assets/primetime.png) Primetime
 
 <table>
 <thead>
@@ -313,7 +313,7 @@ Questa pagina include un elenco completo delle guide utente e dei tutorial di Ad
 </tbody>
 </table>
 
-## Advertising Cloud
+## ![Icona](/help/assets/advertising-cloud.png) Advertising Cloud
 
 Per consultare la guida di Advertising Cloud dal prodotto, fai clic sull’icona Guida (?) nella parte superiore di qualsiasi pagina.
 
@@ -338,7 +338,7 @@ Per consultare la guida di Advertising Cloud dal prodotto, fai clic sull’icona
 </tbody>
 </table>
 
-## Marketo
+## ![Icona](/help/assets/marketo.png) Marketo
 
 <table>
 <thead>
@@ -362,7 +362,7 @@ Per consultare la guida di Advertising Cloud dal prodotto, fai clic sull’icona
 </tbody>
 </table>
 
-## Magento
+## ![Icona](/help/assets/magento.png) Magento
 
 <table>
 <thead>
@@ -385,7 +385,7 @@ Per consultare la guida di Advertising Cloud dal prodotto, fai clic sull’icona
 </tbody>
 </table>
 
-## Altre guide di Experience Cloud
+## ![Icona](/help/assets/experience-cloud.png) Altre guide di Experience Cloud
 
 <table>
 <thead>
