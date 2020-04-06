@@ -1,8 +1,8 @@
 ---
 title: Documentazione su Adobe Experience Cloud
 description: Questa pagina include un elenco completo di tutta la documentazione di Adobe Experience Cloud, oltre alle guide utente e alle esercitazioni per l’abilitazione.
-translation-type: ht
-source-git-commit: b1221def9e9ea3459c49d0a3220c770f51de01c6
+translation-type: tm+mt
+source-git-commit: 0231cf7fcd40d46873964fbd9223b989ac4309a9
 
 ---
 
@@ -103,7 +103,7 @@ Per consultare la guida di Advertising Cloud dal prodotto, fai clic sull’icona
 * [Guida all’implementazione di Livefyre](https://docs.adobe.com/content/help/it-IT/livefyre/implementation/home.html)
 * [Social](https://docs.adobe.com/content/help/it-IT/social/using/home.html)
 
-> [!MORELIKETHIS]
+>[!MORELIKETHIS]
 >
 >* [Formazione e supporto Experience Cloud](https://helpx.adobe.com/it/support/experience-cloud.html)
 >* [Experience League](https://experienceleague.adobe.com/)
