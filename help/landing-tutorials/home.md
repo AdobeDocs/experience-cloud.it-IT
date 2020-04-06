@@ -2,7 +2,7 @@
 title: Esercitazioni di Adobe Experience Cloud
 description: Collegamenti a tutte le esercitazioni e le guide di apprendimento di Experience Cloud
 translation-type: tm+mt
-source-git-commit: 9fc6495b20ed5aaedbe3ff2881fb13feabaf34f7
+source-git-commit: 0231cf7fcd40d46873964fbd9223b989ac4309a9
 
 ---
 
@@ -52,15 +52,15 @@ source-git-commit: 9fc6495b20ed5aaedbe3ff2881fb13feabaf34f7
 
 Per consultare la guida di Advertising Cloud dal prodotto, fai clic sull’icona Guida (?) nella parte superiore di qualsiasi pagina.
 
-* [Note sulla versione di Advertising Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html#adcloud)
+* [Note sulla versione di Advertising Cloud](https://docs.adobe.com/content/help/it-IT/release-notes/experience-cloud/current.html#adcloud)
 
 ## Risorse aggiuntive
 
-> [!MORELIKETHIS]
+>[!MORELIKETHIS]
 >
->* [Documentazione Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)
->* [Formazione e supporto Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
+>* [Documentazione Experience Cloud](https://docs.adobe.com/content/help/it-IT/experience-cloud/user-guides/home.html)
+>* [Formazione e supporto Experience Cloud](https://helpx.adobe.com/it/support/experience-cloud.html)
 >* [Experience League](https://experienceleague.adobe.com/)
 >* [Forum della community](https://forums.adobe.com/community/experience-cloud/)
->* [Formazione e tutorial di Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+>* [Formazione e tutorial di Adobe](https://helpx.adobe.com/it/learning.html?promoid=KAUDK)
 
