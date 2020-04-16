@@ -1,7 +1,7 @@
 ---
 title: Esercitazioni di Adobe Experience Cloud
 description: Collegamenti a tutte le esercitazioni e le guide di apprendimento di Experience Cloud
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0231cf7fcd40d46873964fbd9223b989ac4309a9
 
 ---
@@ -26,8 +26,8 @@ source-git-commit: 0231cf7fcd40d46873964fbd9223b989ac4309a9
 ## Servizi core e servizi della piattaforma
 
 * [Esercitazioni sull’apprendimento dei servizi core](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
-* [Esercitazioni video sulla piattaforma](https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html)
-* [Esercitazioni sulla piattaforma](https://docs.adobe.com/content/help/en/experience-platform/tutorials/home.html)
+* [Esercitazioni video su Platform](https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html)
+* [Esercitazioni su Platform](https://docs.adobe.com/content/help/it-IT/experience-platform/tutorials/home.html)
 * [Guida all’implementazione di Launch](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/index.html)
 * [Implementazione di Experience Cloud nelle applicazioni iOS Swift per dispositivi mobili](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
 * [Implementazione di Experience Cloud nelle applicazioni iOS Objective-C per dispositivi mobili](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
