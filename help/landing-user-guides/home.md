@@ -18,7 +18,7 @@ Questa pagina include un elenco completo delle guide utente e dei tutorial di Ad
 
 >[!NOTE]
 >
->Per una migliore esperienza di ricerca durante la migrazione dei contenuti della documentazione, si consiglia di spostarsi tra le sezioni di prodotto seguenti e condurre una ricerca a livello di guida
+>Per una migliore esperienza di ricerca durante la migrazione dei contenuti della documentazione, si consiglia di spostarsi tra le sezioni di prodotto riportate di seguito e condurre una ricerca a livello di guida.
 
 <!--
 To see a preview of our documentation staged on Experience League, see [About Moving to Experience League](/help/landing-user-guides/experience-league-preview.md) (in-progress).
