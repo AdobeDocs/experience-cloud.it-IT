@@ -2,10 +2,10 @@
 title: Documentazione su Adobe Experience Cloud
 description: Questa pagina include un elenco completo di tutta la documentazione di Adobe Experience Cloud, oltre alle guide utente e alle esercitazioni per l’abilitazione.
 translation-type: tm+mt
-source-git-commit: 16d9ff51e0d0a99f6f87981dbd84fe44453962f3
+source-git-commit: 5efddee70396ff07b918cfc60914701c89bcae41
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 100%
+source-wordcount: '1269'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Questa pagina include un elenco completo delle guide utente e dei tutorial di Ad
 
 >[!NOTE]
 >
->La funzione Search in questa pagina è limitata a un numero ridotto di contenuti. È consigliabile consultare una guida utente specifica (ad esempio Analytics o Target) per effettuare ricerche in quell’area. Con il prossimo passaggio a Experience League verrà migliorata la funzione Search.
+>Per una migliore esperienza di ricerca durante la migrazione dei contenuti della documentazione, si consiglia di spostarsi tra le sezioni di prodotto seguenti e condurre una ricerca a livello di guida
 
 <!--
 To see a preview of our documentation staged on Experience League, see [About Moving to Experience League](/help/landing-user-guides/experience-league-preview.md) (in-progress).
