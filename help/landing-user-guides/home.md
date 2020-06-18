@@ -2,10 +2,10 @@
 title: Documentazione su Adobe Experience Cloud
 description: Questa pagina include un elenco completo di tutta la documentazione di Adobe Experience Cloud, oltre alle guide utente e alle esercitazioni per l’abilitazione.
 translation-type: tm+mt
-source-git-commit: e7f6af8b2c52fe1154900c58a9b13d972d087e89
+source-git-commit: c97f610c2ea231b40bfd59e7998557768070a108
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 97%
+source-wordcount: '1280'
+ht-degree: 96%
 
 ---
 
@@ -218,7 +218,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
 </tbody>
 </table>
 
-## Servizi core, amministrazione e implementazione
+##  interfaccia, amministrazione e implementazione di Experience Cloud
 
 <table>
 <thead>
@@ -231,7 +231,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
 <tr>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/it-IT/core-services/interface/experience-cloud.html"> Interfaccia servizi core</a></li>
+      <li><a href="https://docs.adobe.com/content/help/it-IT/core-services/interface/experience-cloud.html"> Interfaccia  Experience Cloud</a></li>
       <li><a href="https://helpx.adobe.com/it/enterprise/using/admin-console.html"> Admin Console</a></li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/id-service/using/home.html"> Guida utente di Experience Cloud ID</a></li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/mobile-services/using/home.html"> Guida di Mobile Services</a></li>
@@ -411,7 +411,7 @@ Per consultare la guida di Advertising Cloud dal prodotto, fai clic sull’icona
 <tr>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html"> Distribuzione software</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html"> Distribuzione di software</a></li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/search-promote/using/sp-home.html"> Search&amp;Promote</a></li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/livefyre/using/home.html"> Guida utente di Livefyre</a></li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/livefyre/implementation/home.html"> Guida all’implementazione di Livefyre</a></li>
