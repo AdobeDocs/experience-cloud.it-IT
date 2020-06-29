@@ -1,11 +1,11 @@
 ---
 title: Documentazione su Adobe Experience Cloud
 description: Questa pagina include un elenco completo di tutta la documentazione di Adobe Experience Cloud, oltre alle guide utente e alle esercitazioni per l’abilitazione.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c97f610c2ea231b40bfd59e7998557768070a108
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1280'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html"> Tutorial su Target</a></li>
+      <li><a href="https://docs.adobe.com/content/help/it-IT/target-learn/tutorials/overview.html"> Tutorial su Target</a></li>
       <li><a href="https://developers.adobetarget.com/api/delivery-api/"> API lato server di Target</a></li>
       <li><a href="https://github.com/adobe/target-nodejs-sdk"> SDK NodeJS di Target</a></li>
       <li><a href="https://github.com/adobe/target-java-sdk"> SDK Java di Target</a></li>
@@ -218,7 +218,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
 </tbody>
 </table>
 
-##  interfaccia, amministrazione e implementazione di Experience Cloud
+## Interfaccia, amministrazione e implementazione di Experience Cloud
 
 <table>
 <thead>
@@ -231,7 +231,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
 <tr>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/it-IT/core-services/interface/experience-cloud.html"> Interfaccia  Experience Cloud</a></li>
+      <li><a href="https://docs.adobe.com/content/help/it-IT/core-services/interface/experience-cloud.html"> Interfaccia di Experience Cloud</a></li>
       <li><a href="https://helpx.adobe.com/it/enterprise/using/admin-console.html"> Admin Console</a></li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/id-service/using/home.html"> Guida utente di Experience Cloud ID</a></li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/mobile-services/using/home.html"> Guida di Mobile Services</a></li>
