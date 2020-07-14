@@ -1,11 +1,11 @@
 ---
 title: Documentazione su Adobe Experience Cloud
 description: Questa pagina include un elenco completo di tutta la documentazione di Adobe Experience Cloud, oltre alle guide utente e alle esercitazioni per l’abilitazione.
-translation-type: ht
-source-git-commit: c97f610c2ea231b40bfd59e7998557768070a108
-workflow-type: ht
-source-wordcount: '1280'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1acfc2c352199022f1bd6c9d043ccc6714c6148b
+workflow-type: tm+mt
+source-wordcount: '1291'
+ht-degree: 99%
 
 ---
 
@@ -274,6 +274,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://docs.adobe.com/content/help/it-IT/launch/using/overview.html"> Experience Platform Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/auditor/using/overview.html"> Auditor</a></li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/debugger/using/experience-cloud-debugger.html"> Strumento di debug</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/debugger/using-v2/experience-cloud-debugger.html"> Debugger v2 (versione beta)</a></li>
     </ul>
     <p><strong>Servizi di applicazioni basati su Experience Platform</strong></p>
     <ul>
