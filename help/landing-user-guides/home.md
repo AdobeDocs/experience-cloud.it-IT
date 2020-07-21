@@ -1,11 +1,11 @@
 ---
 title: Documentazione su Adobe Experience Cloud
 description: Questa pagina include un elenco completo di tutta la documentazione di Adobe Experience Cloud, oltre alle guide utente e alle esercitazioni per l’abilitazione.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1acfc2c352199022f1bd6c9d043ccc6714c6148b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1291'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -132,7 +132,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html"> Tutorial su Campaign Classic</a></li>
+      <li><a href="https://docs.adobe.com/content/help/it-IT/campaign-classic-learn/tutorials/overview.translate.html"> Tutorial su Campaign Classic</a></li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/campaign-standard-learn/tutorials/overview.html"> Tutorial su Campaign Standard</a></li>
     </ul>
   </td>
@@ -197,7 +197,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://docs.adobe.com/content/help/it-IT/experience-manager-core-components/using/introduction.html"> Componenti core AEM</a></li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/experience-manager-desktop-app/using/introduction.html"> App desktop AEM</a></li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/experience-manager-brand-portal/using/home.html"> AEM Brand Portal</a></li>
-      <li><a href="https://docs.adobe.com/content/help/it-IT/aem-forms-automated-conversion-service/using/introduction.html"> Servizio Automated Forms Conversion di AEM</a></li>
+      <li><a href="https://docs.adobe.com/content/help/it-IT/aem-forms-automated-conversion-service/using/introduction.html"> Servizio AEM Forms Automated Conversion</a></li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/dynamic-media-classic/using/home.html"> Contenuti multimediali dinamici Classic</a></li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/dynamic-media-developer-resources/landing/home.translate.html"> Guida per sviluppatori di elementi multimediali dinamici</a></li>
     </ul>
@@ -245,7 +245,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
   <td>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html"> Tutorial sui servizi core</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/index.html"> Guida all’implementazione di Launch</a></li>
+      <li><a href="https://docs.adobe.com/content/help/it-IT/journey-orchestration-learn/tutorials/understanding-journey-orchestration.translate.html"> Guida all’implementazione di Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-ios-swift-apps-with-launch/index.html"> Implementazione di Experience Cloud nelle applicazioni iOS Swift per dispositivi mobili</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html"> Implementazione di Experience Cloud nelle applicazioni iOS Objective-C per dispositivi mobili</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-android-apps-with-launch/index.html"> Implementazione di Experience Cloud nelle app Android per dispositivi mobili</a></li>
@@ -274,7 +274,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://docs.adobe.com/content/help/it-IT/launch/using/overview.html"> Experience Platform Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/auditor/using/overview.html"> Auditor</a></li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/debugger/using/experience-cloud-debugger.html"> Strumento di debug</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/debugger/using-v2/experience-cloud-debugger.html"> Debugger v2 (versione beta)</a></li>
+      <li><a href="https://docs.adobe.com/content/help/it-IT/debugger/using-v2/experience-cloud-debugger.html"> Debugger v2 (versione beta)</a></li>
     </ul>
     <p><strong>Servizi di applicazioni basati su Experience Platform</strong></p>
     <ul>
@@ -288,7 +288,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html"> Esercitazioni video su Experience Platform</a></li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/experience-platform/tutorials/home.html"> Tutorial su Experience Platform</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/index.html"> Guida all’implementazione di Launch</a></li>
+      <li><a href="https://docs.adobe.com/content/help/it-IT/journey-orchestration-learn/tutorials/understanding-journey-orchestration.translate.html"> Guida all’implementazione di Launch</a></li>
       <li><a href="https://www.adobe.io/apis/experienceplatform/home/"> API per sviluppatori di Experience Platform</a></li>
       <li><a href="https://docs.adobe.com/content/help/it-IT/experience-platform/edge/home.html"> SDK Web per Experience Platform</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html"> Tutorial su Journey Orchestration</a></li>
