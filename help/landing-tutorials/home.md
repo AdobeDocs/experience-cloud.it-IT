@@ -1,8 +1,11 @@
 ---
 title: Esercitazioni di Adobe Experience Cloud
 description: Collegamenti a tutte le esercitazioni e le guide di apprendimento di Experience Cloud
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0231cf7fcd40d46873964fbd9223b989ac4309a9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
