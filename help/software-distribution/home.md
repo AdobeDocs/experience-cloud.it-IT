@@ -1,14 +1,14 @@
 ---
 title: Distribuzione di software
 description: Come utilizzare la Distribuzione di software di Adobe Experience Cloud
-translation-type: tm+mt
-source-git-commit: 7a6397fa27deb3bb59372754104bd2a7115acedf
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+exl-id: ac559a28-4444-4326-ba92-78afd10ed9ab
+translation-type: ht
+source-git-commit: e98b6985c8e24e56e021422f8e32cad0d823d440
+workflow-type: ht
+source-wordcount: '500'
+ht-degree: 100%
 
 ---
-
 
 # Distribuzione di software
 
