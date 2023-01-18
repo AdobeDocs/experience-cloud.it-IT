@@ -1,15 +1,15 @@
 ---
-user-guide-title: Sconosciuto
-user-guide-description: Sconosciuto
-breadcrumb-title: Sconosciuto
+user-guide-title: Trigger di Adobe Experience Cloud
+user-guide-description: Trigger di Adobe Experience Cloud
+breadcrumb-title: Trigger di Adobe Experience Cloud
 solution: Experience Cloud
-source-git-commit: 9a903c2c485bbe3c16d07c8495674856e8f26972
-workflow-type: ht
-source-wordcount: '5'
+source-git-commit: fb41c2e26a4945a9d9f24fec7f4c68a35af2c428
+workflow-type: tm+mt
+source-wordcount: '14'
 ht-degree: 100%
 
 ---
 
-# Sconosciuto {#unknown}
+# Triggers {#triggers}
 
 * [Home](home.md)
