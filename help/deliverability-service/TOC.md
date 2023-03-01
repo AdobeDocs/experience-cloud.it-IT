@@ -5,13 +5,13 @@ breadcrumb-title: Servizio di recapito dei messaggi di Adobe
 solution: Experience Cloud
 hide: true
 source-git-commit: 3eb95ed738d053cc1250e66a28a00f26506f530d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '17'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # Servizio di recapito dei messaggi di Adobe {#deliverability-server}
 
 * [Home](home.md)
-* [Elenco globale di soppressione](global-suppression-list.md)
+* [Elenco di soppressione globale](global-suppression-list.md)
