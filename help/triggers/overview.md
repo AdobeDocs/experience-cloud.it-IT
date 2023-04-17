@@ -4,20 +4,20 @@ description: Scopri l’interfaccia utente di Adobe Experience Cloud Triggers
 hide: true
 hidefromtoc: true
 source-git-commit: 9f1b3257e49c34d2909d457c098a2081a2fb69a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
 # Panoramica di Triggers {#overview}
 
 Experience Cloud Triggers fornisce una soluzione completa per identificare, definire e monitorare i comportamenti critici dei consumatori. Con questi trigger, puoi generare comunicazioni tra applicazioni per coinvolgere nuovamente i visitatori, dando luogo a un’esperienza utente più personalizzata e coinvolgente.
-Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione, ad esempio:
+Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione, per esempio:
 
-* Configura campagne di ricommercializzazione rapide per l’abbandono del carrello o l’abbandono del carrello con la rimozione dei prodotti, contribuendo ad aumentare le conversioni e i ricavi.
-* Identifica moduli e applicazioni incompleti, consentendoti di seguire le comunicazioni personalizzate per incoraggiare il completamento e ridurre i tassi di abbandono.
-* Monitora tutte le azioni o le sequenze di azioni sul sito che desideri monitorare, fornendo informazioni utili sul comportamento degli utenti e consentendo di ottimizzare l’esperienza degli utenti in base alle loro azioni.
+* Configurare campagne di ricommercializzazione rapide per l’abbandono del carrello o l’abbandono del carrello con la rimozione dei prodotti, contribuendo ad aumentare le conversioni e i ricavi.
+* Identificare moduli e applicazioni incompleti, consentendoti di seguire le comunicazioni personalizzate per incoraggiare il completamento e ridurre i tassi di abbandono.
+* Monitorare tutte le azioni o le sequenze di azioni sul sito di cui desideri tenere traccia, fornendo informazioni utili sul comportamento degli utenti e consentendo di ottimizzare l’esperienza degli utenti in base alle loro azioni.
 
 ## Tipi di Triggers
 
