@@ -3,10 +3,11 @@ title: Creazione e gestione di Experience Cloud Triggers
 description: Scopri l’interfaccia utente di Adobe Experience Cloud Triggers
 hide: true
 hidefromtoc: true
-source-git-commit: ce0faf9fab45c931feb666ac0c77f5ab5c231746
-workflow-type: ht
-source-wordcount: '483'
-ht-degree: 100%
+exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
+source-git-commit: 743244e72cfe2dfb44a6c9adba699f90db1fe04d
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 100%
 
 Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i criteri per le regole di un attivatore durante una visita, come metriche quali abbandono del carrello o dimensioni quali il nome del prodotto. Quando le regole sono soddisfatte, il trigger viene eseguito.
 
-1. In Experience Cloud, seleziona il menu avanzato, quindi Triggers.
+1. Nell’Experience Cloud, seleziona il menu del commutatore della soluzione, quindi **[!UICONTROL Triggers]**.
 
    ![](assets/triggers_7.png)
 
@@ -38,7 +39,7 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
 
 1. Seleziona la **[!UICONTROL suite di rapporti]** di Analytics utilizzata per questo trigger. Questa impostazione identifica i dati di reporting da utilizzare.
 
-   [Ulteriori informazioni sulla suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=it).
+   [Ulteriori informazioni sulla suite di rapporti](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=it){target="_blank"}.
 
 1. Scegli il periodo di validità **[!UICONTROL Trigger dopo nessuna azione per]**.
 

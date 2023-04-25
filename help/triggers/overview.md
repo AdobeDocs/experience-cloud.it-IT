@@ -1,18 +1,17 @@
 ---
 title: Creazione e gestione di Experience Cloud Triggers
 description: Scopri l’interfaccia utente di Adobe Experience Cloud Triggers
-hide: true
-hidefromtoc: true
-source-git-commit: 9f1b3257e49c34d2909d457c098a2081a2fb69a3
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 743244e72cfe2dfb44a6c9adba699f90db1fe04d
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 98%
 
 ---
 
-# Panoramica di Triggers {#overview}
+# Informazioni su Experience Cloud Triggers {#overview}
 
 Experience Cloud Triggers fornisce una soluzione completa per identificare, definire e monitorare i comportamenti critici dei consumatori. Con questi trigger, puoi generare comunicazioni tra applicazioni per coinvolgere nuovamente i visitatori, dando luogo a un’esperienza utente più personalizzata e coinvolgente.
+
 Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione, per esempio:
 
 * Configurare campagne di ricommercializzazione rapide per l’abbandono del carrello o l’abbandono del carrello con la rimozione dei prodotti, contribuendo ad aumentare le conversioni e i ricavi.
