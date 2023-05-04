@@ -5,15 +5,15 @@ hide: true
 hidefromtoc: true
 exl-id: 2c8f58aa-cade-46c1-beaa-cfe7720e4e90
 source-git-commit: 7304dc2d08f78bd287fc0cae6e11021aa6ed1149
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Informazioni su Experience Cloud Triggers {#overview}
+# Informazioni sui trigger di Experience Cloud {#overview}
 
-Experience Cloud Triggers fornisce una soluzione completa per identificare, definire e monitorare i comportamenti critici dei consumatori. Con questi trigger, puoi generare comunicazioni tra applicazioni per coinvolgere nuovamente i visitatori, dando luogo a un’esperienza utente più personalizzata e coinvolgente.
+I trigger di Experience Cloud forniscono una soluzione completa per identificare, definire e monitorare i comportamenti critici dei consumatori. Con questi trigger, puoi generare comunicazioni tra applicazioni per coinvolgere nuovamente i visitatori, dando luogo a un’esperienza utente più personalizzata e coinvolgente.
 
 Puoi utilizzare i trigger nelle decisioni in tempo reale e nella personalizzazione, per esempio:
 
