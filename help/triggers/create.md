@@ -3,9 +3,9 @@ title: Creazione e gestione di Experience Cloud Triggers
 description: Scopri l’interfaccia utente di Adobe Experience Cloud Triggers
 exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
 source-git-commit: 9cdff509e07f1e01b6c6a403288093998e5db152
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 95%
 
 >[!AVAILABILITY]
 >
->La nuova interfaccia utente di Adobe Experience Cloud Triggers viene gradualmente implementata per tutti i clienti. Per ulteriori informazioni, contatta il rappresentante del tuo Adobe.
+>La nuova interfaccia utente di Adobe Experience Cloud Triggers viene gradualmente implementata per tutti i clienti. Per ulteriori informazioni, contatta il tuo rappresentante Adobe.
 
 Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i criteri per le regole di un attivatore durante una visita, come metriche quali abbandono del carrello o dimensioni quali il nome del prodotto. Quando le regole sono soddisfatte, il trigger viene eseguito.
 
