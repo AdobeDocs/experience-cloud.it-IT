@@ -3,9 +3,9 @@ title: Creazione e gestione di Experience Cloud Triggers
 description: Scopri l’interfaccia utente di Adobe Experience Cloud Triggers
 exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
 source-git-commit: 94ca96baaef706ace2ed131a5c2974371a5e0e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Crea un trigger e configurane le condizioni. Ad esempio, puoi specificare i crit
 
    Ogni contenitore elabora in modo indipendente a livello di hit, il che significa che se due contenitori sono uniti con l’operatore **[!UICONTROL And]** le regole si qualificano solo quando due risultati soddisfano i requisiti.
 
-1. Dalla sezione **[!UICONTROL Metadati]** , fare clic su **[!UICONTROL + DIMENSION]** per scegliere una dimensione Campaign particolare o variabili rilevanti per il comportamento di un visitatore.
+1. Dal campo **[!UICONTROL Metadati]**, fai clic su **[!UICONTROL + Dimensione]** per scegliere una dimensione Campaign particolare o variabili rilevanti per il comportamento di un visitatore.
 
    ![](assets/triggers_3.png)
 
