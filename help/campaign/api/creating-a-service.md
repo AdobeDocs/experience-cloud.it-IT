@@ -4,8 +4,7 @@ description: Scopri come creare un servizio con API
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
-exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
