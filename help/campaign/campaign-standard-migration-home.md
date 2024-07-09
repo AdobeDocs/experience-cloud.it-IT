@@ -3,10 +3,10 @@ title: Interfaccia utente web di Adobe Campaign
 description: Scopri l’interfaccia utente di Adobe Campaign Web
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
 exl-id: eecf4e13-820d-4454-9f11-f50be565bb79
-source-git-commit: ba22719c91d44e537020d17a53ff7f8f6a929111
+source-git-commit: 619453901147f83d691156a3b870d36b6caa1868
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ Inoltre, questa transizione comporterà molti vantaggi:
 * Integrazione con Adobe Experience Platform
 * Interfaccia utente ed esperienza coerenti
 
-Per ulteriori informazioni sulle funzionalità chiave e sulle differenze nei concetti, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/campaign-web/v8/release-notes/acs-migration).
+Per ulteriori informazioni sulle funzionalità chiave e sulle differenze nei concetti, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration).
 
 ## Novità
 
