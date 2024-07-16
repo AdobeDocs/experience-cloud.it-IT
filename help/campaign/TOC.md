@@ -4,10 +4,10 @@ user-guide-description: Adobe Campaign v8
 breadcrumb-title: Adobe Campaign v8
 solution: Experience Cloud
 role: User
-source-git-commit: dfe80854447b2a49b53908947b7814c7b8e29fa5
+source-git-commit: 0650d42102216c353c5843322d01af5af80d2e5c
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 72%
+source-wordcount: '159'
+ht-degree: 71%
 
 ---
 
@@ -39,7 +39,8 @@ ht-degree: 72%
       + [Aggiunta di visualizzazioni](reporting/adding-visualizations.md)
       + [Aggiunta di componenti](reporting/adding-components.md)
       + [Creazione di una dimensione di profilo personalizzata](reporting/creating-a-custom-profile-dimension.md)
-+ Marchio {#branding}
+      + [Contratto di utilizzo per reporting dinamico](reporting/pii-agreement.md)
++ Branding di {#branding}
    + [Informazioni sul branding](branding/branding-gs.md)
    + [Configurare un brand](branding/branding-configure.md)
    + [Assegnare un marchio](branding/branding-assign.md)
@@ -64,7 +65,7 @@ ht-degree: 72%
       + [Recupero dei profili](api/retrieving-profiles.md)
       + [Aggiornamento dei profili](api/updating-profiles.md)
       + [Creazione di profili](api/creating-profiles-api.md)
-   + Gestione di servizi e abbonamento {#managing-services-and-subscriptiopns}
+   + Gestione servizi e sottoscrizione {#managing-services-and-subscriptiopns}
       + [Creazione di un servizio](api/creating-a-service.md)
       + [Recupero di abbonamenti](api/retrieving-subscriptions.md)
       + [Effettuare abbonamenti](api/perform-subscriptions.md)
