@@ -1,10 +1,11 @@
 ---
 title: Elenco dei componenti
-description: Qui puoi trovare l’elenco di tutti i componenti disponibili nei rapporti dinamici e le relative definizioni.
+description: Qui trovi l’elenco di tutti i componenti disponibili in     Rapporti dinamici e relative definizioni.
 level: Beginner
 audience: end-user
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
-source-git-commit: b11d696767209145511b38735f22275a38676ade
+exl-id: 5c58db92-7878-4c70-b076-a393f1cda8b7
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 # Elenco dei componenti {#list-of-components}
 
-Tieni presente che se due componenti non sono compatibili, nella cella verrà visualizzato il valore **Nessuno**.
+Se due componenti non sono compatibili, nella cella verrà visualizzato il valore **None**.
 
 ## Dimensioni {#dimensions}
 
@@ -29,7 +30,7 @@ La tabella seguente fornisce l’elenco delle dimensioni utilizzate nei rapporti
  <tbody> 
   <tr> 
    <td> Browser<br/> </td> 
-   <td> Browser da cui è stato aperto o selezionato il messaggio.<br/> </td> 
+   <td> Browser da cui è stato aperto o su cui è stato fatto clic il messaggio.<br/> </td> 
   </tr> 
   <tr> 
    <td> Campaign<br/> </td> 
@@ -41,15 +42,15 @@ La tabella seguente fornisce l’elenco delle dimensioni utilizzate nei rapporti
   </tr> 
   <tr> 
    <td> Dispositivo<br/> </td> 
-   <td> Dispositivo da cui è stata aperta/visualizzata/cliccata la notifica e-mail/SMS/push.<br/> </td> 
+   <td> Dispositivo da cui è stata aperta/visualizzata/su cui è stato fatto clic la notifica e-mail/SMS/push.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Motivo dell’errore<br/> </td> 
-   <td> Tipi di errori che hanno causato mancati recapiti per ogni consegna, ad esempio dominio sconosciuto dall’utente o non valido o cassetta postale piena.<br/> </td> 
+   <td> Motivo errore<br/> </td> 
+   <td> Tipi di errori che hanno causato mancati recapiti per ogni consegna. Ad esempio, utente sconosciuto, dominio non valido o cassetta postale piena.<br/> </td> 
   </tr> 
   <tr> 
    <td> Nome app mobile<br/> </td> 
-   <td> Nome dell’app mobile<br/> </td> 
+   <td> Nome dell'app mobile<br/> </td> 
   </tr>
   <tr> 
    <td> Piattaforma<br/> </td> 
@@ -57,11 +58,11 @@ La tabella seguente fornisce l’elenco delle dimensioni utilizzate nei rapporti
   </tr> 
   <tr> 
    <td> Profilo<br/> </td> 
-   <td> Raggruppa i campi di profilo predefiniti e personalizzati creati durante l’estensione della risorsa profilo.<br/> </td> 
+   <td> I campi di profilo predefiniti e personalizzati vengono raggruppati creati durante l'estensione della risorsa profilo.<br/> </td> 
   </tr> 
   <tr> 
    <td> Dominio destinatario<br/> </td> 
-   <td> Dominio utilizzato per aprire l’e-mail.<br/> </td> 
+   <td> Dominio utilizzato per aprire l'e-mail.<br/> </td> 
   </tr> 
   <tr> 
    <td> Consegna ricorrente<br/> </td> 
@@ -69,23 +70,23 @@ La tabella seguente fornisce l’elenco delle dimensioni utilizzate nei rapporti
   </tr> 
   <tr> 
    <td> Dominio mittente<br/> </td> 
-   <td> Dominio utilizzato per inviare l’e-mail.<br/> </td> 
+   <td> Dominio utilizzato per inviare l'e-mail.<br/> </td> 
   </tr> 
   <tr> 
    <td> IP mittente<br/> </td> 
-   <td> IP utilizzato per inviare l’e-mail.<br/> </td> 
+   <td> IP utilizzato per inviare l'e-mail.<br/> </td> 
   </tr> 
   <tr> 
    <td> URL di tracciamento<br/> </td> 
-   <td> URL su cui l’utente ha fatto clic dal messaggio.<br/> </td> 
+   <td> URL su cui l'utente ha fatto clic dal messaggio.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Categoria URL di tracciamento<br/> </td> 
-   <td> Categoria assegnata all’URL di tracciamento.<br/> </td> 
+   <td> Tracciamento categoria URL<br/> </td> 
+   <td> Categoria assegnata all'URL di tracciamento.<br/> </td> 
   </tr> 
   <tr> 
    <td> Etichetta URL di tracciamento<br/> </td> 
-   <td> Etichetta fornita all’URL, ad esempio pagina mirror, contattaci o apri.<br/> </td> 
+   <td> Etichetta fornita all'URL, ad esempio pagina mirror, contattaci o apri.<br/> </td> 
   </tr> 
   <tr> 
    <td> Consegna transazionale<br/> </td> 
@@ -93,7 +94,7 @@ La tabella seguente fornisce l’elenco delle dimensioni utilizzate nei rapporti
   </tr> 
   <tr> 
    <td> Variante<br/> </td> 
-   <td> Variante dell’e-mail in caso di test A/B.<br/> </td> 
+   <td> Variante dell'e-mail in caso di test A/B.<br/> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -113,23 +114,23 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
  </thead> 
  <tbody> 
   <tr> 
-   <td> Inserire nell'elenco Bloccati Il<br/> </td> 
-   <td> Numero di destinatari che hanno dichiarato un’e-mail come spam o posta indesiderata.<br/> </td> 
+   <td> Inserire nell'elenco Bloccati All'<br/> </td> 
+   <td> Numero di destinatari che hanno dichiarato un'e-mail come posta indesiderata o posta indesiderata.<br/> </td> 
   </tr> 
   <tr> 
    <td> tasso di Inserisco nell'elenco Bloccati<br/> </td> 
-   <td> Percentuale di consegne contrassegnate sul inserisco nell'elenco Bloccati di consegna del.<br/> </td> 
+   <td> Percentuale di consegne contrassegnate in base al inserisco nell'elenco Bloccati di.<br/> </td> 
   </tr> 
   <tr> 
    <td> Mancati recapiti + errori<br/> </td> 
-   <td> Totale degli errori accumulati durante la consegna e l’elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br/> </td> 
+   <td> Totale degli errori accumulati durante la consegna e l'elaborazione automatica della restituzione in relazione al numero totale di messaggi inviati.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Mancato recapito + Frequenza errori<br/> </td> 
+   <td> Mancato recapito + Percentuale di errori<br/> </td> 
    <td> Percentuale di messaggi e-mail non recapitati rispetto a quelli inviati.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Clic<br/> </td> 
+   <td> Fai clic su<br/> </td> 
    <td> Numero di volte in cui è stato fatto clic su un contenuto in una consegna.<br/> </td> 
   </tr> 
   <tr> 
@@ -141,11 +142,11 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td> Numero di messaggi inviati correttamente, in relazione al numero totale di messaggi inviati.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Percentuale consegne<br/> </td> 
+   <td> Percentuale di consegna<br/> </td> 
    <td> Percentuale di messaggi inviati correttamente.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Mancato recapito permanente<br/> </td> 
+   <td> Mancato recapito<br/> </td> 
    <td> Numero totale di errori permanenti, ad esempio un indirizzo e-mail errato.<br/> </td> 
   </tr> 
   <tr> 
@@ -154,19 +155,19 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
   </tr> 
   <tr> 
    <td> Pagina mirror<br/> </td> 
-   <td> Numero di destinatari che hanno fatto clic sul collegamento della pagina speculare.<br/> </td> 
+   <td> Numero di destinatari che hanno fatto clic sul collegamento della pagina mirror.<br/> </td> 
   </tr> 
   <tr> 
    <td> Frequenza pagine mirror<br/> </td> 
-   <td> Percentuale di clic sul collegamento della pagina speculare rispetto al totale dei messaggi di consegna.<br/> </td> 
+   <td> Percentuale di clic sul collegamento della pagina mirror rispetto al totale dei messaggi di consegna.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Clic sull’offerta<br/> </td> 
-   <td> Numero di volte in cui è stato fatto clic su un’offerta in una consegna.<br/> </td> 
+   <td> Clic sull'offerta<br/> </td> 
+   <td> Numero di volte in cui è stato fatto clic su un'offerta in una consegna.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Percentuale di clic dell’offerta<br/> </td> 
-   <td> Percentuale di clic su un’offerta.<br/> </td> 
+   <td> Percentuale di clic offerta<br/> </td> 
+   <td> Percentuale di clic su un'offerta.<br/> </td> 
   </tr> 
   <tr> 
    <td> Apri<br/> </td> 
@@ -182,10 +183,10 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
   </tr> 
   <tr> 
    <td> Quarantena<br/> </td> 
-   <td> Numero di messaggi non recapitati che hanno portato alla quarantena dell’indirizzo.<br/> </td> 
+   <td> Numero di messaggi non recapitati che hanno portato alla quarantena dell'indirizzo.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Tasso di quarantena<br/> </td> 
+   <td> Percentuale quarantena<br/> </td> 
    <td> Percentuale di quarantena rispetto ai messaggi inviati.<br/> </td> 
   </tr> 
   <tr> 
@@ -202,7 +203,7 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
   </tr> 
   <tr> 
    <td> Percentuale mancati recapiti non permanenti<br/> </td> 
-   <td> Percentuale di consegne non riuscite per motivi temporanei.<br/> </td> 
+   <td> Percentuale di consegne non riuscite a causa di un motivo temporaneo.<br/> </td> 
   </tr> 
   <tr> 
    <td> Clic univoci<br/> </td> 
@@ -213,16 +214,16 @@ Le tabelle seguenti forniscono l’elenco delle metriche utilizzate nei rapporti
    <td> Numero di destinatari che hanno aperto la consegna.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Abbonamento univoco annullato<br/> </td> 
-   <td> Numero di destinatari che hanno fatto clic sul collegamento di annullamento dell’abbonamento.<br/> </td> 
+   <td> Sottoscrizione univoca<br/> </td> 
+   <td> Numero di destinatari che hanno fatto clic sul collegamento di annullamento dell'abbonamento.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Percentuale di annullamento abbonamento<br/> </td> 
+   <td> Percentuale annullamenti abbonamento<br/> </td> 
    <td> Numero di annullamenti di abbonamenti univoci rispetto ai messaggi consegnati.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Annullamento iscrizione<br/> </td> 
-   <td> Numero di clic sul collegamento di annullamento dell’abbonamento.<br/> </td> 
+   <td> Annullamento sottoscrizione<br/> </td> 
+   <td> Numero di clic sul collegamento di annullamento dell'abbonamento.<br/> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -368,55 +369,55 @@ La tabella seguente fornisce l’elenco dei segmenti utilizzati nei rapporti e l
    <td> Destinatari nati dal 1955 al 1965.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Età: dai 18 ai 25 anni<br/> </td> 
-   <td> Destinatari dai 18 ai 25 anni.<br/> </td> 
+   <td> Età: da 18 a 25<br/> </td> 
+   <td> Destinatari di età compresa tra 18 e 25 anni.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Età: da 26 a 30 anni<br/> </td> 
-   <td> Destinatari dai 26 ai 30 anni.<br/> </td> 
+   <td> Età: da 26 a 30<br/> </td> 
+   <td> Destinatari di età compresa tra 26 e 30 anni.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Età: da 31 a 40 anni<br/> </td> 
+   <td> Età: da 31 a 40<br/> </td> 
    <td> Destinatari di età compresa tra 31 e 40 anni.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Età: da 41 a 50 anni<br/> </td> 
-   <td> Destinatari da 41 a 50 anni.<br/> </td> 
+   <td> Età: da 41 a 50<br/> </td> 
+   <td> Destinatari di età compresa tra 41 e 50 anni.<br/> </td> 
   </tr> 
   <tr> 
    <td> Età: generazione X<br/> </td> 
    <td> Destinatari nati dal 1966 al 1976.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Età: generazione Y (millenni)<br/> </td> 
+   <td> Età: Generazione Y (Millennial)<br/> </td> 
    <td> Destinatari nati dal 1977 al 1994.<br/> </td> 
   </tr> 
   <tr> 
    <td> Età: generazione Z<br/> </td> 
-   <td> Destinatari nati dal 1995 ad oggi.<br/> </td> 
+   <td> Destinatari nati dal 1995 a oggi.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Età: superiore a 50 anni<br/> </td> 
+   <td> Età: maggiore di 50<br/> </td> 
    <td> Destinatari con età superiore a 50 anni.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Età: meno di 25 anni<br/> </td> 
-   <td> Destinatari di età inferiore a 25 anni.<br/> </td> 
+   <td> Età: meno di 25<br/> </td> 
+   <td> Destinatari con età inferiore a 25 anni.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Età: meno di 30 anni<br/> </td> 
+   <td> Età: inferiore a 30<br/> </td> 
    <td> Destinatari con età inferiore a 30 anni.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Età: meno di 40 anni<br/> </td> 
+   <td> Età: inferiore a 40<br/> </td> 
    <td> Destinatari con età inferiore a 40 anni.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Età: meno di 50 anni<br/> </td> 
+   <td> Età: inferiore a 50<br/> </td> 
    <td> Destinatari con età inferiore a 50 anni.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Età: generazione silenziosa<br/> </td> 
+   <td> Età: Generazione silenziosa<br/> </td> 
    <td> Destinatari nati nel 1945 o prima.<br/> </td> 
   </tr> 
   <tr> 

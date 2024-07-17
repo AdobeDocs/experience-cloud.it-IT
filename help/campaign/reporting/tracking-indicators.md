@@ -4,7 +4,8 @@ description: Con il rapporto preconfigurato Indicatori di tracciamento, scopri i
 audience: end-user
 level: Intermediate
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: cdb41d18-7d92-4128-a29b-70e17b6a3358
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 2%
@@ -13,7 +14,7 @@ ht-degree: 2%
 
 # Indicatori di tracciamento{#tracking-indicators}
 
-Il **[!UICONTROL Indicatori di tracciamento]** Il rapporto contiene gli indicatori chiave per il comportamento di tracciamento dopo la ricezione dei messaggi e-mail.
+Il report **[!UICONTROL Indicatori di tracciamento]** contiene gli indicatori chiave per il comportamento di tracciamento dopo la ricezione dei messaggi e-mail.
 
 >[!NOTE]
 >
@@ -21,11 +22,11 @@ Il **[!UICONTROL Indicatori di tracciamento]** Il rapporto contiene gli indicato
 
 ![](assets/delivery_reports_2.png)
 
-Il **[!UICONTROL Indicatori di tracciamento]** tabella e **Prime 5 consegne** Il grafico contiene i dati disponibili per il tracciamento e-mail, ad esempio:
+La tabella **[!UICONTROL Indicatori di tracciamento]** e il grafico **Prime 5 consegne** contengono i dati disponibili per il tracciamento delle e-mail, ad esempio:
 
-* **[!UICONTROL Consegnato]**: numero di messaggi inviati correttamente. Gli errori generati (mancati recapiti) vengono presi in considerazione. tuttavia, i reclami (dichiarazioni spam) e i messaggi di allontanamento come &quot;fuori sede&quot; non vengono presi in considerazione.
-* **Apri**: numero di volte in cui un messaggio è stato aperto in una consegna.
+* **[!UICONTROL Recapitato]**: numero di messaggi inviati correttamente. Gli errori generati (mancati recapiti) vengono presi in considerazione. tuttavia, i reclami (dichiarazioni spam) e i messaggi di allontanamento come &quot;fuori sede&quot; non vengono presi in considerazione.
+* **Apri**: il numero di volte in cui un messaggio è stato aperto in una consegna.
 * **Clic**: il numero di volte in cui è stato fatto clic sul contenuto in una consegna.
-* **Annullamento iscrizione**: numero di clic sul collegamento di abbonamento.
-* **Spam:** Il numero di destinatari che hanno dichiarato un’e-mail come spam.
-* **Pagina mirror**: numero di clic sul collegamento della pagina speculare.
+* **Annullamento dell&#39;abbonamento**: numero di clic sul collegamento dell&#39;abbonamento.
+* **Spam:** il numero di destinatari che hanno dichiarato un&#39;e-mail come spam.
+* **Pagina mirror**: numero di clic sul collegamento della pagina mirror.

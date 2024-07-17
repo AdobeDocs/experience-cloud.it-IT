@@ -4,7 +4,8 @@ description: Scopri come recuperare gli abbonamenti con le API
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Questa è una procedura in due fasi.
 
 >[!CAUTION]
 >
->L’API REST restituisce la proprietà &quot;href&quot;, che contiene l’URL da utilizzare. <b>Utilizza sempre l’URL contenuto nella risposta per effettuare la richiesta API successiva</b>.
+>L’API REST restituisce la proprietà &quot;href&quot;, che contiene l’URL da utilizzare. <b>Utilizza sempre l&#39;URL contenuto nella risposta per effettuare la richiesta API successiva</b>.
 
 <br/>
 

@@ -8,7 +8,8 @@ role: Data Engineer
 level: Experienced
 mini-toc-levels: 1
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
-source-git-commit: 4ddde59006a72f34090a0ed4a765447c69c5f029
+exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 1%
@@ -27,7 +28,7 @@ Con la migrazione, due profili di prodotto vengono aggiunti agli account tecnici
 
 ### ID tenant
 
-Dopo la migrazione, per tutte le integrazioni future, si consiglia di utilizzare il **ID tenant di Campaign v8** negli URL REST, sostituendo l’ID tenant Campaign Standard precedente.
+Dopo la migrazione, per eventuali integrazioni future, si consiglia di utilizzare l&#39;ID tenant **Campaign v8** negli URL REST, sostituendo l&#39;ID tenant Campaign Standard precedente.
 
 ### Utilizzo chiave
 
@@ -44,7 +45,7 @@ Per il momento, è possibile utilizzare le API REST elencate di seguito:
 
 >[!AVAILABILITY]
 >
->Per il momento, il **Messaggi transazionali** API REST non disponibile.
+>Per il momento, **Messaggi transazionali** REST API non è disponibile.
 >
 >Le API REST elencate di seguito sono obsolete e non sono disponibili per l’uso:
 >* Storico dei dati marketing
@@ -53,7 +54,7 @@ Per il momento, è possibile utilizzare le API REST elencate di seguito:
 
 ## Filtro
 
-* Per utilizzare i filtri nei payload API REST, è necessario modificarli in Campaign v8 e fornire un nome da utilizzare nei payload. A questo scopo, accedi ai parametri aggiuntivi del filtro da **[!UICONTROL Parametri]** e fornire il nome desiderato nella scheda **[!UICONTROL Nome del filtro nell’API REST]** campo.
+* Per utilizzare i filtri nei payload API REST, è necessario modificarli in Campaign v8 e fornire un nome da utilizzare nei payload. A tale scopo, accedere ai parametri aggiuntivi del filtro dalla scheda **[!UICONTROL Parametri]** e specificare il nome desiderato nel campo **[!UICONTROL Nome filtro nell&#39;API REST]**.
 
   ![](assets/api-filtering.png)
 
@@ -113,13 +114,13 @@ La sezione seguente elenca le differenze tra i codici di errore e i messaggi di 
 | Utilizzo di un raw-id non esistente nell’URI | 404 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. Impossibile trovare il documento con il percorso &quot;Servizio&quot; dalla chiave &quot;adobe_nl:0&quot; (documento con schema &quot;servizio&quot; e nome &quot;adobe_nl&quot;) | 404 - Impossibile trovare il documento con il percorso &quot;Service&quot; dalla chiave &quot;adobe_nl&quot; (documento con schema &quot;service&quot; e nome &quot;adobe_nl&quot;) |
 | Utilizzo di un raw-id non esistente nel corpo della richiesta | 404 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. Impossibile trovare il documento con il percorso &quot;Servizio&quot; dalla chiave &quot;adobe_nl&quot; (documento con schema &quot;servizio&quot; e nome &quot;adobe_nl&quot;) | 404 - Impossibile trovare il documento con il percorso &quot;Service&quot; dalla chiave &quot;adobe_nl&quot; (documento con schema &quot;service&quot; e nome &quot;adobe_nl&quot;) |
 | - | 500 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. | 500 - Si è verificato un errore - contatta l’amministratore. |
-| Inserisci un profilo/servizio con un valore enum di genere (o altro) non valido | 500 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. Il valore &#39;invalid&#39; non è valido per &#39;nms:recipient:enumerazione &quot;gender&quot; del campo &quot;@gender&quot; | 500 - Si è verificato un errore. Contattare l&#39;amministratore. |
+| Inserisci un profilo/servizio con un valore enum di genere (o altro) non valido | 500 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. Il valore &#39;invalid&#39; non è valido per l&#39;enumerazione &#39;nms:recipient:gender&#39; del campo &#39;@gender&#39; | 500 - Si è verificato un errore. Contattare l&#39;amministratore. |
 
 ## Profilo - Fuso orario
 
-Con Campaign Standard, il fuso orario viene visualizzato come parte della risposta JSON di **profileAndServices/profile** Chiamate REST API.
+Con Campaign Standard, il fuso orario viene visualizzato come parte della risposta JSON di **profileAndServices/profile** chiamate REST API.
 
-Con Campaign v8, il fuso orario viene mostrato all’utente solo come parte di **profileAndServicesExt/profile** Chiamate REST API. Non fa parte di **profileAndServices/profile** Chiamate REST API poiché vengono aggiunte in uno schema esteso.
+Con Campaign v8, il fuso orario viene visualizzato all’utente solo come parte delle chiamate REST API **profileAndServicesExt/profile**. Non fa parte delle chiamate REST API di **profileAndServices/profile** poiché è in fase di aggiunta in uno schema esteso.
 
 ## Flussi di lavoro - Attivazione segnale esterno
 

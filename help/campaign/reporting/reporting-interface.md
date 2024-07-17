@@ -4,7 +4,8 @@ description: Scopri le basi dell’interfaccia per la generazione di rapporti di
 level: Beginner
 audience: end-user
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: 9b5a8b5f-2258-4861-b5c2-feefef67ccb3
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 4%
@@ -17,22 +18,22 @@ La barra degli strumenti superiore consente, ad esempio, di modificare, salvare 
 
 ![](assets/dynamic_report_toolbar.png)
 
-Utilizza il **Progetto** scheda per:
+Utilizza la scheda **Progetto** per:
 
 * **Apri...**: apre un report o un modello creato in precedenza.
-* **Salva con nome...**: Duplica i modelli per poterli modificare.
-* **Aggiorna progetto**: aggiorna il rapporto in base ai nuovi dati e alle modifiche apportate ai filtri.
+* **Salva con nome...**: i modelli duplicati possono essere modificati.
+* **Aggiorna progetto**: aggiorna il report in base ai nuovi dati e alle modifiche apportate ai filtri.
 * **Scarica CSV**: esporta i rapporti in un file CSV.
 
-Il **Modifica** La scheda ti consente di:
+La scheda **Modifica** consente di:
 
-* **Annulla**: annulla l’ultima azione sul dashboard.
-* **Cancella tutto**: elimina tutti i pannelli del dashboard.
+* **Annulla**: annulla l&#39;ultima azione eseguita nel dashboard.
+* **Cancella tutto**: elimina tutti i pannelli nel dashboard.
 
-Il **Inserisci** la tabella consente di personalizzare i rapporti aggiungendo grafici e tabelle al dashboard:
+La tabella **Inserisci** consente di personalizzare i report aggiungendo grafici e tabelle al dashboard:
 
 * **Nuovo pannello vuoto**: aggiunge un nuovo pannello vuoto al dashboard.
-* **Nuova forma libera**: aggiunge una nuova tabella a forma libera al dashboard.
+* **Nuova forma libera**: aggiunge una nuova tabella a forma libera alla dashboard.
 * **Nuova riga**: aggiunge un nuovo grafico a linee al dashboard.
 * **Nuova barra**: aggiunge un nuovo grafico a barre al dashboard.
 
@@ -50,9 +51,9 @@ Le schede a sinistra ti consentono di creare il rapporto e filtrare i dati in ba
 
 Queste schede consentono di accedere ai seguenti elementi:
 
-* **[!UICONTROL Pannelli]**: aggiungi un pannello vuoto o una figura a mano libera al rapporto per iniziare a filtrare i dati. Per ulteriori informazioni, consulta la sezione Aggiunta di pannelli
-* **[!UICONTROL Visualizzare]**: trascina e rilascia una selezione di elementi di visualizzazione per conferire al rapporto una dimensione grafica. Per ulteriori informazioni, consulta la sezione Aggiunta di visualizzazioni.
-* **[!UICONTROL Componenti]**: personalizza i rapporti con dimensioni, metriche, segmenti e periodi di tempo diversi.
+* **[!UICONTROL Pannelli]**: aggiungi un pannello vuoto o una figura a mano libera al report per iniziare a filtrare i dati. Per ulteriori informazioni, consulta la sezione Aggiunta di pannelli
+* **[!UICONTROL Visualizzazioni]**: trascina una selezione di elementi di visualizzazione per conferire al rapporto una dimensione grafica. Per ulteriori informazioni, consulta la sezione Aggiunta di visualizzazioni.
+* **[!UICONTROL Componenti]**: personalizza i tuoi report con dimensioni, metriche, segmenti e periodi di tempo diversi.
 
 ## Barra degli strumenti {#toolbar}
 
@@ -70,11 +71,11 @@ La barra degli strumenti si trova sopra l’area di lavoro. Composto da schede d
 
 ![](assets/tab_project.png)
 
-Utilizza il **Progetto** scheda per:
+Utilizza la scheda **Progetto** per:
 
 * **Apri...**: apre un report o un modello creato in precedenza.
-* **Salva con nome...**: Duplica i modelli per poterli modificare.
-* **Aggiorna progetto**: aggiorna il rapporto in base ai nuovi dati e alle modifiche apportate ai filtri.
+* **Salva con nome...**: i modelli duplicati possono essere modificati.
+* **Aggiorna progetto**: aggiorna il report in base ai nuovi dati e alle modifiche apportate ai filtri.
 * **Scarica CSV**: esporta i rapporti in un file CSV.
 * **[!UICONTROL Stampa]**: stampa il report.
 
@@ -82,18 +83,18 @@ Utilizza il **Progetto** scheda per:
 
 ![](assets/tab_edit.png)
 
-Il **Modifica** La scheda ti consente di:
+La scheda **Modifica** consente di:
 
-* **Annulla**: annulla l’ultima azione sul dashboard.
-* **Cancella tutto**: elimina tutti i pannelli del dashboard.
+* **Annulla**: annulla l&#39;ultima azione eseguita nel dashboard.
+* **Cancella tutto**: elimina tutti i pannelli nel dashboard.
 
 ### Scheda Inserisci {#insert-tab}
 
 ![](assets/tab_insert.png)
 
-Il **Inserisci** Questa scheda consente di personalizzare i rapporti aggiungendo grafici e tabelle al dashboard:
+La scheda **Inserisci** ti consente di personalizzare i rapporti aggiungendo grafici e tabelle al dashboard:
 
 * **Nuovo pannello vuoto**: aggiunge un nuovo pannello vuoto al dashboard.
-* **Nuova forma libera**: aggiunge una nuova tabella a forma libera al dashboard.
+* **Nuova forma libera**: aggiunge una nuova tabella a forma libera alla dashboard.
 * **Nuova riga**: aggiunge un nuovo grafico a linee al dashboard.
 * **Nuova barra**: aggiunge un nuovo grafico a barre al dashboard.

@@ -4,7 +4,7 @@ description: Come utilizzare la Distribuzione di software di Adobe Experience Cl
 exl-id: ac559a28-4444-4326-ba92-78afd10ed9ab
 source-git-commit: e98b6985c8e24e56e021422f8e32cad0d823d440
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '497'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Puoi scegliere i download del software dai prodotti per i quali l’azienda ha c
 
 Quando ti trovi sulla pagina di download del prodotto desiderato, vengono visualizzati sulla pagina tutti i download relativi al prodotto. La lista dei download potrebbe essere molto lunga e non permettere di trovare il download desiderato a una prima occhiata. Per questo motivo la [!UICONTROL Distribuzione di software] offre modalità semplici ma efficienti per trovare il download desiderato. Nella maggior parte dei casi risulta comodo utilizzare i filtri di ricerca sulla sinistra per trovare quello che cerchi nella lista di download. A seconda del prodotto, troverai filtri come versione, soluzione o tipo di software.
 
-Un’altra opzione è la ricerca a testo libero situata nel lato destro in alto.
+Un’altra opzione è la ricerca a testo libero situata in alto a destra.
 
 In quanto parte della famiglia delle soluzioni Experience Cloud, la [!UICONTROL Distribuzione di software] consente di navigare nel contesto delle soluzioni Experience Cloud e utilizzare i servizi unificati di Experience Cloud, tra cui i servizi core, le notifiche personalizzate e molto altro.
 

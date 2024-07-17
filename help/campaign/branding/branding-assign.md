@@ -6,7 +6,8 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
-source-git-commit: 51abadc86b97097d13824651d8c50d4ddd014a51
+exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 18%
@@ -33,21 +34,21 @@ Per creare un modello di consegna, puoi duplicare un modello incorporato, conver
 
 Una volta creato il modello, puoi collegarlo a un brand. Per eseguire questa operazione:
 
-1. Sfoglia per **[!UICONTROL Risorse]** `>` **[!UICONTROL Modelli]** `>` **[!UICONTROL Modelli di consegna]** in Adobe Campaign explorer.
+1. Cerca **[!UICONTROL Risorse]** `>` **[!UICONTROL Modelli]** `>` **[!UICONTROL Modelli di consegna]** in Adobe Campaign Explorer.
 
 1. Seleziona un modello di consegna o duplicane uno esistente.
 
    ![](assets/branding_assign_V8_1.png)
 
-1. Accedere a **[!UICONTROL Proprietà]** del modello di consegna selezionato.
+1. Accedi a **[!UICONTROL Proprietà]** del modello di consegna selezionato.
 
    ![](assets/branding_assign_V8_2.png)
 
-1. Dalla sezione **[!UICONTROL Generale]** , seleziona il tuo marchio dalla scheda **[!UICONTROL Marchio]** a discesa.
+1. Dalla scheda **[!UICONTROL Generale]**, seleziona il tuo marchio dal menu a discesa **[!UICONTROL Marchio]**.
 
    ![](assets/branding_assign_V8_3.png)
 
-1. Una volta configurata, seleziona **OK**.
+1. Una volta configurata, selezionare **OK**.
 
 Ora puoi utilizzare questo modello per inviare le consegne.
 
@@ -57,15 +58,15 @@ Per creare un modello di consegna, puoi duplicare un modello incorporato, conver
 
 Una volta creato il modello, puoi collegarlo a un brand. Per eseguire questa operazione:
 
-1. Accedi a **[!UICONTROL Modelli]** , dalla scheda **[!UICONTROL Consegne]** e seleziona un modello di consegna.
+1. Passa alla scheda **[!UICONTROL Modelli]** dal menu a sinistra **[!UICONTROL Consegne]** e seleziona un modello di consegna.
 
    ![](assets/branding_assign_web_1.png)
 
-1. Clic **[!UICONTROL Impostazioni]**.
+1. Fare clic su **[!UICONTROL Impostazioni]**.
 
    ![](assets/branding_assign_web_2.png)
 
-1. Dalla sezione **[!UICONTROL Consegna]** , accedere alla scheda **[!UICONTROL Marchio]** e seleziona il brand da collegare al modello.
+1. Dalla scheda **[!UICONTROL Consegna]**, accedi al campo **[!UICONTROL Branding]** e seleziona il brand da collegare al modello.
 
    ![](assets/branding_assign_web_3.png)
 
@@ -83,31 +84,31 @@ Ora puoi utilizzare questo modello per inviare le consegne.
 
 Per creare una nuova consegna autonoma, segui i passaggi indicati di seguito.
 
-1. Per creare una nuova consegna, passa a **[!UICONTROL Campagne]** scheda.
+1. Per creare una nuova consegna, passa alla scheda **[!UICONTROL Campagne]**.
 
-1. Clic **[!UICONTROL Consegne]** e fai clic su **[!UICONTROL Crea]** sopra l’elenco delle consegne esistenti.
+1. Fai clic su **[!UICONTROL Consegne]** e fai clic sul pulsante **[!UICONTROL Crea]** sopra l&#39;elenco delle consegne esistenti.
 
    ![](assets/branding_assign_V8_4.png)
 
 1. Seleziona un modello di consegna.
 
-1. Accedere a **[!UICONTROL Proprietà]** del modello di consegna selezionato.
+1. Accedi a **[!UICONTROL Proprietà]** del modello di consegna selezionato.
 
    ![](assets/branding_assign_V8_5.png)
 
-1. Dalla sezione **[!UICONTROL Generale]** , seleziona il tuo marchio dalla scheda **[!UICONTROL Marchio]** a discesa.
+1. Dalla scheda **[!UICONTROL Generale]**, seleziona il tuo marchio dal menu a discesa **[!UICONTROL Marchio]**.
 
    ![](assets/branding_assign_V8_6.png)
 
-1. Una volta configurata, seleziona **OK**.
+1. Una volta configurata, selezionare **OK**.
 
-1. Personalizza ulteriormente le consegne. Per ulteriori informazioni sulla creazione di un’e-mail, consulta [Progettare e inviare e-mail](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) sezione.
+1. Personalizza ulteriormente le consegne. Per ulteriori informazioni sulla creazione di un&#39;e-mail, consulta la sezione [Progettare e inviare e-mail](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email).
 
 >[!TAB Adobe Campaign Web]
 
 Per creare una nuova consegna autonoma, segui i passaggi indicati di seguito.
 
-1. Accedi a **[!UICONTROL Consegne]** nella barra a sinistra, quindi fai clic su **[!UICONTROL Creare una consegna]** pulsante.
+1. Passa al menu **[!UICONTROL Consegne]** nella barra a sinistra e fai clic sul pulsante **[!UICONTROL Crea consegna]**.
 
    ![](assets/branding_assign_web_4.png)
 
@@ -115,11 +116,11 @@ Per creare una nuova consegna autonoma, segui i passaggi indicati di seguito.
 
 1. Fai clic sul pulsante **[!UICONTROL Crea una consegna]** per confermare.
 
-1. Dalla sezione **[!UICONTROL Proprietà]** pagina, fai clic su **[!UICONTROL Impostazioni]**.
+1. Nella pagina **[!UICONTROL Proprietà]**, fare clic su **[!UICONTROL Impostazioni]**.
 
    ![](assets/branding_assign_web_5.png)
 
-1. Dalla sezione **[!UICONTROL Consegna]** , accedere alla scheda **[!UICONTROL Marchio]** campo.
+1. Dalla scheda **[!UICONTROL Consegna]**, accedi al campo **[!UICONTROL Branding]**.
 
    ![](assets/branding_assign_web_6.png)
 
@@ -127,6 +128,6 @@ Per creare una nuova consegna autonoma, segui i passaggi indicati di seguito.
 
    ![](assets/branding_assign_web_7.png)
 
-1. Personalizza ulteriormente le consegne. Per ulteriori informazioni sulla creazione di un’e-mail, consulta [Creare la prima e-mail](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) sezione.
+1. Personalizza ulteriormente le consegne. Per ulteriori informazioni sulla creazione di un&#39;e-mail, consulta la sezione [Creare la prima e-mail](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email).
 
 >[!ENDTABS]

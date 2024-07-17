@@ -5,14 +5,14 @@ hide: true
 exl-id: 40aef987-52a3-470b-88ca-c716a116bdfc
 source-git-commit: b66e2525694c771ebb7ac5190b7259ef5658d81a
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '618'
 ht-degree: 100%
 
 ---
 
 # Elenco di soppressione globale {#global-suppression-list}
 
-Un elenco di soppressione è costituito da indirizzi e-mail che i clienti desiderano escludere dalle consegne, in quanto l’invio a tali contatti potrebbe danneggiare la reputazione del mittente e le percentuali di consegna. Al momento, Adobe possiede un elenco aggiornato di indirizzi e-mail non validi noti, che hanno dimostrato di essere deleteri per il coinvolgimento e la reputazione e garantisce che tali indirizzi non ricevano e-mail. Tale elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti sulle consegne è indicato solo il numero di destinatari esclusi.
+Un elenco di soppressione è costituito da indirizzi e-mail che i clienti desiderano escludere dalle consegne, in quanto l’invio a tali contatti potrebbe danneggiare la reputazione del mittente e i tassi di consegna. Al momento, Adobe possiede un elenco aggiornato di indirizzi e-mail non validi noti, che hanno dimostrato di essere deleteri per il coinvolgimento e la reputazione e garantisce che tali indirizzi non ricevano e-mail. Tale elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti sulle consegne è indicato solo il numero di destinatari esclusi.
 
 È ora possibile gestire l’elenco di soppressione globale da un’interfaccia disponibile internamente. Questo elenco sarà gestito solo dai consulenti del servizio di recapito dei messaggi. L’elenco di soppressione globale può includere indirizzi e-mail o di dominio.
 

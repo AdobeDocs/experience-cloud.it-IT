@@ -13,12 +13,12 @@ ht-degree: 4%
 
 # Rapporto SMS{#sms-report}
 
-Il **SMS** Questo rapporto fornisce dettagli sulle consegne di SMS, ad esempio le percentuali di consegna e mancato recapito.
+Il report **SMS** fornisce dettagli sulle consegne SMS, ad esempio le percentuali di recapito e mancato recapito.
 
 ![](assets/dynamic_report_sms.png)
 
-Il **Riepilogo SMS** la tabella, i grafici e i numeri di riepilogo contengono i dati disponibili per le consegne SMS inviate.
+La tabella, i grafici e i numeri di riepilogo **SMS summary** contengono i dati disponibili per le consegne SMS inviate.
 
 * **Elaborato/inviato**: numero di SMS inviati.
-* **Consegnato**: numero di SMS consegnati.
-* **Mancati recapiti + errori**: numero di messaggi che non è stato possibile recapitare.
+* **Recapitato**: numero di SMS consegnati.
+* **Messaggi non recapitati + Errori**: numero di messaggi che non è stato possibile recapitare.

@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -65,10 +66,10 @@ Esegui una richiesta GET sull’URL. Restituisce l’elenco dei filtri per la ri
 
 Per ogni filtro è disponibile la stessa struttura di metadati:
 
-* Il **@formType** e **@webPage** I campi sono di natura tecnica.
-* Il **dati** Questo campo fornisce un esempio su come utilizzare il filtro.
-* Il **metadati** Il nodo descrive i parametri del filtro.
-* Il **condizione** Questo nodo descrive le funzioni del filtro. I parametri di filtro descritti nel nodo dei metadati vengono utilizzati per creare condizioni di filtro. Per ogni condizione di filtro, se **enabledIf** è vero, il **espr** verrà applicato.
+* I campi **@formType** e **@webPage** sono campi tecnici.
+* Il campo **dati** fornisce un esempio di come utilizzare il filtro.
+* Il nodo **metadata** descrive i parametri del filtro.
+* Il nodo **condizione** descrive le funzioni del filtro. I parametri di filtro descritti nel nodo dei metadati vengono utilizzati per creare condizioni di filtro. Per ogni condizione di filtro, se **enabledIf** è true, verrà applicato **expr**.
 
 <br/>
 
@@ -132,7 +133,8 @@ Il filtro viene eseguito con la seguente richiesta:
   }
   ```
 
-* Richiesta di GET di esempio per recuperare le risorse &quot;profile&quot; contenenti &quot;Doe&quot; nei campi e-mail o cognome (il filtro byText ricerca sia nei campi e-mail che nel cognome).
+* Richiesta di GET di esempio per recuperare le risorse &quot;profile&quot; contenenti &quot;Doe&quot; in
+i campi e-mail o cognome (il filtro byText esegue la ricerca sia nei campi e-mail che nel campo cognome).
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -201,7 +203,7 @@ Se desideri utilizzare un filtro personalizzato, devi crearlo e personalizzarlo 
 Per ulteriori informazioni, consulta la documentazione di Campaign Standard:
 
 * [Configurazione della definizione del filtro](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Caso di utilizzo: chiamata di una risorsa tramite una chiave di identificazione composita](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
+* [Caso d&#39;uso: chiamata di una risorsa tramite una chiave di identificazione composita](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 

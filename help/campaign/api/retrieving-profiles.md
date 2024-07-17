@@ -4,7 +4,8 @@ description: Scopri come recuperare i profili con le API
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 4%
@@ -13,9 +14,9 @@ ht-degree: 4%
 
 # Recupero di profili con API {#retrieving-profiles}
 
-Il recupero dei profili viene eseguito con un **GET** richiesta.
+Il recupero dei profili viene eseguito con una richiesta **GET**.
 
-Puoi quindi perfezionare la ricerca utilizzando filtri, ordinamento e impaginazione. Per ulteriori informazioni, consulta [Operazioni aggiuntive](sorting.md) sezione.
+Puoi quindi perfezionare la ricerca utilizzando filtri, ordinamento e impaginazione. Per ulteriori informazioni, consulta la sezione [Operazioni aggiuntive](sorting.md).
 
 Inoltre, le API di Campaign Standard ti consentono di cercare profili in base a uno dei seguenti campi: e-mail, nome, cognome o qualsiasi campo personalizzato. Per ulteriori informazioni al riguardo, consulta [questa sezione](#searching-field).
 
@@ -84,7 +85,7 @@ Inoltre, le API di Campaign Standard ti consentono di cercare profili in base a 
 
 ## Ricerca di profili in base a un campo {#searching-field}
 
-Il **[!UICONTROL filterType]** Il parametro ti consente di recuperare i profili in base a uno dei seguenti campi: e-mail, nome, cognome o qualsiasi campo personalizzato aggiunto in Filtro avanzato durante l’estensione della risorsa profilo.
+Il parametro **[!UICONTROL filterType]** consente di recuperare i profili in base a uno dei seguenti campi: e-mail, nome, cognome o qualsiasi campo personalizzato aggiunto nel filtro avanzato durante l&#39;estensione della risorsa profilo.
 
 >[!NOTE]
 >

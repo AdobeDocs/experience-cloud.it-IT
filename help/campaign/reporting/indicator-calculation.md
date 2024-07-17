@@ -4,7 +4,8 @@ description: Comprendi i risultati dei rapporti con un elenco della formula di o
 level: Intermediate
 audience: end-user
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
-source-git-commit: 031d5b692d9b9e4420b14ba1ab892fbafed57ec0
+exl-id: 06fb21a5-ae98-4c14-97f0-7f851d60ae7d
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 1%
@@ -26,7 +27,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
   <tr> 
    <th> <strong>Etichetta</strong> <br/> </th> 
    <th> <strong>Nome campo</strong> <br/> </th> 
-   <th> <strong>Formula di calcolo dell’indicatore</strong> <br/> </th> 
+   <th> <strong>Formula di calcolo indicatore</strong> <br/> </th> 
    <th> <strong>Commenti</strong><br/> </th> 
   </tr> 
  </thead> 
@@ -38,7 +39,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Inserire nell'elenco Bloccati Il<br/> </td> 
+   <td> Inserire nell'elenco Bloccati All'<br/> </td> 
    <td> @blacklisted<br/> </td> 
    <td> count(@failureReason=8, @failureType=2)<br/> </td> 
    <td> </td> 
@@ -47,7 +48,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> tasso di Inserisco nell'elenco Bloccati<br/> </td> 
    <td> @rateBlacklisted<br/> </td> 
    <td> @blacklisted/@sent<br/> </td> 
-   <td> Il denominatore per il calcolo del tasso si basa sul conteggio dei messaggi inviati (consegnati + non recapitati).<br/> </td> 
+   <td> Il denominatore per il calcolo del tasso si basa sul conteggio dei messaggi inviati (recapitati + non recapitati).<br/> </td> 
   </tr> 
   <tr> 
    <td> Mancati recapiti + errori<br/> </td> 
@@ -56,13 +57,13 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Mancato recapito + Frequenza errori<br/> </td> 
+   <td> Mancato recapito + Percentuale di errori<br/> </td> 
    <td> @rateBounces<br/> </td> 
    <td> @bounces/@sent<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Clic<br/> </td> 
+   <td> Fai clic su<br/> </td> 
    <td> @clicks<br/> </td> 
    <td> count(@trackingUrlType=1 o 10 o 11)<br/> </td> 
    <td> </td> 
@@ -80,13 +81,13 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Percentuale consegne<br/> </td> 
+   <td> Percentuale di consegna<br/> </td> 
    <td> @rateDelivered<br/> </td> 
    <td> @delivered/@sent<br/> </td> 
-   <td> Il denominatore per il calcolo del tasso si basa sul conteggio dei messaggi inviati (consegnati + non recapitati).<br/> </td> 
+   <td> Il denominatore per il calcolo del tasso si basa sul conteggio dei messaggi inviati (recapitati + non recapitati).<br/> </td> 
   </tr> 
   <tr> 
-   <td> Mancato recapito permanente<br/> </td> 
+   <td> Mancati recapiti permanenti<br/> </td> 
    <td> @hardBounces<br/> </td> 
    <td> count(@failureType=2 E @failureReason=8)<br/> </td> 
    <td> </td> 
@@ -95,7 +96,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> Percentuale mancati recapiti permanenti<br/> </td> 
    <td> @rateHardBounces<br/> </td> 
    <td> @hardBounces/@sent<br/> </td> 
-   <td> Il denominatore per il calcolo del tasso si basa sul conteggio dei messaggi inviati (consegnati + non recapitati).<br/> </td> 
+   <td> Il denominatore per il calcolo del tasso si basa sul conteggio dei messaggi inviati (recapitati + non recapitati).<br/> </td> 
   </tr> 
   <tr> 
    <td> Dominio non valido<br/> </td> 
@@ -130,7 +131,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
   <tr> 
    <td> Apri<br/> </td> 
    <td> @uniqueOpens<br/> </td> 
-   <td> count(@trackingUrlType=2 + univoco(@trackingUrlType=1,2,3,6,10,11) - univoco(@trackingUrlType=2))<br/> </td> 
+   <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2))<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -146,10 +147,10 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tasso di quarantena<br/> </td> 
+   <td> Percentuale quarantena<br/> </td> 
    <td> @rateQuarantine<br/> </td> 
    <td> @quarantine/@sent<br/> </td> 
-   <td> Il denominatore per il calcolo del tasso si basa sul conteggio dei messaggi inviati (consegnati + non recapitati).<br/> </td> 
+   <td> Il denominatore per il calcolo del tasso si basa sul conteggio dei messaggi inviati (recapitati + non recapitati).<br/> </td> 
   </tr>
   <tr> 
    <td> Rifiutato<br/> </td> 
@@ -161,7 +162,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> Percentuale rifiutata<br/> </td> 
    <td> @rateRejected<br/> </td> 
    <td> @rejected/@sent<br/> </td> 
-   <td> Il denominatore per il calcolo del tasso si basa sul conteggio dei messaggi inviati (consegnati + non recapitati).<br/> </td> 
+   <td> Il denominatore per il calcolo del tasso si basa sul conteggio dei messaggi inviati (recapitati + non recapitati).<br/> </td> 
   </tr> 
   <tr> 
    <td> Elaborato/inviato<br/> </td> 
@@ -179,7 +180,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> Percentuale mancati recapiti non permanenti<br/> </td> 
    <td> @rateSoftBounces<br/> </td> 
    <td> @softBounces/@sent<br/> </td> 
-   <td> Il denominatore per il calcolo del tasso si basa sul conteggio dei messaggi inviati (consegnati + non recapitati).<br/> </td> 
+   <td> Il denominatore per il calcolo del tasso si basa sul conteggio dei messaggi inviati (recapitati + non recapitati).<br/> </td> 
   </tr> 
   <tr> 
    <td> Clic univoci<br/> </td> 
@@ -200,13 +201,13 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Annulla iscrizione<br/> </td> 
+   <td> Annulla sottoscrizione<br/> </td> 
    <td> @unsubscribes<br/> </td> 
    <td> count(@trackingUrlType=3)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Percentuale di annullamento abbonamento<br/> </td> 
+   <td> Percentuale annullamenti abbonamento<br/> </td> 
    <td> @rateUnsubscribes<br/> </td> 
    <td> @unsubscribes/@delivered<br/> </td> 
    <td> Il denominatore per il calcolo del tasso si basa solo su Consegnato.<br/> </td> 

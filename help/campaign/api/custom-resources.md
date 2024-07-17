@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: d7b2231d-46ff-4966-9ea7-27a775e5236b
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 2%
@@ -18,19 +19,19 @@ ht-degree: 2%
 
 Adobe Campaign viene fornito con un modello dati predefinito, in cui i dati vengono definiti tramite risorse diverse. Puoi arricchire il modello dati fornito estendendo le risorse per aggiungere campi personalizzati o tabelle personalizzate, ad esempio tabelle di acquisto o di prodotti.
 
-Le risorse personalizzate sono accessibili tramite API tramite **/profileAndServicesExt** e il nome della risorsa personalizzata.
+Le risorse personalizzate sono accessibili tramite API utilizzando l&#39;endpoint **/profileAndServicesExt** e il nome della risorsa personalizzata.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
 >[!NOTE]
 >
->Per le risorse che non sono pronte, utilizza sempre la <b>&quot;cus&quot;</b> prima del nome della risorsa.
+>Per le risorse che non sono pronte all&#39;uso, utilizza sempre il prefisso <b>&quot;cus&quot;</b> prima del nome della risorsa.
 
 Puoi eseguire qualsiasi operazione con risorse personalizzate, purché siano collegate alla tabella Profilo. Ad esempio, consideriamo la struttura delle tabelle seguente:
 
 ![testo alternativo](assets/cusresources.png)
 
-In tal caso, tutte le risorse provenienti da **Transazione**, **TransactionDetails** e **Prodotto** le tabelle sono disponibili purché siano collegate al **Profilo** tabella.
+In tal caso, tutte le risorse delle tabelle **Transaction**, **TransactionDetails** e **Product** sono disponibili purché siano collegate alla tabella **Profile**.
 
 <br/>
 

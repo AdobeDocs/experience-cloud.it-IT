@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%
@@ -16,13 +17,13 @@ ht-degree: 1%
 
 # Meccanismo metadati {#metadata-mechanism}
 
-Puoi recuperare i metadati delle risorse utilizzando **resourceType** in una richiesta GET:
+È possibile recuperare i metadati delle risorse utilizzando **resourceType** in una richiesta GET:
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
 La risposta restituisce i metadati principali dalla risorsa (tutti gli altri campi sono descrittivi o interni):
 
-* Il **Contenuto** node restituisce i campi della risorsa. Per ogni campo nel **contenuto** , sono disponibili i seguenti campi:
+* Il nodo **Content** restituisce i campi della risorsa. Per ogni campo del nodo **content**, sono disponibili i campi seguenti:
 
    * &quot;apiName&quot;: nome dell’attributo utilizzato nelle API.
    * &quot;type&quot;: definizione di tipo di alto livello (stringa, numero, collegamento, raccolta, enumerazione...).
@@ -31,9 +32,9 @@ La risposta restituisce i metadati principali dalla risorsa (tutti gli altri cam
    * &quot;resType&quot;: il tipo tecnico.
 
      Se &quot;type&quot; viene completato con il valore &quot;link&quot; o &quot;collection&quot;, il valore resTarget corrisponde al nome della risorsa di destinazione del collegamento.
-Se &quot;type&quot; è completato con il valore &quot;enumeration&quot;, viene aggiunto un campo &quot;values&quot; e ogni valore di enumerazione è descritto in **valori** nodo.
+Se &quot;type&quot; viene completato con il valore &quot;enumeration&quot;, viene aggiunto un campo &quot;values&quot; e ogni valore di enumerazione è descritto nel nodo **values**.
 
-* Il **Filtri** node restituisce l’URL per recuperare i filtri associati. Per ulteriori informazioni sui filtri, consulta [questa sezione](filtering.md) sezione.
+* Il nodo **Filters** restituisce l&#39;URL per recuperare i filtri associati. Per ulteriori informazioni sui filtri, consulta [questa sezione](filtering.md).
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N

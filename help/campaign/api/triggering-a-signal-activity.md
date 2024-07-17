@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 2%
@@ -16,9 +17,9 @@ ht-degree: 2%
 
 # Attivazione di attività di segnale {#triggering-a-signal-activity}
 
-In un flusso di lavoro Adobe Campaign Standard possono essere presenti uno o più **Segnale esterno** attività. Queste attività sono &quot;listener&quot; che attendono di essere attivate.
+In un flusso di lavoro Adobe Campaign Standard possono essere presenti una o più attività **External signal**. Queste attività sono &quot;listener&quot; che attendono di essere attivate.
 
-Le API Campaign Standard consentono di attivare un’ **Segnale esterno** per chiamare un flusso di lavoro. La chiamata API può includere parametri che verranno acquisiti nelle variabili degli eventi del flusso di lavoro (un nome di pubblico per il target, un nome di file da importare, una parte del contenuto del messaggio, ecc.). In questo modo, puoi integrare facilmente le automazioni di Campaign con il sistema esterno.
+Le API Campaign Standard consentono di attivare un&#39;attività **External signal** per richiamare un flusso di lavoro. La chiamata API può includere parametri che verranno acquisiti nelle variabili degli eventi del flusso di lavoro (un nome di pubblico per il target, un nome di file da importare, una parte del contenuto del messaggio, ecc.). In questo modo, puoi integrare facilmente le automazioni di Campaign con il sistema esterno.
 
 >[!NOTE]
 >
@@ -26,13 +27,13 @@ Le API Campaign Standard consentono di attivare un’ **Segnale esterno** per ch
 
 Per attivare un flusso di lavoro, effettua le seguenti operazioni:
 
-1. Eseguire una **GET** richiesta al flusso di lavoro di recuperare l’URL del trigger dell’attività External signal.
+1. Esegui una richiesta **GET** nel flusso di lavoro per recuperare l&#39;URL del trigger dell&#39;attività del segnale esterno.
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Eseguire una **POST** richiesta dell’URL restituito per attivare l’attività del segnale, con **&quot;source&quot;** nel payload. Questo attributo è obbligatorio e consente di indicare l’origine della richiesta di attivazione.
+1. Esegui una richiesta **POST** sull&#39;URL restituito per attivare l&#39;attività del segnale, con il parametro **&quot;source&quot;** nel payload. Questo attributo è obbligatorio e consente di indicare l’origine della richiesta di attivazione.
 
-Se desideri chiamare il flusso di lavoro con i parametri, aggiungili al payload con **&quot;parameters&quot;** attributo. La sintassi è costituita dal nome del parametro seguito dal relativo valore (sono supportati i tipi seguenti: **stringa**, **numero**, **booleano** e **data/ora**).
+Se desideri chiamare il flusso di lavoro con i parametri, aggiungili al payload con l&#39;attributo **&quot;parameters&quot;**. La sintassi è costituita dal nome del parametro seguito dal relativo valore (sono supportati i tipi seguenti: **string**, **number**, **boolean** e **date/time**).
 
 ```
   -X POST <TRIGGER_URL>
@@ -55,7 +56,7 @@ Se desideri chiamare il flusso di lavoro con i parametri, aggiungili al payload 
 
 >[!NOTE]
 >
->Quando aggiungi un parametro al payload, assicurati che i relativi **nome** e **tipo** I valori sono coerenti con le informazioni dichiarate nell’attività External signal. Inoltre, la dimensione del payload non deve superare i 64 Ko.
+>Quando aggiungi un parametro al payload, accertati che i valori **name** e **type** siano coerenti con le informazioni dichiarate nell&#39;attività External signal. Inoltre, la dimensione del payload non deve superare i 64 Ko.
 
 <br/>
 

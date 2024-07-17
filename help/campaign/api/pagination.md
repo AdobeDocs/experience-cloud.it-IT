@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: d6ebce3c-1e84-4b3b-a68d-90df4680af64
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 1%
@@ -18,13 +19,13 @@ ht-degree: 1%
 
 Per impostazione predefinita, 25 risorse vengono caricate in un elenco.
 
-Il **_lineCount** consente di limitare il numero di risorse elencate nella risposta.  È quindi possibile utilizzare **avanti** per visualizzare i risultati successivi.
+Il parametro **_lineCount** ti consente di limitare il numero di risorse elencate nella risposta.  Puoi quindi utilizzare il nodo **next** per visualizzare i risultati successivi.
 
 >[!NOTE]
 >
->Utilizza sempre il valore URL restituito in **avanti** per eseguire una richiesta di impaginazione.
+>Utilizza sempre il valore URL restituito nel nodo **next** per eseguire una richiesta di impaginazione.
 >
->Il **_lineStart** viene calcolata e deve essere sempre utilizzata all’interno dell’URL restituito nella **avanti** nodo.
+>La richiesta **_lineStart** è calcolata e deve essere sempre utilizzata all&#39;interno dell&#39;URL restituito nel nodo **next**.
 
 <br/>
 
@@ -40,7 +41,7 @@ Richiesta di GET di esempio per visualizzare 1 record della risorsa profilo.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Risposta alla richiesta, con **avanti** per eseguire la paginazione.
+Risposta alla richiesta, con il nodo **next** per eseguire la paginazione.
 
 ```
 {
@@ -61,7 +62,7 @@ Risposta alla richiesta, con **avanti** per eseguire la paginazione.
 }
 ```
 
-Per impostazione predefinita, il **avanti** Il nodo non è disponibile quando si interagisce con tabelle con grandi quantità di dati. Per poter eseguire l’impaginazione, devi aggiungere **_forcePagination=true** parametro per l’URL della chiamata.
+Per impostazione predefinita, il nodo **next** non è disponibile quando si interagisce con tabelle con grandi quantità di dati. Per poter eseguire l&#39;impaginazione, devi aggiungere il parametro **_forcePagination=true** all&#39;URL della chiamata.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -73,4 +74,4 @@ Per impostazione predefinita, il **avanti** Il nodo non è disponibile quando si
 
 >[!NOTE]
 >
->Il numero di record al di sopra dei quali una tabella viene considerata grande è definito in Campaign Standard **XtkBigTableThreshold** opzione. Il valore predefinito è 100.000 record.
+>Il numero di record al di sopra dei quali una tabella viene considerata grande è definito nell&#39;opzione Campaign Standard **XtkBigTableThreshold**. Il valore predefinito è 100.000 record.
