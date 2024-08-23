@@ -1,55 +1,73 @@
 ---
 title: Distribuzione di software
-description: Come utilizzare la Distribuzione di software di Adobe Experience Cloud
+description: Scopri come utilizzare la Distribuzione di software per scaricare il software Adobe Experience Cloud.
 exl-id: ac559a28-4444-4326-ba92-78afd10ed9ab
-source-git-commit: e98b6985c8e24e56e021422f8e32cad0d823d440
+source-git-commit: 6a2ba27cfeae875ab9184760b6d233ef759dd460
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 9%
 
 ---
 
+
 # Distribuzione di software
+
+Scopri come utilizzare la Distribuzione di software per scaricare il software Adobe Experience Cloud.
 
 ## Introduzione
 
-A partire da giugno 2020, la pagina della soluzione Experience Cloud [!UICONTROL Distribuzione di software] sostituisce la piattaforma di download [!UICONTROL Condivisione pacchetti] per AEM e [!DNL Neolane] per [!DNL Campaign]. Offre un’esperienza più efficiente per trovare e scaricare i software. Grazie a un’interfaccia utente intuitiva, una ricerca semplificata e una velocità di download notevolmente migliorata, il download dei pacchetti software per i prodotti Experience Cloud è un’esperienza utente straordinaria. I pacchetti software approvati da Adobe e i pacchetti di società partner sono ora disponibili per i seguenti prodotti:
+Software Distribution offre un&#39;esperienza efficiente per trovare e scaricare il software Adobe Experience Cloud. I pacchetti software approvati da Adobe e i pacchetti di aziende partner sono disponibili per i seguenti prodotti:
 
-1. **Adobe Experience Manager** - Tutto ciò che riguarda Servizio e Manutenzione, Sicurezza, Strumenti e molto altro (per tutte le versioni AEM supportate).
-1. **Adobe Experience Manager as a [!UICONTROL Cloud Service]** - [!UICONTROL SDK di AEM Cloud], strumenti di migrazione di [!UICONTROL AEM Cloud] e molto altro.
-1. **Adobe Campaign** - Tutte le versioni correnti del programma di installazione di [!DNL Campaign] e gli strumenti correlati.
-1. **Generale** - Strumenti generali tra cui JDK di [!DNL Oracle] per clienti Adobe.
+1. **Adobe Experience Manager** - Tutto ciò che riguarda il servizio e la manutenzione, la sicurezza, gli strumenti e altro ancora - per tutte le versioni AEM supportate
+1. **Adobe Experience Manager as a [!UICONTROL Cloud Service]** - [!UICONTROL AEM Cloud SDK], [!UICONTROL AEM Cloud] strumenti di migrazione e altro ancora
+1. **Adobe Campaign** - Tutte le versioni correnti del programma di installazione di [!DNL Campaign] e gli strumenti correlati
+1. **Generale** - Strumenti generali tra cui [!DNL Oracle] JDK per clienti Adobi
 
-## Accesso alla Distribuzione di software
+L’utilizzo di Software Distribution è semplice come:
 
-Vai a [https://experience.adobe.com/downloads](https://experience.adobe.com/downloads) e accedi alla [!UICONTROL Distribuzione di software] con il tuo Adobe ID.
+1. [Accesso alla distribuzione di software](#accessing)
+1. [Selezione del prodotto](#selecting)
+1. [Ricerca del download](#finding)
+1. [Download del software](#downloading)
+
+## Accesso alla Distribuzione di software {#accessing}
+
+Per accedere a Software Distribution, vai a [`https://experience.adobe.com/downloads`](https://experience.adobe.com/downloads) e accedi a [!UICONTROL Software Distribution] con il tuo Adobe ID.
+
+## Selezione del prodotto {#selecting}
+
+L’interfaccia utente di Software Distribution è organizzata per prodotto, come illustrato nel menu.
+
+![Menu organizzato per prodotti](assets/menu.png)
+
+Si accede alla scheda **Generale**, in cui è possibile trovare i download di software generici.
+
+Tocca o fai clic sul prodotto nel menu per il quale desideri scaricare il software. Possono essere scaricati solo i prodotti per i quali la tua organizzazione ha concesso la licenza.
+
+## Ricerca del download {#finding}
+
+Dopo aver selezionato la scheda prodotto desiderata, verranno visualizzati tutti i download correlati. Utilizza i filtri di ricerca nel pannello a sinistra per trovare rapidamente il download. Le opzioni di filtro variano a seconda del prodotto.
+
+![Filtri](assets/filters.png)
+
+## Download del software {#downloading}
+
+Toccando o facendo clic su un download visualizzato, si apre una finestra di dialogo contenente ulteriori informazioni sul download. Ad esempio, puoi visualizzare una descrizione, il nome del fornitore e il contratto di licenza.
+
+![Dettagli download](assets/details.png)
+
+Per abilitare il pulsante **Scarica**, è necessario accettare l&#39;EULA selezionando **Accetta termini EULA**.
+
+Puoi anche condividere un collegamento a quel particolare download toccando o facendo clic su **Condividi** per copiare l&#39;URL.
+
+## Condivisione pacchetti {#package-share}
+
+Nel mese di giugno 2020, [!UICONTROL Distribuzione software] ha sostituito [!UICONTROL Condivisione pacchetti] per AEM e [!DNL Neolane] per [!DNL Campaign]. Un’interfaccia utente intuitiva, una ricerca semplificata e una velocità di download notevolmente migliorata rendono il download di pacchetti software per prodotti di Experience Cloud un’esperienza migliore utilizzando Software Distribution.
 
 >[!IMPORTANT]
 >
->Le credenziali per l’accesso a [!UICONTROL Condivisione pacchetti] o [!DNL Neolane] non saranno valide per la [!UICONTROL Distribuzione di software], che offre la possibilità di accedere con gli standard di sicurezza di Adobe. Se non conosci il tuo Adobe ID, contatta l’amministratore del supporto all’interno della tua organizzazione.
-
-## Navigazione
-
-### Selezionare il prodotto
-
-Puoi scegliere i download del software dai prodotti per i quali l’azienda ha concesso la licenza. Il menu intestazione nella [!UICONTROL Distribuzione di software] mostra questi prodotti, inclusa la pagina iniziale **Generale** contenente i download di software generici. Seleziona il prodotto per il quale desideri scaricare il software.
-
-### Trovare il download
-
-Quando ti trovi sulla pagina di download del prodotto desiderato, vengono visualizzati sulla pagina tutti i download relativi al prodotto. La lista dei download potrebbe essere molto lunga e non permettere di trovare il download desiderato a una prima occhiata. Per questo motivo la [!UICONTROL Distribuzione di software] offre modalità semplici ma efficienti per trovare il download desiderato. Nella maggior parte dei casi risulta comodo utilizzare i filtri di ricerca sulla sinistra per trovare quello che cerchi nella lista di download. A seconda del prodotto, troverai filtri come versione, soluzione o tipo di software.
-
-Un’altra opzione è la ricerca a testo libero situata in alto a destra.
-
-In quanto parte della famiglia delle soluzioni Experience Cloud, la [!UICONTROL Distribuzione di software] consente di navigare nel contesto delle soluzioni Experience Cloud e utilizzare i servizi unificati di Experience Cloud, tra cui i servizi core, le notifiche personalizzate e molto altro.
-
-### Scaricare il software
-
-Facendo doppio clic su un download del software si aprirà una finestra di dialogo contenente maggiori informazioni. Ad esempio, potrai vedere una descrizione, il nome del fornitore e l’EULA, che è necessario accettare prima di procedere con il download.
-
-È possibile inoltre condividere un link a quel particolare download. Fai clic sul pulsante **Condividi** per copiare l’URL.
+>Le credenziali di accesso da [!UICONTROL Condivisione pacchetti] o [!DNL Neolane] non funzioneranno per [!UICONTROL Distribuzione software], che fornisce le funzionalità necessarie per accedere con gli standard di sicurezza Adobe. Se non conosci il tuo Adobe ID, contatta un amministratore del supporto all’interno della tua organizzazione.
 
 >[!NOTE]
 >
 >La [!UICONTROL Distribuzione di software] supporta esclusivamente i download dal browser. Durante l’utilizzo di [!UICONTROL Gestione pacchetti] di AEM per le nuove installazioni, si consiglia di scaricare il pacchetto in una cartella locale e installarlo da questa posizione.
-
-La [!UICONTROL Distribuzione di software] è stata creata con componenti AEM e con la tecnologia di Adobe Experience Manager as a [!UICONTROL Cloud Service].
