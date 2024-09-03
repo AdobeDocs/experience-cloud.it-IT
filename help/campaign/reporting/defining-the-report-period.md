@@ -5,14 +5,18 @@ audience: end-user
 level: Intermediate
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
 exl-id: 36506f7d-aeeb-41cf-b971-6e42e1c7cdc8
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: 62c2f2e7a6f5dd347749e963a655b717cd5c7310
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '238'
 ht-degree: 3%
 
 ---
 
 # Definizione del periodo del rapporto{#defining-the-report-period}
+
+>[!NOTE]
+>
+>La segnalazione dei dati è disponibile per gli ultimi 13 mesi. Per ulteriori informazioni sui periodi di conservazione dei dati, contatta i consulenti Adobe o i tuoi amministratori tecnici.
 
 Prima di iniziare o accedere a un rapporto, è necessario applicare un periodo di tempo. Il periodo specificato è accessibile in alto a destra nel rapporto.
 
