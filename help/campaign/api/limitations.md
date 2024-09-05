@@ -9,9 +9,9 @@ level: Experienced
 mini-toc-levels: 1
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: 6e4e214731b9772014d01dde89b3f80e4c4e93a6
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1063'
 ht-degree: 1%
 
 ---
@@ -128,10 +128,10 @@ L’API del flusso di lavoro di Campaign Standard GET restituisce i nomi dei par
 
 Campaign v8 non supporta le variabili dell’istanza del flusso di lavoro per la pubblicità, ma si aspetta che gli sviluppatori sappiano di cosa si tratta. Di conseguenza, dopo la migrazione, le informazioni sui parametri nel corpo della richiesta POST dovranno essere costruite senza la disponibilità di informazioni sui parametri nella risposta API GET.
 
-## Messaggi transazionali
+<!--## Transactional messages
 
-* Con Campaign Standard, una richiesta POST restituisce campi vuoti per elementi e attributi nel corpo della richiesta. Con Campaign v8, la risposta restituisce valori che corrispondono a quelli nel corpo della richiesta.
+* With Campaign Standard, a POST request returns empty fields for elements and attributes in the request body. With Campaign v8, the response returns values that match the ones in the request body instead.
 
-* Quando pubblichi la configurazione di un evento, il pannello di anteprima API visualizza l’URL REST insieme alla sintassi del corpo della richiesta.
+* When publishing an event configuration, the API preview panel displays the REST URL alongside the request body syntax.
 
-  Poiché Campaign v8 non supporta la definizione dei campi di configurazione dell’evento (la creazione dell’evento consiste semplicemente nell’aggiungere un valore all’enumerazione eventType), non è disponibile un pannello di anteprima API quando si aggiunge un tipo di evento. Una volta pubblicato un messaggio transazionale di evento, l’URL REST viene visualizzato nell’interfaccia utente dei messaggi transazionali.
+    Since Campaign v8 does not support event configuration fields definition (event creation is just adding a value to eventType enumeration), there is no API preview panel when adding an event type. The REST URL is displayed  in the transactional message user interface once an event transactional message is published.-->

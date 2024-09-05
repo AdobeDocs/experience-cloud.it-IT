@@ -8,9 +8,9 @@ role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 6e4e214731b9772014d01dde89b3f80e4c4e93a6
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Di seguito sono riportati alcuni esempi:
 
 * È possibile effettuare la registrazione online.
 * Gestione del profilo cliente esistente e delle preferenze di comunicazione marketing.
-* Attivazione della comunicazione transazionale basata su eventi: conferma dell’ordine, prenotazione dell’itinerario, reimpostazione della password, ecc.
+  <!--* Event based transactional communication triggering – order confirmation, booking Itinerary, password reset, etc.-->
 * Persino la comunicazione via e-mail di abbandono del carrello.
 
 Le pagine di destinazione per la registrazione consentono ai clienti attuali o potenziali di registrare il proprio nome e indirizzo e-mail. Una volta acquisite le informazioni e le preferenze del profilo, Campaign Standard può inviare messaggi personalizzati in base agli interessi della persona.
