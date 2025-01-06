@@ -3,10 +3,10 @@ title: Interfaccia utente web di Adobe Campaign
 description: Scopri l’interfaccia utente di Adobe Campaign Web
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
 exl-id: eecf4e13-820d-4454-9f11-f50be565bb79
-source-git-commit: 619453901147f83d691156a3b870d36b6caa1868
+source-git-commit: 57d64cb5436381e1dbad9add0d8fe117e6f11ecf
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -21,7 +21,7 @@ Inoltre, questa transizione comporterà molti vantaggi:
 * Integrazione con Adobe Experience Platform
 * Interfaccia utente ed esperienza coerenti
 
-Per ulteriori informazioni sulle funzionalità chiave e sulle differenze concettuali, consulta [questa pagina](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration).
+Per ulteriori informazioni sulle funzionalità chiave e sulle differenze concettuali, consulta [questa pagina](https://experienceleague.adobe.com/it/docs/campaign-web/v8/start/acs-migration).
 
 ## Novità
 
@@ -79,3 +79,4 @@ Puoi utilizzare le API REST per creare integrazioni per Adobe Campaign e creare 
     <td align="center"><a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/dynamic-content/gs-personalization"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
+
