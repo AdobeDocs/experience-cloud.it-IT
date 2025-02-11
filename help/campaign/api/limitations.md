@@ -9,9 +9,9 @@ level: Experienced
 mini-toc-levels: 1
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
-source-git-commit: 6e4e214731b9772014d01dde89b3f80e4c4e93a6
+source-git-commit: 952706ffafc1e7cd6a759bfbbb9c9200191544d9
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,7 @@ Per il momento, è possibile utilizzare le API REST elencate di seguito:
 * **Servizi e abbonamenti**
 * **Risorse personalizzate**
 * **Flussi di lavoro**
+* **Messaggi transazionali**
 
 >[!AVAILABILITY]
 >
