@@ -6,11 +6,11 @@ content-type: reference
 topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
-badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
+badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti di Campaign Standard migrati"
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 6f9c9dd7dcac96980bbf5f7228e021471269d187
+source-git-commit: 110fcdcbefef53677cf213a39f45eb5d446807c2
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '752'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Per il momento, la messaggistica transazionale utilizzando le API REST è disponibile solo per il canale e-mail e per gli eventi transazionali (i dati di arricchimento sono disponibili solo tramite payload, in modo simile a come funziona Adobe Campaign V8).
+>Per il momento, la messaggistica transazionale tramite API REST è disponibile per i canali e-mail e SMS. È disponibile solo per gli eventi transazionali (i dati di arricchimento sono disponibili solo tramite payload, in modo simile a come funziona Adobe Campaign V8).
 
 Dopo aver creato e pubblicato un evento transazionale, devi integrarne l’attivazione nel sito web.
 
@@ -40,15 +40,13 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;transactionalAPI>**: endpoint API per messaggi transazionali.
 
-  Il nome dell’endpoint API per messaggi transazionali dipende dalla configurazione dell’istanza. Corrisponde al valore &quot;mc&quot; seguito dal tuo ID organizzazione personale. Prendiamo l’esempio dell’azienda di Geometrixx, con &quot;geometrixx&quot; come ID organizzazione. In tal caso, la richiesta POST sarebbe la seguente:
+  Il nome dell’endpoint API per messaggi transazionali dipende dalla configurazione dell’istanza. Corrisponde al valore &quot;mc&quot; seguito dal tuo ID organizzazione personale. Prendiamo l’esempio dell’azienda Geometrixx, con &quot;geometrixx&quot; come ID organizzazione. In tal caso, la richiesta POST sarebbe la seguente:
 
   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-  Durante l’anteprima API è visibile anche l’endpoint API per messaggi transazionali.
-
 * **&lt;eventID>**: tipo di evento da inviare. Questo ID viene generato durante la creazione della configurazione dell’evento
 
-### Intestazione richiesta POST
+### Intestazione della richiesta POST
 
 La richiesta deve contenere un’intestazione &quot;Content-Type: application/json&quot;.
 
@@ -65,7 +63,7 @@ Aggiungere un set di caratteri, ad esempio **utf-8**. Questo valore dipende dall
 
 ### Corpo della richiesta POST
 
-I dati dell’evento sono contenuti nel corpo del POST JSON. La struttura dell’evento dipende dalla sua definizione. Il pulsante di anteprima API nella schermata di definizione delle risorse fornisce un esempio di richiesta.
+I dati dell’evento sono contenuti nel corpo del POST JSON. La struttura dell’evento dipende dalla sua definizione.
 
 Per gestire l’invio di messaggi transazionali collegati all’evento, è possibile aggiungere al contenuto dell’evento i seguenti parametri facoltativi:
 
@@ -76,9 +74,43 @@ Per gestire l’invio di messaggi transazionali collegati all’evento, è possi
 >
 >I valori dei parametri &quot;scadenza&quot; e &quot;programmati&quot; seguono il formato ISO 8601. ISO 8601 specifica l&#39;uso della lettera maiuscola &quot;T&quot; per separare la data e l&#39;ora. Tuttavia, può essere rimosso dall’input o dall’output per migliorarne la leggibilità.
 
+### Parametri del canale di comunicazione
+
+A seconda del canale da utilizzare, il payload deve contenere i parametri seguenti:
+
+* Canale e-mail: &quot;mobilePhone&quot;
+* Canale SMS: &quot;email&quot;
+
+Se il payload contiene solo &quot;mobilePhone&quot;, verrà attivato il canale di comunicazione SMS. Se il payload contiene solo &quot;e-mail&quot;, viene attivato il canale di comunicazione e-mail.
+
+L’esempio seguente mostra un payload in cui verrà attivata una comunicazione SMS:
+
+```
+curl --location 'https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment' \
+--header 'Authorization: Bearer <ACCESS_TOKEN>' \
+--header 'Cache-Control: no-cache' \
+--header 'X-Api-Key: <API_KEY>' \
+--header 'Content-Type: application/json;charset=utf-8' \
+--header 'Content-Length: 79' \
+--data '
+{
+  "mobilePhone":"+9999999999",
+  "scheduled":"2017-12-01 08:00:00.768Z",
+  "expiration":"2017-12-31 08:00:00.768Z",
+  "ctx":
+  {
+    "cartAmount": "$ 125",
+    "lastProduct": "Leather motorbike jacket",
+    "firstName": "Jack"
+  }
+}'
+```
+
+Se il payload include sia &quot;e-mail&quot; che &quot;telefono cellulare&quot;, il metodo di comunicazione predefinito sarà e-mail. Per inviare un SMS quando sono presenti entrambi i campi, è necessario specificarlo esplicitamente nel payload utilizzando il parametro &quot;wwishChannel&quot;.
+
 ### Risposta alla richiesta POST
 
-La risposta di POST restituisce lo stato dell’evento transazionale al momento della creazione. Per recuperare lo stato corrente (dati evento, stato evento...), utilizza la chiave primaria restituita dalla risposta del POST in una richiesta GET:
+La risposta POST restituisce lo stato dell’evento transazionale al momento della creazione. Per recuperare lo stato corrente (dati evento, stato evento...), utilizza la chiave primaria restituita dalla risposta POST in una richiesta GET:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>/`
 
@@ -86,7 +118,7 @@ La risposta di POST restituisce lo stato dell’evento transazionale al momento 
 
 ***Richiesta di esempio***
 
-POST richiede di inviare l’evento.
+richiesta POST per inviare l’evento.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment \
@@ -97,7 +129,10 @@ POST richiede di inviare l’evento.
 -H 'Content-Length:79'
 
 {
-  "email":"test@example.com",
+  "
+  
+  
+  ":"test@example.com",
   "scheduled":"2017-12-01 08:00:00.768Z",
   "expiration":"2017-12-31 08:00:00.768Z",
   "ctx":
