@@ -28,7 +28,7 @@ Per aggiungere un nuovo campo del profilo, devi estendere lo schema, segui i pas
 
    ![](assets/custom_field_1.png)
 
-1. Identifica lo schema destinatario personalizzato e selezionalo. Se non hai ancora esteso lo schema predefinito nms:recipient, fai riferimento a [questa procedura](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
+1. Identifica lo schema destinatario personalizzato e selezionalo. Se non hai ancora esteso lo schema predefinito nms:recipient, fai riferimento a [questa procedura](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
 
 1. Aggiungi il campo personalizzato all’editor schema.
 
@@ -42,7 +42,7 @@ Per aggiungere un nuovo campo del profilo, devi estendere lo schema, segui i pas
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-1. Quindi, identifica lo schema broadLogRcp personalizzato e selezionalo. Se non hai ancora esteso lo schema del registro di consegna integrato, fai riferimento a [questa procedura](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
+1. Quindi, identifica lo schema broadLogRcp personalizzato e selezionalo. Se non hai ancora esteso lo schema del registro di consegna integrato, fai riferimento a [questa procedura](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
 
 1. Aggiungi lo stesso campo personalizzato dello schema Destinatario all’editor schema.
 
@@ -50,7 +50,7 @@ Per aggiungere un nuovo campo del profilo, devi estendere lo schema, segui i pas
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-1. Per applicare le modifiche apportate agli schemi, avviare la procedura guidata di aggiornamento del database tramite **[!UICONTROL Strumenti]** > **[!UICONTROL Avanzate]** > **[!UICONTROL Aggiorna struttura database]** ed eseguire Aggiorna struttura database. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
+1. Per applicare le modifiche apportate agli schemi, avviare la procedura guidata di aggiornamento del database tramite **[!UICONTROL Strumenti]** > **[!UICONTROL Avanzate]** > **[!UICONTROL Aggiorna struttura database]** ed eseguire Aggiorna struttura database. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
 
    ![](assets/custom_field_4.png)
 

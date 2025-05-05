@@ -26,7 +26,7 @@ Il modello verrà collegato al brand. Nell’editor e-mail, gli elementi come l�
 
 >[!TAB Adobe Campaign V8]
 
-Per creare un modello di consegna, puoi duplicare un modello incorporato, convertire una consegna esistente in un modello o creare un modello di consegna da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates)
+Per creare un modello di consegna, puoi duplicare un modello incorporato, convertire una consegna esistente in un modello o creare un modello di consegna da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/send/create-templates)
 
 Una volta creato il modello, puoi collegarlo a un brand. Per eseguire questa operazione:
 
@@ -50,7 +50,7 @@ Ora puoi utilizzare questo modello per inviare le consegne.
 
 >[!TAB Adobe Campaign Web]
 
-Per creare un modello di consegna, puoi duplicare un modello incorporato, convertire una consegna esistente in un modello o creare un modello di consegna da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-template)
+Per creare un modello di consegna, puoi duplicare un modello incorporato, convertire una consegna esistente in un modello o creare un modello di consegna da zero. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign-web/v8/msg/delivery-template)
 
 Una volta creato il modello, puoi collegarlo a un brand. Per eseguire questa operazione:
 
@@ -98,7 +98,7 @@ Per creare una nuova consegna autonoma, segui i passaggi indicati di seguito.
 
 1. Una volta configurata, selezionare **OK**.
 
-1. Personalizza ulteriormente le consegne. Per ulteriori informazioni sulla creazione di un&#39;e-mail, consulta la sezione [Progettare e inviare e-mail](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email).
+1. Personalizza ulteriormente le consegne. Per ulteriori informazioni sulla creazione di un&#39;e-mail, consulta la sezione [Progettare e inviare e-mail](https://experienceleague.adobe.com/it/docs/campaign-web/v8/msg/email/create-email).
 
 >[!TAB Adobe Campaign Web]
 
@@ -124,6 +124,6 @@ Per creare una nuova consegna autonoma, segui i passaggi indicati di seguito.
 
    ![](assets/branding_assign_web_7.png)
 
-1. Personalizza ulteriormente le consegne. Per ulteriori informazioni sulla creazione di un&#39;e-mail, consulta la sezione [Creare la prima e-mail](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email).
+1. Personalizza ulteriormente le consegne. Per ulteriori informazioni sulla creazione di un&#39;e-mail, consulta la sezione [Creare la prima e-mail](https://experienceleague.adobe.com/it/docs/campaign-web/v8/msg/email/create-email).
 
 >[!ENDTABS]

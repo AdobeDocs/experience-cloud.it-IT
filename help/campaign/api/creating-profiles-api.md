@@ -23,7 +23,7 @@ La creazione dei profili viene eseguita con una richiesta **POST** nella risorsa
 >
 >Se si desidera associare una <b>orgUnit</b> al profilo creato, è necessario estendere la risorsa profilo a questo campo e, dopo la pubblicazione dell&#39;estensione, eseguire una richiesta POST sull&#39;endpoint <b>ProfileAndServicesExt</b>.
 >
->Per ulteriori informazioni sull&#39;estensione della risorsa del profilo, consulta la <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">documentazione di Campaign</a>.
+>Per ulteriori informazioni sull&#39;estensione della risorsa del profilo, consulta la <a href="https://helpx.adobe.com/it/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">documentazione di Campaign</a>.
 
 <br/>
 

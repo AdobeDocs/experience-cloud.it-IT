@@ -32,7 +32,7 @@ Per controllare un flusso di lavoro sono disponibili quattro comandi di esecuzio
 * Riprendi
 * Interruzione
 
-Per ulteriori informazioni sui comandi di esecuzione, consulta la [documentazione di Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
+Per ulteriori informazioni sui comandi di esecuzione, consulta la [documentazione di Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html?lang=it).
 
 <br/>
 
