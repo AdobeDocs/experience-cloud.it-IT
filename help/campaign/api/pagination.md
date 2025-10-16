@@ -4,11 +4,11 @@ description: Scopri come eseguire le operazioni di impaginazione.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
+badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti di Campaign Standard migrati"
 exl-id: d6ebce3c-1e84-4b3b-a68d-90df4680af64
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Il parametro **_lineCount** ti consente di limitare il numero di risorse elencat
 
 ***Richiesta di esempio***
 
-Richiesta di GET di esempio per visualizzare 1 record della risorsa profilo.
+Richiesta GET di esempio per visualizzare 1 record della risorsa profilo.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
@@ -74,4 +74,4 @@ Per impostazione predefinita, il nodo **next** non è disponibile quando si inte
 
 >[!NOTE]
 >
->Il numero di record al di sopra dei quali una tabella viene considerata grande è definito nell&#39;opzione Campaign Standard **XtkBigTableThreshold**. Il valore predefinito è 100.000 record.
+>Il numero di record al di sopra dei quali una tabella viene considerata grande è definito nell&#39;opzione **XtkBigTableThreshold** di Campaign Standard. Il valore predefinito è 100.000 record.

@@ -1,14 +1,14 @@
 ---
 title: Verbi GET / POST / PATCH / DELETE
-description: Ulteriori informazioni sui verbi utilizzati nelle API Campaign Standard.
+description: Ulteriori informazioni sui verbi utilizzati nelle API di Campaign Standard.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
+badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti di Campaign Standard migrati"
 exl-id: de97a194-d497-4665-906e-53178fd3b119
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -30,7 +30,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
 
 ***Richieste di esempio***
 
-* Richiesta di GET di esempio per la raccolta di profili.
+* Richiesta GET di esempio sulla raccolta di profili.
 
 
   ```
@@ -66,7 +66,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
   }
   ```
 
-* Richiesta di GET di esempio per un profilo specifico.
+* Richiesta GET di esempio per un profilo specifico.
 
 
   ```
@@ -92,7 +92,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
   }
   ```
 
-* Richiesta POST di esempio per la creazione di un profilo.
+* Richiesta POST di esempio per creare un profilo.
 
 
   ```
@@ -116,7 +116,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
   }
   ```
 
-* Richiesta di esempio di PATCH per aggiornare un profilo.
+* Richiesta PATCH di esempio per aggiornare un profilo.
 
   ```
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -136,7 +136,7 @@ I verbi disponibili per eseguire operazioni sulle risorse sono:
   }
   ```
 
-* Richiesta di esempio di DELETE per eliminare un profilo.
+* Richiesta DELETE di esempio per eliminare un profilo.
 
   ```
   -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \

@@ -4,11 +4,11 @@ description: Scopri come eseguire le operazioni di ordinamento
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
+badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti di Campaign Standard migrati"
 exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 10%
@@ -25,7 +25,7 @@ Per sapere se un campo può essere ordinato, controlla il parametro &quot;sortab
 
 ***Richieste di esempio***
 
-* Richiesta di GET di esempio per recuperare le e-mail nel database in ordine alfabetico.
+* Richiesta GET di esempio per recuperare le e-mail nel database in ordine alfabetico.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email \
@@ -50,7 +50,7 @@ Per sapere se un campo può essere ordinato, controlla il parametro &quot;sortab
   }
   ```
 
-* Richiesta di GET di esempio per recuperare l’e-mail nel database in ordine alfabetico decrescente.
+* Richiesta GET di esempio per recuperare l’e-mail nel database in ordine alfabetico decrescente.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \

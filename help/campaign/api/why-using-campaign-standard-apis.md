@@ -4,11 +4,11 @@ description: Ulteriori informazioni sulle API di Campaign Standard e sui motivi 
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
+badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti di Campaign Standard migrati"
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
-source-git-commit: 6e4e214731b9772014d01dde89b3f80e4c4e93a6
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Di seguito sono riportati alcuni esempi:
   <!--* Event based transactional communication triggering – order confirmation, booking Itinerary, password reset, etc.-->
 * Persino la comunicazione via e-mail di abbandono del carrello.
 
-Le pagine di destinazione per la registrazione consentono ai clienti attuali o potenziali di registrare il proprio nome e indirizzo e-mail. Una volta acquisite le informazioni e le preferenze del profilo, Campaign Standard può inviare messaggi personalizzati in base agli interessi della persona.
+Le pagine di destinazione per la registrazione consentono ai clienti attuali o potenziali di registrare il proprio nome e indirizzo e-mail. Una volta che Campaign Standard acquisisce le informazioni e le preferenze del profilo, può inviare messaggi personalizzati in base agli interessi della persona.
 
 Sono costruiti con gli elementi seguenti:
 
@@ -40,7 +40,7 @@ Sono costruiti con gli elementi seguenti:
 
    ![testo alternativo](assets/apis_uc2.png)
 
-1. Un profilo può modificare i propri dettagli dopo aver fatto clic sul collegamento &quot;Aggiorna dettagli&quot; nell’e-mail. Questo porta il profilo alla pagina &quot;Aggiorna il profilo e i dettagli delle preferenze&quot;. Per eseguire l’operazione, i dettagli del profilo (Pkey) vengono passati al server Campaign e il profilo viene recuperato e rappresentato. Una volta che il profilo fa clic sul pulsante &quot;Aggiorna&quot;, le informazioni vengono aggiornate nel sistema (tramite un comando PATCH).
+1. Un profilo può modificare i propri dettagli dopo aver fatto clic sul collegamento &quot;Aggiorna dettagli&quot; nell’e-mail. Questo porta il profilo alla pagina &quot;Aggiorna il profilo e i dettagli delle preferenze&quot;. Per eseguire l’operazione, i dettagli del profilo (Pkey) vengono passati al server Campaign e il profilo viene recuperato e rappresentato. Quando il profilo fa clic sul pulsante &quot;Aggiorna&quot;, le informazioni vengono aggiornate nel sistema (tramite un comando PATCH).
 
    ![testo alternativo](assets/apis_uc3.png)
 
@@ -72,6 +72,6 @@ I passaggi seguenti descrivono un caso d’uso dettagliato per importare e utili
 
    ![testo alternativo](assets/postman_uc3.png)
 
-1. Apri l’istanza di Campaign Standard, quindi verifica che il profilo sia stato creato, con tutte le informazioni del payload.
+1. Apri l’istanza di Campaign Standard, quindi controlla che sia stato creato il profilo, con tutte le informazioni del payload.
 
    ![testo alternativo](assets/postman_uc4.png)

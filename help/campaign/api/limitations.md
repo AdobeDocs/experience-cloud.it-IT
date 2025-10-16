@@ -1,22 +1,22 @@
 ---
-title: Recommendations e limitazioni
-description: Recommendations e limitazioni durante la migrazione alle API REST di Campaign v8.
+title: Raccomandazioni e limitazioni
+description: Raccomandazioni e limitazioni durante la migrazione alle API REST di Campaign v8.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 mini-toc-levels: 1
-badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
+badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti di Campaign Standard migrati"
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
-source-git-commit: 952706ffafc1e7cd6a759bfbbb9c9200191544d9
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1061'
 ht-degree: 1%
 
 ---
 
-# Recommendations e limitazioni {#limitations}
+# Raccomandazioni e limitazioni {#limitations}
 
 ## Autorizzazioni e sicurezza {#permissions}
 
@@ -70,7 +70,7 @@ Per il momento, è possibile utilizzare le API REST elencate di seguito:
 
 Alcuni campi del database vengono eliminati durante la migrazione. Quando si utilizza un campo rilasciato, le API REST restituiscono valori vuoti. In futuro, tutti i campi rilasciati diventeranno obsoleti e verranno rimossi.
 
-## POST con risorse collegate
+## PUBBLICA con risorse collegate
 
 Quando si utilizza il seguente formato del corpo della richiesta, con &quot;vehicleOwner&quot; che rappresenta il collegamento a &quot;nms:recipient&quot;:
 
@@ -92,13 +92,13 @@ In Campaign v8, quando si utilizza la stessa struttura del corpo della richiesta
 ## Operazioni PATCH
 
 * Campaign v8 non supporta PATCH con un corpo di richiesta vuoto: restituisce lo stato 204 Nessun contenuto.
-* Campaign Standard supporta PATCH su elementi/attributi all’interno di uno schema, ma non in Campaign v8 è supportata alcuna operazione PATCH sulla posizione. Se si tenta di individuare un PATCH nel percorso, si verifica un errore interno del server 500 con un messaggio di errore che indica che la proprietà &#39;zipCode&#39; non è valida per la risorsa &#39;profile&#39;.
+* Sebbene Campaign Standard supporti PATCH per gli elementi/attributi all’interno di uno schema, le operazioni PATCH sulla posizione non sono supportate in Campaign v8. Il tentativo di eseguire un PATCH nel percorso genera un errore interno del server 500 con un messaggio di errore che indica che la proprietà &#39;zipCode&#39; non è valida per la risorsa &#39;profile&#39;.
 
 ## Risposte REST
 
 La sezione seguente elenca differenze minori tra le risposte REST di Campaign Standard e v8.
 
-* Per i record a GET singolo, la risposta include il href nella risposta.
+* Per singoli record GET, la risposta include il href nella risposta.
 * Quando viene eseguita una query con l’attributo, Campaign v8 fornisce i valori Count e Pagination nella risposta.
 * Dopo le operazioni POST, i valori delle risorse collegate vengono restituiti nella risposta.
 
@@ -108,11 +108,11 @@ La sezione seguente elenca le differenze tra i codici di errore e i messaggi di 
 
 | Scenario | Campaign Standard | Campaign v8 |
 |  ---  |  ---  |  ---  |
-| Usa una chiave PKey non valida nel corpo della richiesta | 500 - Attributo &#39;O5iRp40EGA&#39; sconosciuto (vedi definizione dello schema &#39;Profiles (nms:recipient)&#39;). XTK-170036 Impossibile analizzare l’espressione &quot;@id = @O5iRp40EGA&quot;. | 404 - Impossibile decrittografare PKey. (PKey=@jksad) |
-| Usa una chiave PKey non valida nell&#39;URI | 500 - Attributo &#39;O5iRp40EGA&#39; sconosciuto (vedi definizione dello schema &#39;Profiles (nms:recipient)&#39;). XTK-170036 Impossibile analizzare l’espressione &quot;@id = @O5iRp40EGA&quot;. | 404 - Impossibile decrittografare PKey. (PKey=@jksad) Endpoint non supportato. (endpoint=rest/profileAndServices/profile/@jksad) |
+| Usa una chiave PKey non valida nel corpo della richiesta | 500 - Attributo &#39;O5iRp40EGA&#39; sconosciuto (vedere la definizione dello schema &#39;Profiles (nms:recipient)&#39;). XTK-170036 Impossibile analizzare l’espressione &quot;@id = @O5iRp40EGA&quot;. | 404 - Impossibile decrittografare PKey. (PKey=@jksad) |
+| Usa una chiave PKey non valida nell&#39;URI | 500 - Attributo &#39;O5iRp40EGA&#39; sconosciuto (vedere la definizione dello schema &#39;Profiles (nms:recipient)&#39;). XTK-170036 Impossibile analizzare l’espressione &quot;@id = @O5iRp40EGA&quot;. | 404 - Impossibile decrittografare PKey. (PKey=@jksad) Endpoint non supportato. (endpoint=rest/profileAndServices/profile/@jksad) |
 | Utilizzo di due diverse chiavi non elaborate nell’URI e nel corpo della richiesta | 500 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. RST-360012 Operazione non coerente sulla risorsa &#39;service&#39;. Impossibile aggiornare la chiave &#39;SVC3&#39; a &#39;SVC4&#39;. | 500 - Si è verificato un errore - contatta l’amministratore. |
 | Utilizzo di PKey nell’URI e di una PKey non elaborata diversa nel corpo della richiesta | 500 - Esiste già un &quot;Servizio&quot; con la stessa chiave &quot;SVC4&quot;. Errore PGS-220000 PostgreSQL: ERRORE: il valore di chiave duplicato viola il vincolo univoco &quot;nmsservice_name&quot; DETAIL: la chiave (sname)=(SVC4) esiste già. | 500 - Si è verificato un errore - contatta l’amministratore. |
-| Utilizzo di un raw-id non esistente nell’URI | 404 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. Impossibile trovare il documento con il percorso &quot;Servizio&quot; dalla chiave &quot;adobe_nl:0&quot; (documento con schema &quot;servizio&quot; e nome &quot;adobe_nl&quot;) | 404 - Impossibile trovare il documento con il percorso &quot;Service&quot; dalla chiave &quot;adobe_nl&quot; (documento con schema &quot;service&quot; e nome &quot;adobe_nl&quot;) |
+| Utilizzo di un raw-id non esistente nell’URI | 404 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. Impossibile trovare il documento con il percorso &#39;Service&#39; dalla chiave &#39;adobe_nl:0&#39; (documento con schema &#39;service&#39; e nome &#39;adobe_nl&#39;) | 404 - Impossibile trovare il documento con il percorso &quot;Service&quot; dalla chiave &quot;adobe_nl&quot; (documento con schema &quot;service&quot; e nome &quot;adobe_nl&quot;) |
 | Utilizzo di un raw-id non esistente nel corpo della richiesta | 404 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. Impossibile trovare il documento con il percorso &quot;Servizio&quot; dalla chiave &quot;adobe_nl&quot; (documento con schema &quot;servizio&quot; e nome &quot;adobe_nl&quot;) | 404 - Impossibile trovare il documento con il percorso &quot;Service&quot; dalla chiave &quot;adobe_nl&quot; (documento con schema &quot;service&quot; e nome &quot;adobe_nl&quot;) |
 | - | 500 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. | 500 - Si è verificato un errore - contatta l’amministratore. |
 | Inserisci un profilo/servizio con un valore enum di genere (o altro) non valido | 500 - RST-360011 Si è verificato un errore. Contattare l&#39;amministratore. Il valore &#39;invalid&#39; non è valido per l&#39;enumerazione &#39;nms:recipient:gender&#39; del campo &#39;@gender&#39; | 500 - Si è verificato un errore. Contattare l&#39;amministratore. |
@@ -125,9 +125,9 @@ Con Campaign v8, il fuso orario viene visualizzato all’utente solo come parte 
 
 ## Flussi di lavoro - Attivazione segnale esterno
 
-L’API del flusso di lavoro di Campaign Standard GET restituisce i nomi dei parametri, come le variabili dell’istanza del flusso di lavoro e i relativi tipi di dati (booleano, stringa, ecc.). Viene utilizzato per creare un corpo di richiesta JSON formattato in modo appropriato quando si attiva il segnale tramite una chiamata API POST.
+L’API GET del flusso di lavoro di Campaign Standard restituisce nomi di parametri come le variabili dell’istanza del flusso di lavoro e i relativi tipi di dati (booleano, stringa, ecc.). Viene utilizzato per creare un corpo di richiesta JSON formattato in modo appropriato quando si attiva il segnale tramite una chiamata API POST.
 
-Campaign v8 non supporta le variabili dell’istanza del flusso di lavoro per la pubblicità, ma si aspetta che gli sviluppatori sappiano di cosa si tratta. Di conseguenza, dopo la migrazione, le informazioni sui parametri nel corpo della richiesta POST dovranno essere costruite senza la disponibilità di informazioni sui parametri nella risposta API GET.
+Campaign v8 non supporta le variabili dell’istanza del flusso di lavoro per la pubblicità, ma si aspetta che gli sviluppatori sappiano di cosa si tratta. Di conseguenza, dopo la migrazione, le informazioni sui parametri nel corpo della richiesta POST dovranno essere create senza la disponibilità di informazioni sui parametri nella risposta API di GET.
 
 <!--## Transactional messages
 

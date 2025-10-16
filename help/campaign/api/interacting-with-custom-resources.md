@@ -4,11 +4,11 @@ description: Ulteriori informazioni sulla gestione delle risorse personalizzate 
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
+badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti di Campaign Standard migrati"
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Di seguito è riportato un esempio per recuperare i metadati da una risorsa pers
 GET /customResources/resourceType/<customResourceName>
 ```
 
-Per eseguire una creazione, un aggiornamento o un’eliminazione, vengono utilizzati GET, POST, PATCH e DELETE.
+Per eseguire una creazione, un aggiornamento o un’eliminazione, vengono utilizzati GET, POST, PATCH, DELETE.
 
 ```
 POST /customResources/<customResourceName>

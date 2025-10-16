@@ -4,11 +4,11 @@ description: Da leggere prima di utilizzare le API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
+badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti di Campaign Standard migrati"
 exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -20,14 +20,14 @@ ht-degree: 0%
 ## Requisiti tecnici
 
 * Le API di Adobe Campaign devono essere utilizzate solo da server a server.
-* Verifica sempre con il tuo contatto tecnico Adobe se il caso d’uso che desideri implementare è allineato alla scala consentita dalle API di Adobe Campaign.
+* Verifica sempre con il tuo contatto tecnico Adobe se il caso di utilizzo che desideri implementare è allineato alla scala consentita dalle API di Adobe Campaign.
 * Per impostare un accesso AdobeIO sono necessarie autorizzazioni specifiche, contatta il supporto Adobe per eventuali problemi.
 
 ## Diritti e accesso
 
 * Per impostazione predefinita, le API di Adobe Campaign utilizzano il contesto dell’amministratore e pertanto le unità organizzative e i ruoli non sono applicabili.
 * Le API di Adobe Campaign sono escluse dal contesto del ruolo.
-* Se desideri configurare le API con uno o più ruoli dell’organizzazione, rivolgiti prima al tuo Adobe di contatto tecnico.
+* Se desideri configurare le API con uno o più ruoli dell’organizzazione, rivolgiti prima al contatto tecnico di Adobe.
 
 ## Rappresentazione delle risorse
 
@@ -65,7 +65,7 @@ Se la risorsa profilo è stata estesa con un campo chiave personalizzato, puoi u
 
 `GET /.../profileAndServicesExt/profile/<customKey>`
 
-Le chiavi personalizzate non possono essere modificate con un’operazione PATCH se il valore della chiave è diverso dalla chiave di origine o se si utilizza come URI la propria chiave aziendale invece di quella fornita da Adobe.
+Le chiavi personalizzate non possono essere modificate con un’operazione PATCH se il valore della chiave è diverso dalla chiave di origine o se utilizzi una chiave aziendale personalizzata come URI invece di quella fornita da Adobe.
 
 Utilizza una chiave personalizzata solo per **risorse di profilo di primo livello**. Gli URL vengono restituiti dall’API e non devono mai essere generati da soli.
 
@@ -73,7 +73,7 @@ Utilizza una chiave personalizzata solo per **risorse di profilo di primo livell
 
 ***Richiesta di esempio***
 
-Per recuperare le sottoscrizioni di un profilo utilizzando una chiave personalizzata, eseguire un&#39;operazione di GET sulla chiave personalizzata.
+Per recuperare le sottoscrizioni di un profilo utilizzando una chiave personalizzata, eseguire un&#39;operazione GET sulla chiave personalizzata.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<customKey> \
@@ -83,7 +83,7 @@ Per recuperare le sottoscrizioni di un profilo utilizzando una chiave personaliz
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Esegui una richiesta GET sull’URL di abbonamenti restituito.
+Esegui una richiesta GET sull’URL degli abbonamenti restituito.
 
 ```
 -X GET <SUBSCRIPTION_URL> \
