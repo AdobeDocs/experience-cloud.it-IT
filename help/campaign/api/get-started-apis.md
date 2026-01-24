@@ -42,4 +42,4 @@ Le API fornite sfruttano **concetti standard** con un’interfaccia REST e paylo
 
 In questa documentazione sono descritti dettagliatamente tutti gli endpoint con le nozioni generali da conoscere per la manipolazione dell’API, il riferimento API completo, gli esempi di codice e le guide di avvio rapido. Tutti gli esempi funzionano con Postman, ma puoi usare il client REST che preferisci.
 
-Se qualcosa dovesse mancare o sembrare sbagliato, chiedi nella [community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community).
+Se qualcosa dovesse mancare o sembrare sbagliato, chiedi nella [community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=it).
