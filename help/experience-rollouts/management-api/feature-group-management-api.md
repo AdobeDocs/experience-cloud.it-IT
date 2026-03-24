@@ -1,10 +1,10 @@
 ---
 title: API di gestione dei gruppi di funzioni
 description: Riferimento API per l'API di gestione dei gruppi di funzioni dei rollout di esperienza, inclusi gli endpoint per ottenere, creare, aggiornare, eliminare e controllare i piani di rollout per i gruppi di funzioni.
-source-git-commit: 8a92b7a3e8c52da8bb2474f52c831e159420b878
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 13%
+source-wordcount: '575'
+ht-degree: 14%
 
 ---
 
@@ -90,28 +90,6 @@ Il corpo della richiesta utilizza l&#39;[oggetto gruppo di funzionalità](#featu
 }
 ```
 
-**Esempio: rollout automatico:**
-
-```json
-{
-  "params": { "rolloutType": "automated", "label": "my-automated-group", "tags": [] },
-  "status": "SAVED",
-  "type": "group",
-  "name": "my.automated.group",
-  "variations": [{ "variantPercentage": 100, "variantName": "Variant 1", "features": [] }],
-  "phaseRollOutPlan": {
-    "phaseRollOutBlocks": [
-      { "isPhaseBlock": true, "phaseRule": { "audience": [] }, "waitRule": null, "blockId": 1, "blockName": "", "isBlockActivated": false },
-      { "isPhaseBlock": false, "phaseRule": null, "waitRule": { "waitDuration": { "val": "2", "unit": "HOURS" } }, "blockId": 2, "blockName": "", "isBlockActivated": false },
-      { "isPhaseBlock": true, "phaseRule": { "audience": [] }, "waitRule": null, "blockId": 3, "blockName": "", "isBlockActivated": false }
-    ],
-    "rollOutPlanState": "DRAFT"
-  },
-  "clients": [],
-  "org": { "id": 95 }
-}
-```
-
 ### Risposta {#create-response}
 
 | Stato | Descrizione |
@@ -136,29 +114,6 @@ Aggiorna un gruppo di funzioni esistente. Passa la stessa struttura del corpo de
 | `200` | Operazione completata. Il corpo della risposta è l&#39;oggetto gruppo di funzioni aggiornato. |
 | `400` | Payload non valido. |
 | `403` | Autorizzazioni insufficienti. |
-
-## Sospendere, riprendere o interrompere un piano di rollout {#pause-resume-abort}
-
-Controlla l’esecuzione di un piano di rollout di test A/B automatizzato o in corso.
-
-| Azione | Endpoint |
-|---|---|
-| **Riprendi** | `POST /m/api/v1/mgmt/phaserollout/resume` |
-| **Pausa** | `POST /m/api/v1/mgmt/phaserollout/pause` |
-| **Interrompi** | `POST /m/api/v1/mgmt/phaserollout/abort` |
-
-### Corpo della richiesta {#control-request-body}
-
-```json
-{
-  "entityId": 10282,
-  "fgEntityType": "GROUP"
-}
-```
-
-### Risposta {#control-response}
-
-Restituisce `true` al completamento.
 
 ## Elimina gruppo di funzioni {#delete-group}
 
@@ -230,4 +185,3 @@ Ogni blocco in `phaseRollOutBlocks` è un **blocco di fase** (`isPhaseBlock: tru
 * [Panoramica delle API di gestione delle funzioni](feature-management-apis-overview.md)
 * [API di gestione dei flag di funzione](feature-flags-management-api.md)
 * [API delle patch di gestione](management-patch-api.md)
-* [Creare un rollout automatico](../guides/automated-rollouts/create-automated-rollout.md)

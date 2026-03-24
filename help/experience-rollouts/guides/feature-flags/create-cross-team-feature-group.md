@@ -1,9 +1,9 @@
 ---
 title: Creare un gruppo di funzioni cross-team
 description: Scopri come creare un gruppo di funzioni cross-team nei Rollout di esperienza Adobe per coordinare i flag di funzioni tra le applicazioni di proprietà di team diversi.
-source-git-commit: a1ed4582217001ffcf500cd7b634d9959adbe028
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '594'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Avvia il processo di creazione dalla sezione Versioni della console:
 Specifica un titolo, una chiave, una descrizione e, facoltativamente, un tag. Configura le seguenti opzioni:
 
 * **Rollout percentuale**: imposta la quantità di pubblico che riceve la funzione.
-* **Tipo di rollout**: scegliere Manuale o Automatico. Consulta [Rollout automatizzati](../automated-rollouts/automated-rollout-concept.md) per informazioni dettagliate sul funzionamento dei rollout automatizzati.
+* **Tipo di rollout** — Impostato su Manuale. La percentuale viene gestita passo dopo passo con l’avanzamento del rollout.
 
 >[!NOTE]
 >
@@ -91,4 +91,3 @@ Consulta [Versioni e gruppi di funzioni cross-team](releases-and-cross-team-feat
 
 * [Versioni e gruppi di funzioni cross-team](releases-and-cross-team-feature-groups.md)
 * [Creare un gruppo di funzioni](create-a-feature-group.md)
-* [Creare un rollout automatico](../automated-rollouts/create-automated-rollout.md)

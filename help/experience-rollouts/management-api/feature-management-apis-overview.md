@@ -1,9 +1,9 @@
 ---
 title: Panoramica delle API di gestione delle funzioni
 description: Panoramica delle API di gestione dei rollout di esperienza, che consentono di creare, leggere, aggiornare ed eliminare i flag di funzione, i gruppi di funzioni e le versioni a livello di programmazione.
-source-git-commit: 6ecedbfc6c7de392f214f3f8f2e71aa18e1bacb9
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Le API di gestione dei rollout di esperienza consentono di gestire i flag di fun
 Sono disponibili le seguenti API di gestione:
 
 * [API per la gestione dei flag di funzionalità](feature-flags-management-api.md): creazione, lettura, aggiornamento ed eliminazione dei flag di funzionalità per un&#39;applicazione.
-* [API per la gestione dei gruppi di funzioni](feature-group-management-api.md): crea, leggi, aggiorna, elimina e controlla i piani di rollout automatizzati per i gruppi di funzioni.
+* [API per la gestione dei gruppi di funzionalità](feature-group-management-api.md): consente di creare, leggere, aggiornare ed eliminare gruppi di funzionalità.
 * [API per la gestione delle versioni](release-management-apis.md) — Crea e modifica gruppi di funzioni e versioni cross-team.
 
 ## Requisiti comuni {#common-requirements}
@@ -45,6 +45,5 @@ Le seguenti guide aiutano a creare i payload API corretti:
 
 ## Vedi anche {#see-also}
 
-* [API per funzioni GET V3](../feature-api/get-feature-api-v3.md)
-* [API per funzioni GET V2](../feature-api/get-feature-api-v2.md)
+* **API delle funzionalità di GET V3** e **API delle funzionalità di GET V2**. Per i riferimenti completi, vedere la sezione API delle funzionalità di questa guida.
 * [Iscriviti all’applicazione API](../guides/integrate/subscribe-to-api-application.md)
