@@ -1,13 +1,13 @@
 ---
 title: Creare il primo flag di funzione
 description: Scopri come creare un flag di funzione nei rollout di esperienza di Adobe, impostare un pubblico e testarlo prima di distribuirlo agli utenti.
-source-git-commit: ae420329b94b24fcd173734b414aecf1c5fc16ca
+exl-id: ae115120-8da9-465e-a556-c17591ea7054
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
-
 
 # Creare il primo flag di funzione {#create-feature-flag}
 
@@ -16,9 +16,8 @@ ht-degree: 0%
 Prima di creare un flag di feature, effettuate le seguenti operazioni:
 
 * Hai accesso alla console Rollout esperienza. Vedi [Accedi alla console](../console/log-in-to-the-console.md)
-* Appartieni a un team. Vedi [Gestione team](../teams/manage-teams.md)
 * L&#39;applicazione è stata integrata. Vedere [Eseguire l&#39;installazione dell&#39;applicazione](../applications/onboard-your-application.md)
-* Hai il ruolo **Sviluppatore** o **Proprietario versione prodotto**. Vedi [Ruoli utente](../teams/user-roles.md)
+* Hai il ruolo **Sviluppatore** o **Proprietario versione prodotto**
 
 ## Passaggio 1: creare il flag di funzione {#create}
 
@@ -61,4 +60,3 @@ Il ruolo **Sviluppatore** è in modalità sandbox. Gli sviluppatori possono test
 
 * [Impostare una funzione per il rollout graduale](set-feature-gradual-rollout.md)
 * [Creare un gruppo di funzioni](create-a-feature-group.md)
-* [Ruoli utente](../teams/user-roles.md)

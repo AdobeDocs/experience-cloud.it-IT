@@ -1,13 +1,13 @@
 ---
 title: Richiedi accesso
 description: Scopri come richiedere l’accesso a un team di Rollout esperienza Adobe e i ruoli disponibili per i nuovi membri.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '256'
 ht-degree: 1%
 
 ---
-
 
 # Richiedi accesso {#request-access}
 
@@ -17,7 +17,7 @@ L’accesso ai Rollout dell’esperienza viene gestito a livello di team. Per ut
 
 Prima di richiedere l’accesso, verifica quanto segue:
 
-* Sai a quale squadra partecipare. Rivolgiti al tuo responsabile tecnico o di prodotto, oppure fai riferimento a [Team e relativi amministratori](teams-and-admins.md) per identificare il tuo team e il relativo amministratore.
+* Sai a quale squadra partecipare. Rivolgiti al tuo responsabile del prodotto o del team tecnico per identificare il team e il relativo amministratore.
 * Si sa a quale ambiente è necessario accedere: **Stage**, **Produzione** o entrambi.
 
 ## Richiedi accesso {#request-steps}
@@ -35,7 +35,7 @@ Riceverai una conferma una volta inviata la richiesta. Puoi monitorare lo stato 
 
 ## Ruoli disponibili {#roles}
 
-Il ruolo assegnato all’utente determina le azioni che è possibile eseguire nella console. Per una descrizione completa di ogni ruolo e delle relative autorizzazioni, vedere [Ruoli utente](../teams/user-roles.md).
+Il ruolo assegnato all’utente determina le azioni che è possibile eseguire nella console. Se non sai quale ruolo richiedere, contatta l’amministratore del team.
 
 ## Dopo aver concesso l’accesso {#after-access}
 
@@ -43,4 +43,4 @@ Una volta approvata la richiesta, accedi alla console Rollout esperienza e verif
 
 ## Hai bisogno di aiuto? {#need-help}
 
-Se non sai a quale team partecipare o se per il progetto non esiste ancora alcun team, consulta [Creare un nuovo team](create-a-new-team.md) o contatta l&#39;amministratore dei Rollout esperienza della tua organizzazione.
+Se non sai a quale team partecipare o se per il progetto non esiste ancora alcun team, contatta l’amministratore dei Rollout esperienza della tua organizzazione.

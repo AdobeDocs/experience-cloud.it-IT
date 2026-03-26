@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Rollout dell’esperienza Adobe
 user-guide-description: Scopri come utilizzare i rollout di esperienza di Adobe per gestire i flag di funzioni, i rollout controllati e le versioni mirate nelle applicazioni.
-source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
+source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 5%
+source-wordcount: '291'
+ht-degree: 6%
 
 ---
 
@@ -27,15 +27,8 @@ ht-degree: 5%
 + Guide {#guides}
    + Guida introduttiva alla console {#console}
       + [Accedi alla console Rollout esperienza](guides/console/log-in-to-the-console.md)
-      + [Panoramica sugli ambienti](guides/console/environments-overview.md)
+      + [Seleziona la sandbox](guides/console/environments-overview.md)
       + [Richiedi accesso](guides/console/request-access.md)
-      + [Team e relativi amministratori](guides/console/teams-and-admins.md)
-      + [Crea un nuovo team](guides/console/create-a-new-team.md)
-   + Team {#teams}
-      + [Gestire i team](guides/teams/manage-teams.md)
-      + [Ruoli utente](guides/teams/user-roles.md)
-      + [Aggiungere membri al team](guides/teams/add-team-members.md)
-      + [Domande frequenti sulla gestione dei team](guides/teams/team-management-faq.md)
    + Applicazioni {#applications}
       + [Gestire le applicazioni](guides/applications/manage-applications.md)
       + [Eseguire l’onboarding dell’applicazione](guides/applications/onboard-your-application.md)
@@ -49,19 +42,13 @@ ht-degree: 5%
       + [SDK](guides/integrate/sdks.md)
       + [Passaggi dell’integrazione](guides/integrate/integration-steps.md)
       + [Iscriviti all’applicazione API in Adobe Developer Console](guides/integrate/subscribe-to-api-application.md)
-   + Flag di funzioni e versioni {#feature-flags-releases}
-      + [Funzioni, gruppi di funzioni e versioni](guides/feature-flags/features-feature-groups-releases.md)
+   + Flag di funzioni {#feature-flags}
+      + [Funzioni e gruppi di funzioni](guides/feature-flags/features-feature-groups-releases.md)
       + [Creare il primo flag di funzione](guides/feature-flags/create-your-first-feature-flag.md)
       + [Impostare una funzione per il rollout graduale](guides/feature-flags/set-feature-gradual-rollout.md)
       + [Creare un gruppo di funzioni](guides/feature-flags/create-a-feature-group.md)
       + [Impostare un gruppo di funzioni per il rollout graduale](guides/feature-flags/set-feature-group-gradual-rollout.md)
       + [Test A/B con flag di funzione](guides/feature-flags/a-b-testing.md)
-      + [Versioni e gruppi di funzioni cross-team](guides/feature-flags/releases-and-cross-team-feature-groups.md)
-      + [Flusso di lavoro di rilascio end-to-end](guides/feature-flags/release-workflow-end-to-end.md)
-      + [Richiedi rilascio](guides/feature-flags/request-a-release.md)
-      + [Aggiorna regole di pubblico della versione](guides/feature-flags/update-release-audience-rules.md)
-      + [Stati di rilascio](guides/feature-flags/release-states.md)
-      + [Creare un gruppo di funzioni cross-team](guides/feature-flags/create-cross-team-feature-group.md)
       + [Domande frequenti sulla gestione delle versioni](guides/feature-flags/release-management-faqs.md)
       + [Analytics](guides/feature-flags/analytics.md)
       + [Pianificazione](guides/feature-flags/schedule.md)

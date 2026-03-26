@@ -1,13 +1,13 @@
 ---
 title: Ottieni supporto
 description: Scopri come ottenere assistenza con i Rollout di esperienza Adobe, incluse le risorse self-service, e come inviare una richiesta di supporto quando hai bisogno di assistenza.
-source-git-commit: d824d85c6701edc9be314713bb8e9624b183e2d2
+exl-id: f4ba9c00-941b-4c33-b42f-087113d58b0d
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
-
 
 # Ottieni supporto {#get-support}
 
@@ -19,8 +19,7 @@ Prima di inviare una richiesta di supporto, provare le seguenti opzioni self-ser
 
 * **Cerca in questa documentazione**: utilizzare la funzione di ricerca per trovare guide, spiegazioni sui concetti e contenuti descrittivi.
 * **Utilizzare il workbench delle funzionalità**: diagnosticare i problemi di valutazione dei flag di funzionalità per utenti specifici senza scrivere codice. Per istruzioni, consulta [Risoluzione dei problemi](troubleshooting.md).
-* **Verifica stati versione** — verifica che lo stato della funzionalità sia corretto per il pubblico a cui desideri rivolgerti. Consulta [Stati di rilascio](../feature-flags/release-states.md).
-* **Verifica regole pubblico** — verifica i criteri del pubblico e la configurazione della percentuale per la funzionalità. Consulta [Aggiorna regole pubblico versione](../feature-flags/update-release-audience-rules.md).
+* **Verifica lo stato del flag di funzionalità** - Conferma che il flag di funzionalità sia pubblicato e che le regole per il pubblico siano configurate correttamente.
 
 ## Inviare una richiesta di supporto {#submit-request}
 

@@ -1,13 +1,13 @@
 ---
 title: Risoluzione dei problemi
 description: Utilizza il workbench Rollout esperienza per diagnosticare i problemi di valutazione dei flag di funzione per utenti specifici, incluso il controllo delle funzioni abilitate, disabilitate o senza corrispondenza per una determinata identità utente.
-source-git-commit: d824d85c6701edc9be314713bb8e9624b183e2d2
+exl-id: d64e9573-8e18-46a1-a75a-5ae5bfc7c82d
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
-
 
 # Risoluzione dei problemi {#troubleshooting}
 
@@ -85,5 +85,3 @@ La tabella seguente descrive i problemi comuni e come analizzarli utilizzando il
 
 * [Ottieni supporto](get-support.md)
 * [Contatta l’assistenza](contact-support.md)
-* [Aggiorna regole di pubblico della versione](../feature-flags/update-release-audience-rules.md)
-* [Stati di rilascio](../feature-flags/release-states.md)

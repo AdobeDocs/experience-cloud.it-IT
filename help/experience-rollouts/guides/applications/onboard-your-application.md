@@ -1,17 +1,17 @@
 ---
 title: Eseguire l’onboarding dell’applicazione
 description: Scopri come integrare una nuova applicazione nei Rollout esperienza di Adobe in modo che il team possa iniziare a creare e gestire i flag di funzione.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '219'
 ht-degree: 1%
 
 ---
 
-
 # Eseguire l’onboarding dell’applicazione {#onboard-your-application}
 
-Per aggiungere una nuova applicazione è necessario avere il ruolo **Amministratore**. Consulta [Ruoli utente](../teams/user-roles.md) se devi verificare il tuo ruolo o richiederlo all&#39;amministratore del team.
+Per aggiungere una nuova applicazione è necessario avere il ruolo **Amministratore**. Se devi verificare o aggiornare il tuo ruolo, contatta l’amministratore del team.
 
 ## Aggiungi una nuova applicazione {#add-application}
 
@@ -45,5 +45,4 @@ Una volta che l’applicazione è stata integrata, il team può iniziare a crear
 ## Vedi anche {#see-also}
 
 * [Gestire le applicazioni](manage-applications.md)
-* [Ruoli utente](../teams/user-roles.md)
 * [Accedi alla console](../console/log-in-to-the-console.md)

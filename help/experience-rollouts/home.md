@@ -2,9 +2,9 @@
 title: Rollout dell’esperienza Adobe
 description: Scopri come utilizzare i Rollout di esperienza di Adobe per distribuire le funzioni in modo sicuro e graduale con rollout controllati, flag di funzioni e gestione mirata dell’audience.
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: 65effd7e3b12404359e3693820bbf9e5080bea03
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '343'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Per ottenere valore dai rollout di esperienza, segui tre passaggi:
 
 3. **Integrare con l&#39;applicazione**: connetti l&#39;app all&#39;API Experience Rollouts o a SDK in modo che possa recuperare e applicare i flag di funzionalità in fase di esecuzione. Inizia con [passaggi di integrazione](guides/integrate/integration-steps.md) per il tipo di applicazione.
 
-Una volta che il primo flag è attivo, puoi perfezionarne il pubblico, configurare un rollout graduale e promuoverlo attraverso [stati di rilascio](guides/feature-flags/release-states.md) dal salvataggio al rollout completo.
+Una volta che il primo flag è attivo, puoi perfezionarne il pubblico, configurare un rollout graduale e promuoverlo dal rollout salvato a quello completo.
 
 ## Hai bisogno di aiuto?
 

@@ -1,17 +1,17 @@
 ---
 title: Associare ambienti a un’applicazione
 description: Scopri come collegare le istanze dell’applicazione in ambienti diversi in Adobe Experience Rollout per gestire i flag di funzione in modo coerente dallo sviluppo alla produzione.
-source-git-commit: 5c99061a7f2aaaad98190166ea6fd79b7eb26dec
+exl-id: 53080db1-f257-4369-82ab-57c84395a40a
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 1%
 
 ---
 
-
 # Associare ambienti a un’applicazione {#associate-environments}
 
-Il collegamento delle istanze dell’applicazione tra ambienti diversi consente la visibilità tra ambienti diversi e l’importazione dei flussi di lavoro. Per configurarlo è necessario avere il ruolo **Amministratore**. Se devi verificare il tuo ruolo, consulta [Ruoli utente](../teams/user-roles.md).
+Il collegamento delle istanze dell’applicazione tra ambienti diversi consente la visibilità tra ambienti diversi e l’importazione dei flussi di lavoro. Per configurarlo è necessario avere il ruolo **Amministratore**. Se devi verificare o aggiornare il tuo ruolo, contatta l’amministratore del team.
 
 Per informazioni generali sull&#39;utilità di questa impostazione, vedere [Concetto per più ambienti](cross-environment-concept.md).
 

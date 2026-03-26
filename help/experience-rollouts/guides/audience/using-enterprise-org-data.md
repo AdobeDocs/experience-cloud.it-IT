@@ -1,13 +1,13 @@
 ---
 title: Utilizzare i dati dell’organizzazione aziendale nelle regole per il pubblico
 description: Scopri come utilizzare gli ID organizzazione Enterprise come criteri di pubblico in Rollout esperienza di Adobe per rivolgerti a specifiche organizzazioni di clienti.
-source-git-commit: 3f3f7145b3c58dc721cbeb850e9e8571e3255bb1
+exl-id: 74f97ec7-a809-41bf-a41d-bb57f033040f
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '233'
 ht-degree: 1%
 
 ---
-
 
 # Utilizzare i dati dell’organizzazione aziendale nelle regole per il pubblico {#enterprise-org-data}
 
@@ -41,5 +41,4 @@ Le organizzazioni DMA utilizzano gli ID organizzazione nel formato `XXXXXXXXXXXX
 ## Vedi anche {#see-also}
 
 * [Pubblico nei flag di funzione e nei gruppi di funzioni](audience-in-feature-flags-and-feature-groups.md)
-* [Aggiorna regole di pubblico della versione](../feature-flags/update-release-audience-rules.md)
 * [Regole di pubblico complesse](complex-rules.md)

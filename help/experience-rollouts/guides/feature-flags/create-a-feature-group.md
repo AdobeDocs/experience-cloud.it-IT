@@ -1,13 +1,13 @@
 ---
 title: Creare un gruppo di funzioni
 description: Scopri come creare un gruppo di funzioni in Adobe Experience Rollout per gestire più flag di funzioni tra le applicazioni del team come un’unica unità.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
-
 
 # Creare un gruppo di funzioni {#create-feature-group}
 
@@ -16,9 +16,8 @@ ht-degree: 0%
 Prima di creare un gruppo di feature, effettuate le seguenti operazioni:
 
 * Hai accesso alla console Rollout esperienza. Vedi [Accedi alla console](../console/log-in-to-the-console.md)
-* Appartieni a un team. Vedi [Gestione team](../teams/manage-teams.md)
 * L&#39;applicazione è stata integrata. Vedere [Eseguire l&#39;installazione dell&#39;applicazione](../applications/onboard-your-application.md)
-* Hai il ruolo **Sviluppatore** o **Proprietario versione prodotto**. Vedi [Ruoli utente](../teams/user-roles.md)
+* Hai il ruolo **Sviluppatore** o **Proprietario versione prodotto**
 * Sono stati creati i flag di funzionalità che si desidera aggiungere al gruppo. Vedere [Creare il primo flag di funzionalità](create-your-first-feature-flag.md)
 
 Per un&#39;introduzione ai gruppi di funzionalità, vedere [Gruppi di funzionalità per controllare più funzionalità](../../concepts/feature-groups-to-control-multiple-features.md).

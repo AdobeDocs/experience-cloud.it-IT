@@ -1,13 +1,13 @@
 ---
 title: API di gestione delle versioni
 description: Riferimento API per le API di gestione delle versioni di Experience Rollout, inclusi gli endpoint per ottenere, creare e modificare versioni e gruppi di funzioni cross-team.
-source-git-commit: 8a92b7a3e8c52da8bb2474f52c831e159420b878
+exl-id: e8d1d025-0645-4cf2-921f-d94c9f71282d
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '490'
 ht-degree: 13%
 
 ---
-
 
 # API di gestione delle versioni {#release-management-apis}
 
@@ -146,4 +146,3 @@ Aggiorna una versione esistente o un gruppo di funzioni cross-team. Passa l’og
 * [Panoramica delle API di gestione delle funzioni](feature-management-apis-overview.md)
 * [API di gestione dei flag di funzione](feature-flags-management-api.md)
 * [API di gestione dei gruppi di funzioni](feature-group-management-api.md)
-* [Creare un gruppo di funzioni cross-team](../guides/feature-flags/create-cross-team-feature-group.md)
