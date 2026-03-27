@@ -1,13 +1,13 @@
 ---
 title: Guida all’avvio
 description: Segui questi passaggi per integrare l’applicazione con i Rollout esperienza di Adobe, dalla richiesta di accesso alla creazione del primo flag di funzione.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '286'
 ht-degree: 1%
 
 ---
-
 
 # Guida all’avvio {#startup-guide}
 
@@ -29,21 +29,17 @@ Prima dell’onboarding, prepara quanto segue:
 | **Client lato server** | Se esegui l’integrazione con un SDK lato server, devi disporre di un ID client amministratore con le autorizzazioni appropriate. |
 | **Client desktop** | È possibile utilizzare un codice prodotto e la versione del prodotto al posto di un ID client. |
 
-## Passaggio 3: abbonarsi all’API dei rollout di esperienza {#step-3-subscribe}
+## Passaggio 3: ottieni le credenziali {#step-3-credentials}
 
-Iscriviti all’API dei rollout di esperienza tramite Adobe Developer Console in modo che l’applicazione possa chiamare gli endpoint dei flag di funzione. Vedi [Iscriviti all&#39;applicazione API in Adobe Developer Console](subscribe-to-api-application.md).
+Se esegui l’integrazione tramite un SDK lato server, è necessario un ID client del token di servizio. Contatta il supporto dei rollout esperienza per inserire nell&#39;elenco Consentiti l’ID client prima di poter effettuare chiamate API da SDK.
 
->[!NOTE]
->
->Se esegui l’integrazione tramite un SDK lato server, è necessario un ID client del token di servizio. Contatta il supporto dei rollout esperienza per inserire nell&#39;elenco Consentiti l’ID client.
-
-## Passaggio 4: integrare utilizzando un SDK o l’API {#step-4-integrate}
+## Passaggio 4: integrare utilizzando un SDK {#step-4-integrate}
 
 Segui i [passaggi di integrazione](integration-steps.md) per il tipo di applicazione. Scegli il percorso adatto al tuo stack:
 
 * **Servizi Web** → Java SDK o Node.js SDK
-* **App Web e per dispositivi mobili** → Feature API V3
-* **App desktop** → API funzionalità V2
+* **App Web e per dispositivi mobili** → Web SDK o Mobile SDK (disponibile a breve)
+* **App desktop** → SDK (disponibile a breve)
 
 ## Passaggio 5: creare e verificare il primo flag di funzione {#step-5-feature-flag}
 

@@ -1,13 +1,13 @@
 ---
 title: Servizi web
 description: Scopri come integrare i rollout di esperienza di Adobe in un servizio web back-end utilizzando Java o Node.js SDK.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+exl-id: 2e73fc30-93d4-46dc-8855-950dd1b15064
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 9%
+source-wordcount: '97'
+ht-degree: 12%
 
 ---
-
 
 # Servizi web {#web-services}
 
@@ -22,11 +22,7 @@ I servizi back-end si integrano con i Rollout di esperienza utilizzando un SDK l
 
 ## Altre lingue {#other-languages}
 
-Se il servizio back-end utilizza una lingua non elencata sopra, puoi integrarla direttamente con l’API REST:
-
-* API per funzioni V3: per informazioni dettagliate, consulta la sezione API per funzioni di questa guida
-
-Se hai bisogno di assistenza per l’integrazione con uno stack non supportato, contatta il supporto per i rollout di esperienza.
+Se il servizio back-end utilizza una lingua non elencata sopra, contatta il supporto dei rollout di esperienza per indicazioni sull’integrazione con lo stack specifico.
 
 ## Vedi anche {#see-also}
 

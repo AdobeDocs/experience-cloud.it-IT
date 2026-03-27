@@ -1,19 +1,21 @@
 ---
 title: Applicazioni mobili
-description: Scopri come integrare i rollout di esperienza di Adobe in un’app mobile utilizzando la funzione API V3.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+description: Scopri come integrare i rollout di esperienza Adobe in un’app mobile utilizzando il SDK mobile.
+exl-id: 27a43994-25e7-4a2c-b01c-ae98d089413d
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 6%
+source-wordcount: '68'
+ht-degree: 8%
 
 ---
 
-
 # Applicazioni mobili {#mobile-applications}
 
-Le applicazioni mobili si integrano con i rollout di esperienza chiamando l&#39;**API di funzionalità V3** per recuperare i flag di funzionalità e applicare la logica condizionale nel codice dell&#39;applicazione.
+Le applicazioni mobili si integrano con i Rollout dell’esperienza tramite il SDK mobile.
 
-Consulta **GET Feature API V3** nella sezione Feature API di questa guida per il riferimento API completo, inclusi i parametri di richiesta, il formato di risposta e le chiamate di esempio.
+>[!NOTE]
+>
+>La documentazione di Mobile SDK è in fase di preparazione e sarà disponibile a breve. Contatta il tuo rappresentante Adobe per ricevere assistenza all’accesso anticipato.
 
 ## Passaggi dell’integrazione {#integration-steps}
 

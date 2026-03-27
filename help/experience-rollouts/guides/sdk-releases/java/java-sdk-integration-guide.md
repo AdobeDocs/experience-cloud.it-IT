@@ -1,13 +1,13 @@
 ---
 title: Guida all’integrazione di Java SDK
 description: Scopri come integrare Experience Rollouts Java SDK nel servizio back-end per recuperare e valutare i flag di funzione.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 7c12bd6c-1883-4f1c-985f-a2b0432e61ce
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '425'
 ht-degree: 1%
 
 ---
-
 
 # Guida all’integrazione di Java SDK {#java-sdk-integration-guide}
 
@@ -19,7 +19,7 @@ Prima di integrare Java SDK, assicurati di disporre di:
 
 * JDK 11 o versione successiva (richiesto dalla versione di SDK 3.0.0 in poi; le versioni precedenti supportano JDK 8+)
 * Un sistema di build basato su Maven
-* Un ID client di **chiave API** e **token servizio** dal progetto Adobe Developer Console. Vedere [Abbonati all&#39;applicazione API](../../integrate/subscribe-to-api-application.md)
+* Un ID client di **chiave API** e **token servizio** dal progetto Adobe Developer Console. Per inserire nell&#39;elenco Consentiti l&#39;ID client, contatta il supporto dei rollout di esperienza
 * Gli **ID client dell&#39;applicazione** registrati nella console dei rollout di esperienza - vedi [Eseguire l&#39;onboarding dell&#39;applicazione](../../applications/onboard-your-application.md)
 
 ## Aggiungere la dipendenza Maven {#maven-dependency}
@@ -188,5 +188,4 @@ try {
 
 * [Note sulla versione di Java SDK](java-sdk-release-notes.md)
 * [SDK](../../integrate/sdks.md)
-* [Iscriviti all’applicazione API](../../integrate/subscribe-to-api-application.md)
 * [Passaggi dell’integrazione](../../integrate/integration-steps.md)

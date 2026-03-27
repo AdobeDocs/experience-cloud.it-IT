@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Rollout dell’esperienza Adobe
 user-guide-description: Scopri come utilizzare i rollout di esperienza di Adobe per gestire i flag di funzioni, i rollout controllati e le versioni mirate nelle applicazioni.
-source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 6%
+source-wordcount: '242'
+ht-degree: 8%
 
 ---
 
@@ -41,7 +41,6 @@ ht-degree: 6%
       + [Servizi web](guides/integrate/web-services.md)
       + [SDK](guides/integrate/sdks.md)
       + [Passaggi dell’integrazione](guides/integrate/integration-steps.md)
-      + [Iscriviti all’applicazione API in Adobe Developer Console](guides/integrate/subscribe-to-api-application.md)
    + Flag di funzioni {#feature-flags}
       + [Funzioni e gruppi di funzioni](guides/feature-flags/features-feature-groups-releases.md)
       + [Creare il primo flag di funzione](guides/feature-flags/create-your-first-feature-flag.md)
@@ -76,14 +75,3 @@ ht-degree: 6%
          + [Guida all’integrazione di Node.js con SDK](guides/sdk-releases/nodejs/nodejs-sdk-integration-guide.md)
          + [Note sulla versione di Node.js SDK](guides/sdk-releases/nodejs/nodejs-sdk-release-notes.md)
       + [Benchmark SDK](guides/sdk-releases/java-sdk-benchmarking.md)
-+ API delle funzioni {#feature-api}
-   + [API per funzioni GET V3](feature-api/get-feature-api-v3.md)
-   + [API per funzioni GET V2](feature-api/get-feature-api-v2.md)
-+ API di gestione {#management-api}
-   + [Panoramica delle API di gestione delle funzioni](management-api/feature-management-apis-overview.md)
-   + [API di gestione dei flag di funzione](management-api/feature-flags-management-api.md)
-   + [API di gestione dei gruppi di funzioni](management-api/feature-group-management-api.md)
-   + [API di gestione delle versioni](management-api/release-management-apis.md)
-   + [Ottenere l’ID client per un’applicazione](management-api/get-client-id.md)
-   + [Ottenere i criteri di pubblico desiderati](management-api/get-audience-criteria.md)
-   + [API delle patch di gestione](management-api/management-patch-api.md)

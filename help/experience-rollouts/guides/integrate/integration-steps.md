@@ -1,13 +1,13 @@
 ---
 title: Passaggi dell’integrazione
-description: Segui i passaggi di integrazione per il tipo di applicazione per collegare i rollout di esperienza Adobe al servizio web, all’app web o mobile o all’applicazione desktop.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+description: Segui i passaggi di integrazione per il tipo di applicazione per collegare i rollout di esperienza Adobe al servizio web, all’app mobile o desktop tramite gli SDK disponibili.
+exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 3%
+source-wordcount: '175'
+ht-degree: 4%
 
 ---
-
 
 # Passaggi dell’integrazione {#integration-steps}
 
@@ -27,23 +27,23 @@ Segui la [Guida all&#39;integrazione di Node.js con SDK](../sdk-releases/nodejs/
 
 **Altre lingue**
 
-Se lo stack non è elencato in precedenza, eseguire l&#39;integrazione direttamente con **Feature API V3** (vedere la sezione Feature API di questa guida). Se hai bisogno di assistenza, contatta il supporto per i rollout di esperienza.
+Contatta il supporto dei rollout di esperienza per indicazioni sullo stack specifico.
 
 ## Applicazioni web e mobili {#web-mobile}
 
-Le applicazioni Web e mobili chiamano l&#39;**API delle funzionalità V3** per recuperare i flag di funzionalità per l&#39;utente corrente e applicare la logica condizionale nell&#39;applicazione.
+Le applicazioni web e mobili si integrano rispettivamente tramite web SDK e mobile SDK.
 
-Consulta **API di funzionalità GET V3** nella sezione API di funzionalità di questa guida per il riferimento API completo.
+>[!NOTE]
+>
+>La documentazione relativa al SDK web e al SDK mobile è in fase di preparazione e sarà presto disponibile. Contatta il tuo rappresentante Adobe per ricevere assistenza all’accesso anticipato.
 
 ## Applicazioni desktop {#desktop}
 
-Le applicazioni desktop chiamano l&#39;**API di funzionalità V2** per recuperare i flag di funzionalità.
+Le applicazioni desktop si integrano tramite SDK. Contatta il rappresentante Adobe per informazioni sull’integrazione specifiche per lo stack desktop.
 
-Consulta **API di funzionalità GET V2** nella sezione API di funzionalità di questa guida per il riferimento API completo.
-
->[!IMPORTANT]
+>[!NOTE]
 >
->I client desktop devono rispettare il valore TTL nella risposta API e implementare una corretta gestione degli errori in caso di indisponibilità dell’API. Per informazioni sui requisiti, vedere [Applicazioni desktop](desktop-applications.md).
+>La documentazione relativa al SDK desktop è in fase di preparazione e sarà presto disponibile.
 
 ## Vedi anche {#see-also}
 

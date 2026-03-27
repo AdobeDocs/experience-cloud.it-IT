@@ -1,13 +1,13 @@
 ---
 title: Guida all’integrazione di Node.js con SDK
 description: Scopri come integrare Experience Rollouts Node.js SDK nel servizio back-end per recuperare e valutare i flag di funzioni.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 063829fe-6933-45ff-add4-285ca7391778
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
-
 
 # Guida all’integrazione di Node.js con SDK {#nodejs-sdk-integration-guide}
 
@@ -15,14 +15,14 @@ Il SDK Node.js di Experience Rollouts è una libreria lato server destinata ai s
 
 >[!NOTE]
 >
->Il SDK di Node.js è progettato solo per l’utilizzo lato server. Per le applicazioni web lato client, chiama direttamente l’endpoint REST dell’API delle funzioni V3.
+>Il SDK di Node.js è progettato solo per l’utilizzo lato server. Per le applicazioni web lato client, utilizza il web SDK. La documentazione di Web SDK è in fase di preparazione e sarà presto disponibile.
 
 ## Prerequisiti {#prerequisites}
 
 Prima di integrare Node.js SDK, assicurati di disporre di:
 
 * Un’applicazione lato server Node.js
-* Chiave **API** e token **servizio** ottenuti tramite Adobe Developer Console. Vedere [Abbonarsi all&#39;applicazione API](../../integrate/subscribe-to-api-application.md)
+* Chiave **API** e token **servizio** ottenuti tramite Adobe Developer Console. Per inserire nell&#39;elenco Consentiti l&#39;ID client, contatta il supporto dei rollout di esperienza
 * Gli **ID client dell&#39;applicazione** registrati nella console dei rollout di esperienza - vedi [Eseguire l&#39;onboarding dell&#39;applicazione](../../applications/onboard-your-application.md)
 
 ## Installare SDK {#install}
@@ -160,5 +160,4 @@ floodgateClient.createInstance(
 
 * [Note sulla versione di Node.js SDK](nodejs-sdk-release-notes.md)
 * [SDK](../../integrate/sdks.md)
-* [Iscriviti all’applicazione API](../../integrate/subscribe-to-api-application.md)
 * [Passaggi dell’integrazione](../../integrate/integration-steps.md)
