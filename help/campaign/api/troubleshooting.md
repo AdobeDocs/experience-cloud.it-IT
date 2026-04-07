@@ -4,9 +4,9 @@ description: Ulteriori informazioni sui problemi comuni relativi alle API di Cam
 role: Developer
 level: Experienced
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti di Campaign Standard migrati"
-source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
+source-git-commit: 6baa9bef7eae1ab8ffe9ecd426c6ba4580e8c9d7
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,8 @@ Il token non è valido (per generare un token viene utilizzata una chiamata IMS 
 
 A seconda della configurazione dell&#39;istanza, il profilo creato deve essere associato a una **orgUnit**. Per informazioni su come aggiungere questo campo nella creazione, consulta [questa sezione](creating-profiles-api.md).
 
-<!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
+<!-- 
+* (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
 
 With Curl
 List all profiles

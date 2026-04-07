@@ -1,24 +1,24 @@
 ---
 title: Richiedi rilascio
 description: Scopri come richiedere una nuova versione coordinata nei Rollout esperienza di Adobe e quali informazioni fornire.
-source-git-commit: d311efb995b20ffc17370d68d57dd84a8605896c
+exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
+source-git-commit: f4c365e1a0e61ba3dec298dfa8ab0d9e74e1259a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '255'
 ht-degree: 2%
 
 ---
-
 
 # Richiedi rilascio {#request-a-release}
 
 ## Prerequisiti {#prerequisites}
 
-* Hai il ruolo **Responsabile della versione**. Vedi [Ruoli utente](../teams/user-roles.md)
+* Hai il ruolo di **Release Manager** - vedi <!-- broken link[User roles](../teams/user-roles.md) -->
 * L&#39;applicazione è stata integrata. Vedere [Eseguire l&#39;installazione dell&#39;applicazione](../applications/onboard-your-application.md)
 
 >[!TIP]
 >
->Prima di richiedere una versione, rivedi [Versioni e gruppi di funzioni tra i team](releases-and-cross-team-feature-groups.md). Un gruppo di funzioni cross-team può soddisfare le tue esigenze con meno costi comuni: è self-service e supporta un targeting più ricco del pubblico.
+>Prima di richiedere una versione, rivedere <!--[Releases and cross-team feature groups](releases-and-cross-team-feature-groups.md)-->. Un gruppo di funzioni cross-team può soddisfare le tue esigenze con meno costi comuni: è self-service e supporta un targeting più ricco del pubblico.
 
 ## Inviare una richiesta di supporto {#submit}
 
