@@ -2,9 +2,9 @@
 title: Creare il primo flag di funzione
 description: Scopri come creare un flag di funzione nei rollout di esperienza di Adobe, impostare un pubblico e testarlo prima di distribuirlo agli utenti.
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Dopo aver aggiunto i criteri di pubblico, seleziona **Calcola** nella barra infe
 
 ## Passaggio 4: pianificazione (facoltativo) {#schedule}
 
-È possibile pianificare l&#39;attivazione di un flag di funzione in una data e in un&#39;ora future. Per informazioni dettagliate, consulta [Pianificazione](schedule.md).
+È possibile pianificare l&#39;attivazione di un flag di funzionalità in una data e un&#39;ora future utilizzando l&#39;opzione **Pianifica** nelle impostazioni del flag di funzionalità.
 
 ## Domande frequenti: non è possibile aggiungere un flag di funzione come sviluppatore {#faq}
 

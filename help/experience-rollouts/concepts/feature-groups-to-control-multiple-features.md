@@ -1,13 +1,13 @@
 ---
 title: Gruppi di feature per controllare più feature
 description: Scopri come i gruppi di funzioni nei Rollout di esperienza consentono di raggruppare e gestire i relativi flag di funzione nelle applicazioni come un’unica unità.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 1%
+source-wordcount: '174'
+ht-degree: 0%
 
 ---
-
 
 # Gruppi di feature per controllare più feature {#feature-groups}
 
@@ -21,14 +21,5 @@ Consideriamo ad esempio una funzione di collaborazione che comporta modifiche a 
 
 ## Raggruppamento tra applicazioni {#cross-application}
 
-I gruppi di funzioni supportano la gestione delle funzionalità tra più applicazioni purché i flag appartengano allo **stesso team** nei rollout di esperienza. Un team può essere proprietario di più applicazioni, in modo che i flag correlati possano essere raggruppati tra loro.
+I gruppi di funzioni supportano la gestione delle funzioni tra più applicazioni. È possibile raggruppare i flag correlati in più applicazioni.
 
-## Gruppi di funzioni e versioni {#vs-releases}
-
-| | Gruppo di funzioni | Versione |
-|---|---|---|
-| Portata | All’interno di un singolo team | Tra più team |
-| Caso d’uso | Coordinamento dei flag all&#39;interno del team | Coordinamento di lanci con più team di grandi dimensioni |
-| Privilegi richiesti | A livello di team | Più alto (Release Manager) |
-
-Se i flag di funzionalità che desideri raggruppare appartengono ad applicazioni di proprietà di team diversi, utilizza una [versione](release-management.md) invece di un gruppo di funzionalità.

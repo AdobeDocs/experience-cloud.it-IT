@@ -1,13 +1,13 @@
 ---
 title: Che cos’è un flag di funzione
 description: Scopri cosa sono i flag di funzione e come ti consentono di attivare o disattivare le funzioni dell’applicazione in fase di esecuzione senza ridistribuirle.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: c4ed4ab5-0d73-4697-b05c-476d6e4010ce
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # Che cos’è un flag di funzione {#what-is-a-feature-flag}
 
@@ -19,4 +19,4 @@ Questa separazione riduce significativamente i rischi. Gli sviluppatori possono 
 
 >[!NOTE]
 >
->In Rollout esperienza, un flag di funzione è l’unità di controllo della funzione più atomica. Può essere utilizzato da solo per eseguire il targeting di una singola funzionalità o combinato con altri flag in un [gruppo di funzionalità](feature-groups-to-control-multiple-features.md) o [versione](release-management.md).
+>In Rollout esperienza, un flag di funzione è l’unità di controllo della funzione più atomica. Può essere utilizzato da solo per eseguire il targeting di una singola funzionalità o combinato con altri flag in un [gruppo di funzionalità](feature-groups-to-control-multiple-features.md).

@@ -2,10 +2,10 @@
 title: Servizi web
 description: Scopri come integrare i rollout di esperienza di Adobe in un servizio web back-end utilizzando Java o Node.js SDK.
 exl-id: 2e73fc30-93d4-46dc-8855-950dd1b15064
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 12%
+source-wordcount: '85'
+ht-degree: 10%
 
 ---
 
@@ -15,14 +15,13 @@ I servizi back-end si integrano con i Rollout di esperienza utilizzando un SDK l
 
 ## SDK disponibili {#available-sdks}
 
-| Lingua | Guida all’integrazione | Note sulla versione |
-|---|---|---|
-| **Java** | [Guida all&#39;integrazione di Java SDK](../sdk-releases/java/java-sdk-integration-guide.md) | [Note sulla versione di Java SDK](../sdk-releases/java/java-sdk-release-notes.md) |
-| **Node.js** | [Guida all&#39;integrazione di Node.js con SDK](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) | [Note sulla versione di SDK Node.js](../sdk-releases/nodejs/nodejs-sdk-release-notes.md) |
+>[!NOTE]
+>
+>La documentazione SDK lato server è in fase di preparazione e sarà presto disponibile. Contatta il tuo rappresentante Adobe per ricevere assistenza all’accesso anticipato.
 
 ## Altre lingue {#other-languages}
 
-Se il servizio back-end utilizza una lingua non elencata sopra, contatta il supporto dei rollout di esperienza per indicazioni sull’integrazione con lo stack specifico.
+Per informazioni sull’integrazione con lo stack specifico, contatta il supporto dei rollout esperienza.
 
 ## Vedi anche {#see-also}
 

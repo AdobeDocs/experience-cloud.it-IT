@@ -2,9 +2,9 @@
 title: Rollout dell’esperienza Adobe
 description: Scopri come utilizzare i Rollout di esperienza di Adobe per distribuire le funzioni in modo sicuro e graduale con rollout controllati, flag di funzioni e gestione mirata dell’audience.
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ I rollout di esperienza Adobe consentono ai team di prodotto di distribuire le n
 
 **Riduci i rischi di rilascio.** Dividi le modifiche di grandi dimensioni in rollout più piccoli e controllati. Se viene visualizzato un bug o un problema di prestazioni, disattivare solo la funzione interessata, mantenendo stabile il resto dell&#39;applicazione.
 
-**Coordinazione tra team.** I gruppi di funzioni cross-team consentono a più team di partecipare a un’unica versione coordinata, ciascuno dei quali gestisce i propri flag di funzione condividendo al contempo una pianificazione di rollout e un pubblico comuni.
+**Coordinamento tra le applicazioni.** I gruppi di funzioni consentono di gestire più flag di funzione insieme, condividendo un pubblico di rollout comune tra le applicazioni.
 
 ## Integrare la prima funzionalità
 
@@ -37,4 +37,4 @@ Una volta che il primo flag è attivo, puoi perfezionarne il pubblico, configura
 
 ## Hai bisogno di aiuto?
 
-Se qualcosa non si comporta come previsto, nella [guida alla risoluzione dei problemi](guides/support/troubleshooting.md) vengono descritti i problemi più comuni. Per qualsiasi altra cosa, [contatta l&#39;assistenza](guides/support/contact-support.md).
+Se qualcosa non si comporta come previsto, contatta il rappresentante Adobe per richiedere assistenza.

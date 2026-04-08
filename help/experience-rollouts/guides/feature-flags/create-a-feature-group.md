@@ -2,9 +2,9 @@
 title: Creare un gruppo di funzioni
 description: Scopri come creare un gruppo di funzioni in Adobe Experience Rollout per gestire più flag di funzioni tra le applicazioni del team come un’unica unità.
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Assegna i flag di funzione che saranno controllati da questo gruppo:
 
 ## Passaggio 5: pianificazione (facoltativo) {#schedule}
 
-È possibile pianificare l&#39;attivazione del gruppo di funzioni in una data e in un&#39;ora future. Per informazioni dettagliate, consulta [Pianificazione](schedule.md).
+È possibile pianificare l&#39;attivazione del gruppo di funzionalità in una data e un&#39;ora future utilizzando l&#39;opzione **Pianifica** nelle impostazioni del gruppo di funzionalità.
 
 ## Vedi anche {#see-also}
 

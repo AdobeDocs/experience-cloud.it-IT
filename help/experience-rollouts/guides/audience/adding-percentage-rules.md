@@ -1,13 +1,13 @@
 ---
 title: Aggiungere regole di percentuale nei criteri di pubblico
 description: Scopri come aggiungere regole basate sulla percentuale nei criteri di pubblico in Rollout esperienza di Adobe per eseguire il targeting di percentuali di rollout diverse per segmenti di pubblico diversi.
-source-git-commit: ae420329b94b24fcd173734b414aecf1c5fc16ca
+exl-id: 15a3c26f-31fc-4e73-aa0e-035dcbe7d770
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
-
 
 # Aggiungere regole di percentuale nei criteri di pubblico {#adding-percentage-rules}
 
@@ -20,7 +20,7 @@ Tuttavia, alcuni scenari di rollout richiedono percentuali diverse per gruppi di
 * 100% degli utenti del Regno Unito e 50% degli utenti degli Stati Uniti
 * Tutti gli utenti da un elenco e-mail importato più il 50% degli utenti da un paese specifico
 
-In questi casi, utilizza la regola **Percentuale** nella sezione del profilo della scheda **Pubblico**, in combinazione con la logica nidificata.
+In questi casi, utilizza la regola **Percentuale** nella sezione contesto della scheda **Pubblico**, combinata con una logica nidificata.
 
 >[!TIP]
 >
@@ -28,10 +28,10 @@ In questi casi, utilizza la regola **Percentuale** nella sezione del profilo del
 
 ## Come aggiungere una regola percentuale {#how-to-add}
 
-L&#39;opzione **Percentuale** è disponibile come regola nella sezione Profilo della scheda Pubblico.
+L&#39;opzione **Percentuale** è disponibile come regola nella sezione contesto della scheda Pubblico.
 
 1. Vai alla scheda **Pubblico** del tuo flag di funzione o gruppo di funzioni.
-2. In **Profilo**, aggiungi una regola di **Percentuale** e imposta il valore desiderato.
+2. In **Pubblico**, aggiungi una regola di **Percentuale contesto** e imposta il valore desiderato.
 3. Aggiungi tutte le altre condizioni di pubblico necessarie (ad esempio, una regola Country).
 
 ## Combinazione di regole percentuali con logica nidificata {#nested-logic}

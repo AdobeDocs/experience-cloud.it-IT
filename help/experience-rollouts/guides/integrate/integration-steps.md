@@ -2,9 +2,9 @@
 title: Passaggi dell’integrazione
 description: Segui i passaggi di integrazione per il tipo di applicazione per collegare i rollout di esperienza Adobe al servizio web, all’app mobile o desktop tramite gli SDK disponibili.
 exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '163'
 ht-degree: 4%
 
 ---
@@ -15,19 +15,11 @@ Scegli il percorso di integrazione che corrisponde al tipo di applicazione.
 
 ## Servizi web {#web-services}
 
-I servizi back-end si integrano utilizzando un SDK lato server. Scegli il SDK per il tuo stack tecnologico.
+I servizi back-end si integrano utilizzando un SDK lato server. Contatta il supporto dei rollout di esperienza per indicazioni sullo stack specifico.
 
-**Java**
-
-Segui la [Guida all&#39;integrazione di Java SDK](../sdk-releases/java/java-sdk-integration-guide.md) per l&#39;installazione, la configurazione delle dipendenze e l&#39;inizializzazione.
-
-**Node.js**
-
-Segui la [Guida all&#39;integrazione di Node.js con SDK](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) per l&#39;installazione e l&#39;inizializzazione.
-
-**Altre lingue**
-
-Contatta il supporto dei rollout di esperienza per indicazioni sullo stack specifico.
+>[!NOTE]
+>
+>La documentazione SDK lato server è in fase di preparazione e sarà presto disponibile. Contatta il tuo rappresentante Adobe per ricevere assistenza all’accesso anticipato.
 
 ## Applicazioni web e mobili {#web-mobile}
 

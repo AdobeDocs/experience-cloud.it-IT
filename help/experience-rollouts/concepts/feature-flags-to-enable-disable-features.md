@@ -1,13 +1,13 @@
 ---
 title: Flag di funzioni per abilitare e disabilitare le funzioni
 description: Scopri in che modo i flag di funzionalità nei Rollout di esperienza consentono di controllare la disponibilità delle funzionalità, gestire le dipendenze e ridurre i rischi di distribuzione.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: 627775e8-9b17-4bc7-9565-07a438ae8ed7
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
-
 
 # Flag di funzioni per abilitare e disabilitare le funzioni {#feature-flags}
 
@@ -44,4 +44,3 @@ Un flag di funzione in Experience Rollout segue questo tipico ciclo di vita:
 1. Uno sviluppatore crea un flag di funzione e lo sottopone a test in isolamento, senza esporlo ad altri utenti.
 2. Un proprietario del prodotto collega un pubblico al flag, rendendo la funzione visibile a un set definito di utenti esterni.
 3. Facoltativamente, il contrassegno viene aggiunto a un [gruppo di caratteristiche](feature-groups-to-control-multiple-features.md) da gestire insieme ai contrassegni correlati.
-4. Facoltativamente, il flag viene aggiunto a una [versione](release-management.md) per il coordinamento tra i team.
