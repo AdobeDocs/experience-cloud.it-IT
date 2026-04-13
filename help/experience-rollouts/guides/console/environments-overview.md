@@ -1,13 +1,14 @@
 ---
 title: Seleziona la sandbox
 description: Scopri come selezionare la sandbox di Adobe Experience Platform corretta quando lavori nei Rollout di esperienza di Adobe.
-source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
+hide: true
+exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 2%
 
 ---
-
 
 # Seleziona la sandbox {#sandbox}
 
@@ -21,3 +22,5 @@ Utilizza il selettore sandbox nella barra di navigazione superiore della console
 
 * [Accedi alla console](log-in-to-the-console.md)
 * [Richiedi accesso](request-access.md)
+
+<!-- -->

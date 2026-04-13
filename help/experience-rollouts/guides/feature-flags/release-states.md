@@ -1,13 +1,14 @@
 ---
 title: Stati di rilascio
 description: Scopri gli stati del ciclo di vita di una versione in Rollout esperienza di Adobe, compreso cosa significa ogni stato e quali transizioni sono consentite.
-source-git-commit: ae420329b94b24fcd173734b414aecf1c5fc16ca
+hide: true
+exl-id: c1311353-9c36-43c5-8e75-3b3ee225da41
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 3%
 
 ---
-
 
 # Stati di rilascio {#release-states}
 
@@ -46,3 +47,5 @@ Pianifica l’approvazione o l’interruzione delle versioni entro tre mesi.
 * [Richiedi rilascio](request-a-release.md)
 * [Flusso di lavoro di rilascio end-to-end](release-workflow-end-to-end.md)
 * [Aggiorna regole di pubblico della versione](update-release-audience-rules.md)
+
+<!-- -->

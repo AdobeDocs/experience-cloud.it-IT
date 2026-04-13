@@ -1,13 +1,14 @@
 ---
 title: Aggiorna regole di pubblico della versione
 description: Scopri come configurare e aggiornare i criteri di pubblico per una versione in Rollout esperienza di Adobe, inclusi i tipi di regole supportati e come combinarli.
-source-git-commit: bb4541dd7a77edadded2edbc9c71905cf70f2e24
+hide: true
+exl-id: 8d546cd7-af66-47c7-aab3-c667568e8582
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 3%
 
 ---
-
 
 # Aggiorna regole di pubblico della versione {#update-release-audience-rules}
 
@@ -76,3 +77,5 @@ Utilizzare le icone **+/-** per aggiungere o rimuovere condizioni. Per duplicare
 * [Richiedi rilascio](request-a-release.md)
 * [Flusso di lavoro di rilascio end-to-end](release-workflow-end-to-end.md)
 * [Stati di rilascio](release-states.md)
+
+<!-- -->

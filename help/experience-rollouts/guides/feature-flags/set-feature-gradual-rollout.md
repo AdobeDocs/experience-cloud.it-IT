@@ -1,13 +1,14 @@
 ---
 title: Impostare una funzione per il rollout graduale
 description: Scopri come configurare un rollout graduale basato su percentuali per un flag di funzione nei Rollout di esperienza di Adobe.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+hide: true
+exl-id: 1e03c533-398d-4a83-9f4a-c0419828b460
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 3%
 
 ---
-
 
 # Impostare una funzione per il rollout graduale {#gradual-rollout-feature}
 
@@ -24,3 +25,5 @@ Puoi aumentare o diminuire la percentuale nel tempo per espandere o contrarre il
 * [Rollout graduale](../../concepts/gradual-rollout.md)
 * [Impostare un gruppo di funzioni per il rollout graduale](set-feature-group-gradual-rollout.md)
 * [Creare il primo flag di funzione](create-your-first-feature-flag.md)
+
+<!-- -->

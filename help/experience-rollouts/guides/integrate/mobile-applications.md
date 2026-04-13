@@ -1,8 +1,9 @@
 ---
 title: Applicazioni mobili
 description: Scopri come integrare i rollout di esperienza Adobe in un’app mobile utilizzando il SDK mobile.
+hide: true
 exl-id: 27a43994-25e7-4a2c-b01c-ae98d089413d
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 8%
@@ -25,3 +26,5 @@ Per informazioni dettagliate sul processo di integrazione, vedere [Passaggi di i
 
 * [Passaggi dell’integrazione](integration-steps.md)
 * [Guida all’avvio](startup-guide.md)
+
+<!-- -->

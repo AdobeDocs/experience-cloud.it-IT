@@ -1,8 +1,9 @@
 ---
 title: Gruppi di feature per controllare più feature
 description: Scopri come i gruppi di funzioni nei Rollout di esperienza consentono di raggruppare e gestire i relativi flag di funzione nelle applicazioni come un’unica unità.
+hide: true
 exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -23,3 +24,5 @@ Consideriamo ad esempio una funzione di collaborazione che comporta modifiche a 
 
 I gruppi di funzioni supportano la gestione delle funzioni tra più applicazioni. È possibile raggruppare i flag correlati in più applicazioni.
 
+
+<!-- -->

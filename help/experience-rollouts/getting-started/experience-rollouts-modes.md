@@ -1,13 +1,14 @@
 ---
 title: Modalità Rollout esperienza
 description: Scopri le due modalità di targeting delle funzioni nei Rollout esperienza di Adobe, targeting a livello di utente e targeting a livello di organizzazione, e quando utilizzarle.
-source-git-commit: bb4541dd7a77edadded2edbc9c71905cf70f2e24
+hide: true
+exl-id: 0fdfa429-d9bd-4990-8f96-cd9deb273aa0
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 3%
 
 ---
-
 
 # Modalità Rollout esperienza {#modes}
 
@@ -81,3 +82,5 @@ Il targeting a livello di organizzazione e di ambiente non è progettato per i s
 
 * Se la domanda è *&quot;Quali utenti dovrebbero visualizzare questa funzionalità?&quot;* → Usa **targeting a livello di utente**
 * Se la domanda è *&quot;Quali organizzazioni o ambienti dovrebbero avere questa funzione?&quot;* → Utilizzare **org e il targeting a livello di ambiente**
+
+<!-- -->

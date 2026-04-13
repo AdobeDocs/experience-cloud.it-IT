@@ -1,8 +1,9 @@
 ---
 title: Gestire le applicazioni
 description: Scopri come gestire le applicazioni nei Rollout di esperienza di Adobe, inclusa l’aggiunta di nuove applicazioni.
+hide: true
 exl-id: 6109fdd5-b5f5-41ca-8690-8aa78df50499
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 1%
@@ -25,3 +26,5 @@ Per aggiungere un&#39;applicazione, vedere [Eseguire l&#39;onboarding dell&#39;a
 
 * [Eseguire l’onboarding dell’applicazione](onboard-your-application.md)
 * [Gruppi di feature per controllare più feature](../../concepts/feature-groups-to-control-multiple-features.md)
+
+<!-- -->

@@ -1,13 +1,14 @@
 ---
 title: Introduzione ai rollout di esperienza
 description: Scopri come Adobe Experience Rollouts fornisce un sistema di rilascio controllato per distribuire progressivamente funzioni a tipi di pubblico mirati.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+hide: true
+exl-id: befe7899-096d-4f74-a5a2-35b1fc3cbc58
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
 
 ---
-
 
 # Introduzione ai rollout di esperienza {#introduction}
 
@@ -40,3 +41,5 @@ Experience Rollout è una piattaforma di gestione delle funzioni che fornisce:
 * **Rollout graduali**: distribuzione delle funzionalità in fasi incrementale per ridurre i rischi, raccogliere feedback e gestire il carico di back-end.
 
 * **Interrompi commutatore**: disattivare immediatamente qualsiasi funzionalità se viene rilevato un problema, senza modificare o ridistribuire il codice.
+
+<!-- -->

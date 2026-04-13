@@ -1,8 +1,9 @@
 ---
 title: Accedi alla console Rollout esperienza
 description: Scopri come iniziare a utilizzare i Rollout esperienza di Adobe individuando il team, richiedendo l’accesso e accedendo alla console.
+hide: true
 exl-id: 4b109759-43b5-440a-89b4-78c0f0483cd0
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -44,3 +45,5 @@ Dopo aver effettuato l’accesso, verifica che l’applicazione sia elencata nel
 | **Team** | Gruppo autogestito che possiede applicazioni e gestisce i flag di funzionalità. I team hanno una struttura piatta con ruoli utente e livelli di autorizzazione diversi. |
 | **Applicazione** | L&#39;applicazione che si desidera controllare con i flag di funzionalità. Ogni applicazione è di proprietà di un team. |
 | **Flag di funzionalità / Gruppo di funzionalità** | Gli artefatti creati nei Rollout esperienza per il test delle funzioni e i rollout controllati. |
+
+<!-- -->

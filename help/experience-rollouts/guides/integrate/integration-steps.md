@@ -1,8 +1,9 @@
 ---
 title: Passaggi dell’integrazione
 description: Segui i passaggi di integrazione per il tipo di applicazione per collegare i rollout di esperienza Adobe al servizio web, all’app mobile o desktop tramite gli SDK disponibili.
+hide: true
 exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 4%
@@ -43,3 +44,5 @@ Le applicazioni desktop si integrano tramite SDK. Contatta il rappresentante Ado
 * [SDK](sdks.md)
 * [Servizi web](web-services.md)
 * [Applicazioni desktop](desktop-applications.md)
+
+<!-- -->

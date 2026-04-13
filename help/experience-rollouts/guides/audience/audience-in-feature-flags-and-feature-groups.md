@@ -1,8 +1,9 @@
 ---
 title: Pubblico nei flag di funzione e nei gruppi di funzioni
 description: Scopri come definire i criteri di pubblico per i flag di funzione e i gruppi di funzioni nei Rollout di esperienza di Adobe utilizzando le variabili di contesto.
+hide: true
 exl-id: 4a8f7c3f-1ae5-4e65-a070-9fc33133eec0
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 2%
@@ -21,3 +22,5 @@ Per il targeting basato sul contesto (ad esempio, il targeting in base al lingua
 * [Aggiungere regole di percentuale nei criteri di pubblico](adding-percentage-rules.md)
 * [Regole di pubblico complesse](complex-rules.md)
 * [Creare il primo flag di funzione](../feature-flags/create-your-first-feature-flag.md)
+
+<!-- -->

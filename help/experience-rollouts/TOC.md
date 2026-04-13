@@ -3,7 +3,7 @@ audience: user
 user-guide-title: Rollout dell’esperienza Adobe
 user-guide-description: Scopri come utilizzare i rollout di esperienza di Adobe per gestire i flag di funzioni, i rollout controllati e le versioni mirate nelle applicazioni.
 hide: true
-source-git-commit: 571439cb5f463567b11b6dd24a9cfbca400f9357
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 8%
