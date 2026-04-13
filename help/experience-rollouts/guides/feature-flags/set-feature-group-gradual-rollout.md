@@ -1,13 +1,14 @@
 ---
 title: Impostare un gruppo di funzioni per il rollout graduale
 description: Scopri come configurare un rollout graduale basato su percentuali per un gruppo di funzioni nei Rollout esperienza di Adobe.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+hide: true
+exl-id: fcf187f1-2f33-4e3a-b740-985d5bc0bcdc
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 3%
 
 ---
-
 
 # Impostare un gruppo di funzioni per il rollout graduale {#gradual-rollout-feature-group}
 
@@ -26,3 +27,5 @@ Puoi aumentare o diminuire la percentuale in qualsiasi momento per espandere, ri
 * [Creare un gruppo di funzioni](create-a-feature-group.md)
 * [Test A/B con flag di funzione](a-b-testing.md)
 * [Rollout graduale](../../concepts/gradual-rollout.md)
+
+<!-- -->

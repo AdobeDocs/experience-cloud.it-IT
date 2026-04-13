@@ -1,8 +1,9 @@
 ---
 title: Rollout graduale
 description: Scopri in che modo i rollout graduali nei Rollout di esperienza consentono di inserire gradualmente la distribuzione delle funzioni in produzione in modo sicuro, con feedback in tempo reale e rischi minimi.
+hide: true
 exl-id: ede24236-de19-4008-893c-e67bd82e23e3
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 2%
@@ -38,3 +39,5 @@ Ad ogni passaggio, una singola azione può mettere in pausa il rollout o disatti
 ## Vedi anche {#see-also}
 
 * [Flag di funzioni per abilitare e disabilitare le funzioni](feature-flags-to-enable-disable-features.md)
+
+<!-- -->

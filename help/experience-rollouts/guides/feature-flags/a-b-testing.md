@@ -1,8 +1,9 @@
 ---
 title: Test A/B con flag di funzione
 description: Scopri come eseguire test A/B utilizzando i gruppi di funzioni nei Rollout esperienza di Adobe configurando più varianti per un set di flag di funzione.
+hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 1%
@@ -53,3 +54,5 @@ Salvate le impostazioni del gruppo di feature. Quando siete pronti per iniziare 
 * [Creare un gruppo di funzioni](create-a-feature-group.md)
 * [Impostare un gruppo di funzioni per il rollout graduale](set-feature-group-gradual-rollout.md)
 * [Analytics](analytics.md)
+
+<!-- -->

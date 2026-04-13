@@ -1,8 +1,9 @@
 ---
 title: Guida all’avvio
 description: Segui questi passaggi per integrare l’applicazione con i Rollout esperienza di Adobe, dalla richiesta di accesso alla creazione del primo flag di funzione.
+hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 1%
@@ -52,3 +53,5 @@ Al termine dell’integrazione, crea il primo flag di funzione nella console e v
 * [Integrare i rollout di esperienza nell’app](integrating-in-your-app.md)
 * [Passaggi dell’integrazione](integration-steps.md)
 * [SDK](sdks.md)
+
+<!-- -->

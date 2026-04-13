@@ -1,8 +1,9 @@
 ---
 title: Integrare i rollout di esperienza nell’app
 description: Scopri come integrare i rollout di esperienza di Adobe nell’applicazione, che si tratti di un servizio web, una proprietà web, un’app mobile o un’applicazione desktop.
+hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -33,3 +34,5 @@ Seleziona la guida corrispondente al tipo di applicazione:
 | **Applicazione Web** | Web SDK (disponibile a breve) |
 | **Applicazione mobile** | Mobile SDK (disponibile a breve) |
 | **Applicazione desktop** | SDK (disponibile a breve) |
+
+<!-- -->

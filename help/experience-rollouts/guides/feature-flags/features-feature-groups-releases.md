@@ -1,13 +1,14 @@
 ---
 title: Funzioni e gruppi di funzioni
 description: Scopri le differenze tra i flag di funzione e i gruppi di funzioni nei Rollout esperienza di Adobe e quando utilizzarli.
-source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
+hide: true
+exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 4%
 
 ---
-
 
 # Funzioni e gruppi di funzioni {#features-feature-groups}
 
@@ -44,3 +45,5 @@ Raccolta di flag di funzionalità appartenenti allo stesso team. Consente di ges
 
 * [Creare il primo flag di funzione](create-your-first-feature-flag.md)
 * [Creare un gruppo di funzioni](create-a-feature-group.md)
+
+<!-- -->

@@ -1,8 +1,9 @@
 ---
 title: Aggiungere regole di percentuale nei criteri di pubblico
 description: Scopri come aggiungere regole basate sulla percentuale nei criteri di pubblico in Rollout esperienza di Adobe per eseguire il targeting di percentuali di rollout diverse per segmenti di pubblico diversi.
+hide: true
 exl-id: 15a3c26f-31fc-4e73-aa0e-035dcbe7d770
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -63,3 +64,5 @@ Aggiungi quattro regole: Paese = Stati Uniti, Percentuale = 10%, Paese = Regno U
 * [Pubblico nei flag di funzione e nei gruppi di funzioni](audience-in-feature-flags-and-feature-groups.md)
 * [Regole di pubblico complesse](complex-rules.md)
 * [Impostare una funzione per il rollout graduale](../feature-flags/set-feature-gradual-rollout.md)
+
+<!-- -->

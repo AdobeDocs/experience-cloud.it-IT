@@ -1,8 +1,9 @@
 ---
 title: Eseguire l’onboarding dell’applicazione
 description: Scopri come integrare una nuova applicazione nei Rollout esperienza di Adobe per iniziare a creare e gestire i flag di funzione.
+hide: true
 exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 2%
@@ -45,3 +46,5 @@ Dopo aver effettuato l’onboarding dell’applicazione, puoi iniziare a creare 
 
 * [Gestire le applicazioni](manage-applications.md)
 * [Accedi alla console](../console/log-in-to-the-console.md)
+
+<!-- -->

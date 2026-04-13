@@ -1,8 +1,9 @@
 ---
 title: Creare il primo flag di funzione
 description: Scopri come creare un flag di funzione nei rollout di esperienza di Adobe, impostare un pubblico e testarlo prima di distribuirlo agli utenti.
+hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
@@ -60,3 +61,5 @@ Il ruolo **Sviluppatore** è in modalità sandbox. Gli sviluppatori possono test
 
 * [Impostare una funzione per il rollout graduale](set-feature-gradual-rollout.md)
 * [Creare un gruppo di funzioni](create-a-feature-group.md)
+
+<!-- -->

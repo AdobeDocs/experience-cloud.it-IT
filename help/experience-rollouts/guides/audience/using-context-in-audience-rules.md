@@ -1,8 +1,9 @@
 ---
 title: Usa contesto nelle regole del pubblico
 description: Scopri come utilizzare le variabili di contesto nelle regole del pubblico per i flag di funzione e i gruppi di funzioni nei Rollout di esperienza di Adobe.
+hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -54,3 +55,5 @@ Se la variabile di contesto necessaria non viene visualizzata nell&#39;elenco, Ã
 
 * [Pubblico nei flag di funzione e nei gruppi di funzioni](audience-in-feature-flags-and-feature-groups.md)
 * [Aggiungere regole di percentuale nei criteri di pubblico](adding-percentage-rules.md)
+
+<!-- -->

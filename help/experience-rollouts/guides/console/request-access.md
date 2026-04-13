@@ -1,8 +1,9 @@
 ---
 title: Richiedi accesso
 description: Scopri come richiedere l’accesso a un team di Rollout esperienza Adobe e i ruoli disponibili per i nuovi membri.
+hide: true
 exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 1%
@@ -44,3 +45,5 @@ Una volta approvata la richiesta, accedi alla console Rollout esperienza e verif
 ## Hai bisogno di aiuto? {#need-help}
 
 Se non sai a quale team partecipare o se per il progetto non esiste ancora alcun team, contatta l’amministratore dei Rollout esperienza della tua organizzazione.
+
+<!-- -->

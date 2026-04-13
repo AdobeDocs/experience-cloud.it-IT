@@ -1,8 +1,9 @@
 ---
 title: Regole di pubblico complesse
 description: Scopri come utilizzare set di regole per il pubblico grandi o complessi nei Rollout di esperienza di Adobe, compresi i limiti di valore in blocco e come suddividere le regole in più condizioni.
+hide: true
 exl-id: 37e037b6-45eb-4261-b580-30d94d8e55da
-source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -36,3 +37,5 @@ Si tratta dello stesso meccanismo utilizzato per le regole percentuali in combin
 
 * [Pubblico nei flag di funzione e nei gruppi di funzioni](audience-in-feature-flags-and-feature-groups.md)
 * [Aggiungere regole di percentuale nei criteri di pubblico](adding-percentage-rules.md)
+
+<!-- -->

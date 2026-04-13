@@ -1,13 +1,14 @@
 ---
 title: Flusso di lavoro di rilascio end-to-end
 description: Scopri il flusso di lavoro end-to-end per la gestione di una versione coordinata nei Rollout di esperienza di Adobe, dalla definizione dei flag di funzione alla pubblicazione.
-source-git-commit: d311efb995b20ffc17370d68d57dd84a8605896c
+hide: true
+exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
 
 ---
-
 
 # Flusso di lavoro di rilascio end-to-end {#release-workflow}
 
@@ -46,3 +47,5 @@ Una volta pubblicata la versione, Release Manager può regolare le regole del pu
 * [Richiedi rilascio](request-a-release.md)
 * [Aggiorna regole di pubblico della versione](update-release-audience-rules.md)
 * [Stati di rilascio](release-states.md)
+
+<!-- -->
