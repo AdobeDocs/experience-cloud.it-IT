@@ -1,8 +1,9 @@
 ---
 title: Rollout dell’esperienza Adobe
 description: Scopri come utilizzare i Rollout di esperienza di Adobe per distribuire le funzioni in modo sicuro e graduale con rollout controllati, flag di funzioni e gestione mirata dell’audience.
+hide: true
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 571439cb5f463567b11b6dd24a9cfbca400f9357
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%
@@ -38,3 +39,7 @@ Una volta che il primo flag è attivo, puoi perfezionarne il pubblico, configura
 ## Hai bisogno di aiuto?
 
 Se qualcosa non si comporta come previsto, contatta il rappresentante Adobe per richiedere assistenza.
+
+<!-- 
+Bob was here
+-->
