@@ -1,9 +1,12 @@
 ---
 audience: user
+solution: Target
+landing-page-name: target
+landing-page-breadcrumb-title: Target
 user-guide-title: Flag
 user-guide-description: Scopri come utilizzare i flag in Adobe Target per gestire i flag di funzioni, i rollout controllati e le versioni mirate nelle applicazioni.
 hide: true
-source-git-commit: 8a3a8f0293e32db896f62a63ea6a886868ffe1a3
+source-git-commit: 60c70867ff1419f3ccd3458b1758073193e05de4
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 8%
