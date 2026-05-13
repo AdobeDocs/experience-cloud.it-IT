@@ -1,18 +1,27 @@
 ---
-title: Annullamenti dell’iscrizione
+title: Abbonamenti annullati
 description: Con il rapporto preconfigurato Unsubscriptions (Annullamenti abbonamenti), scopri quante volte i clienti hanno annullato l’abbonamento alle consegne.
 level: Intermediate
 audience: end-user
-badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
+badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti di Campaign Standard migrati"
 exl-id: 91ec13d7-1c2b-45ae-af29-89d02c0f3bcb
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+TQID: https://experienceleague.adobe.com/ygUFhD-BHESgSMyS6tlvySZfAwrVZIW-JV3fApidVpA
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: 79
 ht-degree: 15%
 
 ---
 
-# Annullamenti dell’iscrizione{#unsubscriptions}
+# Abbonamenti annullati{#unsubscriptions}
 
 Il rapporto **[!UICONTROL Unsubscriptions]** individua le consegne associate al maggior numero di annullamenti di abbonamenti.
 

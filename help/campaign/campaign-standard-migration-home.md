@@ -1,18 +1,28 @@
 ---
 title: Interfaccia utente web di Adobe Campaign
 description: Scopri l’interfaccia utente di Adobe Campaign Web
-badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
+badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="campaign-standard-migration-home.md" tooltip="Limitato agli utenti di Campaign Standard migrati"
 exl-id: eecf4e13-820d-4454-9f11-f50be565bb79
-source-git-commit: 57d64cb5436381e1dbad9add0d8fe117e6f11ecf
+TQID: https://experienceleague.adobe.com/Ac8fvg1LbjA-BhC7ldFfSxFo-CYzKhjd1itqk6jltOM
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 11%
+source-wordcount: 391
+ht-degree: 19%
 
 ---
 
 # Passaggio da Campaign Standard a Campaign v8 {#triggers-home}
 
-In qualità di utente Campaign Standard che passa a Campaign v8, ora puoi beneficiare della nuova versione dell’interfaccia utente web di Adobe Campaign e della potente console v8. La transizione è semplice e ti consentirà di utilizzare tutte le funzioni intuitive progettate per semplificare la creazione di campagne personalizzate cross-channel. L’interfaccia utente di Campaign Web offre anche un’area di lavoro connessa con Adobe Experience Platform per un’esperienza unificata.
+In qualità di utente di Campaign Standard che passa a Campaign v8, ora puoi beneficiare della nuova versione dell’interfaccia utente web di Adobe Campaign e della potente console v8. La transizione è semplice e ti consentirà di utilizzare tutte le funzioni intuitive progettate per semplificare la creazione di campagne personalizzate cross-channel. L’interfaccia utente di Campaign Web offre anche un’area di lavoro connessa con Adobe Experience Platform per un’esperienza unificata.
 
 Inoltre, questa transizione comporterà molti vantaggi:
 
@@ -27,7 +37,7 @@ Per ulteriori informazioni sulle funzionalità chiave e sulle differenze concett
 
 Dai un&#39;occhiata a tutte le funzionalità offerte dall&#39;[Interfaccia utente di Campaign Web](https://experienceleague.adobe.com/it/docs/campaign-web/v8/campaign-web-home) e [Campaign v8](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/campaign-home).
 
-Per consentirti di passare facilmente da Campaign Standard a v8, abbiamo aggiunto le seguenti funzionalità principali:
+Per consentirti di passare facilmente da una versione all’altra, abbiamo aggiunto le funzionalità principali da Campaign Standard a v8:
 
 >[!BEGINTABS]
 
@@ -39,11 +49,11 @@ Puoi accedere a Reporting dinamico che fornisce rapporti completamente personali
 
 >[!TAB Branding centralizzato]
 
-Gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che influiscono sull’identità di un brand.
+Gli amministratori tecnici possono ora definire uno o più brand per centralizzare i parametri che influiscono sull’identità del brand.
 
 [![immagine](assets/do-not-localize/learn-more-button.svg)](branding/branding-gs.md)
 
->[!TAB API REST]
+>[!TAB API Rest]
 
 Puoi utilizzare le API REST per creare integrazioni per Adobe Campaign e creare il tuo ecosistema interfacciando Adobe Campaign con il pannello di tecnologie utilizzato.
 

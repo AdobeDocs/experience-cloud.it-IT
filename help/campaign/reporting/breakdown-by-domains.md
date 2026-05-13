@@ -3,11 +3,20 @@ title: Raggruppamento per domini
 description: Con il rapporto predefinito Raggruppamento per domini, scopri i dati sulle prestazioni delle consegne in base a ciascun dominio del cliente.
 level: Intermediate
 audience: end-user
-badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
+badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti di Campaign Standard migrati"
 exl-id: 9b6126b7-3f9c-4810-9288-33a3f0a034d8
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+TQID: https://experienceleague.adobe.com/qyXR0itlPRVLz51-QoZoD1bqqMOxmzdhNqUL6wHW89I
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: 244
 ht-degree: 2%
 
 ---

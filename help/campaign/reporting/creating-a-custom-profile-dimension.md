@@ -5,9 +5,21 @@ audience: reporting
 content-type: reference
 level: Intermediate
 exl-id: a12dc772-13c7-45ff-9fbf-3dfdd3801eae
-source-git-commit: 5da9b29c424f019f3dafc127a41e974017af494c
+TQID: https://experienceleague.adobe.com/eru99ME-JlrcRl074heBXwVhBLgeQJaQdiJkM-QT2SY
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: 517
 ht-degree: 3%
 
 ---
@@ -28,7 +40,7 @@ Per aggiungere un nuovo campo del profilo, devi estendere lo schema, segui i pas
 
    ![](assets/custom_field_1.png)
 
-1. Identifica lo schema destinatario personalizzato e selezionalo. Se non hai ancora esteso lo schema predefinito nms:recipient, fai riferimento a [questa procedura](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
+1. Identifica lo schema destinatario personalizzato e selezionalo. Se non hai ancora esteso lo schema predefinito nms:recipient, fai riferimento a [questa procedura](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
 
 1. Aggiungi il campo personalizzato all’editor schema.
 
@@ -42,7 +54,7 @@ Per aggiungere un nuovo campo del profilo, devi estendere lo schema, segui i pas
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-1. Quindi, identifica lo schema broadLogRcp personalizzato e selezionalo. Se non hai ancora esteso lo schema del registro di consegna integrato, fai riferimento a [questa procedura](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
+1. Quindi, identifica lo schema broadLogRcp personalizzato e selezionalo. Se non hai ancora esteso lo schema del registro di consegna integrato, fai riferimento a [questa procedura](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
 
 1. Aggiungi lo stesso campo personalizzato dello schema Destinatario all’editor schema.
 
@@ -50,7 +62,7 @@ Per aggiungere un nuovo campo del profilo, devi estendere lo schema, segui i pas
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-1. Per applicare le modifiche apportate agli schemi, avviare la procedura guidata di aggiornamento del database tramite **[!UICONTROL Strumenti]** > **[!UICONTROL Avanzate]** > **[!UICONTROL Aggiorna struttura database]** ed eseguire Aggiorna struttura database. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
+1. Per applicare le modifiche apportate agli schemi, avviare la procedura guidata di aggiornamento del database tramite **[!UICONTROL Strumenti]** > **[!UICONTROL Avanzate]** > **[!UICONTROL Aggiorna struttura database]** ed eseguire Aggiorna struttura database. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
 
    ![](assets/custom_field_4.png)
 
@@ -94,7 +106,7 @@ Dopo aver inviato la consegna, puoi suddividere i rapporti utilizzando la dimens
 
    ![](assets/custom_field_8.png)
 
-1. Nella categoria **[!UICONTROL Dimension]**, fai clic su **[!UICONTROL Profilo]**, quindi trascina la dimensione del profilo nella tabella a forma libera.
+1. Nella categoria **[!UICONTROL Dimensioni]**, fai clic su **[!UICONTROL Profilo]**, quindi trascina la dimensione del profilo nella tabella a forma libera.
 
    ![](assets/custom_field_9.png)
 

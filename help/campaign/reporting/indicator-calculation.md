@@ -3,11 +3,21 @@ title: Calcolo indicatore
 description: Comprendi i risultati dei rapporti con un elenco della formula di ogni metrica.
 level: Intermediate
 audience: end-user
-badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
+badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti di Campaign Standard migrati"
 exl-id: 06fb21a5-ae98-4c14-97f0-7f851d60ae7d
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+TQID: https://experienceleague.adobe.com/ubKkJPoxyetbbFy8Sp0vyD4Q2ZDhNok7PAsGrDCombI
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: 384
 ht-degree: 1%
 
 ---
@@ -39,7 +49,7 @@ Le tabelle seguenti forniscono l’elenco degli indicatori utilizzati nei divers
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Inserire nell'elenco Bloccati All'<br/> </td> 
+   <td> All'<br/> </td> 
    <td> @blacklisted<br/> </td> 
    <td> count(@failureReason=8, @failureType=2)<br/> </td> 
    <td> </td> 
