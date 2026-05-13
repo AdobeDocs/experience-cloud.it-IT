@@ -8,9 +8,13 @@ role: Developer
 level: Experienced
 badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti di Campaign Standard migrati"
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
-source-git-commit: 6baa9bef7eae1ab8ffe9ecd426c6ba4580e8c9d7
+TQID: https://experienceleague.adobe.com/jaVg32T-Frb7jHAZNMNa-iZt2QNF7oIOPbZ4DLzPFJY
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: 452
 ht-degree: 0%
 
 ---
@@ -202,8 +206,8 @@ Se desideri utilizzare un filtro personalizzato, devi crearlo e personalizzarlo 
 
 Per ulteriori informazioni, consulta la documentazione di Campaign Standard:
 
-* [Configurazione della definizione del filtro](https://helpx.adobe.com/it/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Caso d&#39;uso: chiamata di una risorsa tramite una chiave di identificazione composita](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=it).
+* [Configurazione della definizione del filtro](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
+* [Caso d&#39;uso: chiamata di una risorsa tramite una chiave di identificazione composita](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 

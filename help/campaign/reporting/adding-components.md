@@ -3,11 +3,16 @@ title: Aggiunta di componenti
 description: Trascina i componenti nella tabella a forma libera per iniziare a filtrare i dati e creare il rapporto.
 audience: end-user
 level: Intermediate
-badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
+badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti di Campaign Standard migrati"
 exl-id: 2b22f147-ed75-40ca-8859-8f4b23bca7c3
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+TQID: https://experienceleague.adobe.com/Mq7ZEHuTsJVuPF8x-wz4452BJ61ffImgSIVtkIgiokM
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: 294
 ht-degree: 4%
 
 ---
@@ -24,7 +29,7 @@ I componenti consentono di personalizzare i rapporti con dimensioni, metriche e 
 
    La tabella dei componenti è suddivisa in quattro categorie:
 
-   * **Dimension**: ottieni dettagli dal registro delle consegne, ad esempio il browser o il dominio del destinatario oppure il completamento di una consegna.
+   * **Dimensioni**: ottieni dettagli dal registro delle consegne, ad esempio il browser o il dominio del destinatario oppure il completamento di una consegna.
    * **Metriche**: ottieni dettagli sullo stato di un messaggio. Ad esempio, se un messaggio è stato recapitato e l’utente lo ha aperto.
    * **[!UICONTROL Segmenti]**: filtra i dati in base all&#39;intervallo di età del destinatario. **[!UICONTROL I segmenti]** possono essere trascinati e rilasciati direttamente in una tabella a forma libera o nella barra superiore del pannello.
 

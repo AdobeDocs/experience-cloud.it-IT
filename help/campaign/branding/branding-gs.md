@@ -5,12 +5,17 @@ audience: administration
 context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
-badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti Campaign Standard migrati"
+badge: label="DISPONIBILITÀ LIMITATA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Limitato agli utenti di Campaign Standard migrati"
 exl-id: f6438303-5ae8-47c6-8c34-8e586f4b6fe7
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+TQID: https://experienceleague.adobe.com/El7fE2aveS9C67b8B8fkMpiwMaMx-9aWpW4-3Ev7mG4
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 18%
+source-wordcount: 363
+ht-degree: 23%
 
 ---
 
@@ -26,7 +31,7 @@ Gli amministratori tecnici possono creare e gestire più marchi all’interno di
 
 In Campaign puoi aggiungere nuove entità della tua organizzazione o creare un nuovo tipo di e-mail da inviare in un sottodominio diverso. Per farlo, segui la procedura indicata di seguito:
 
-1. **Configura un nuovo sottodominio**. Ad Adobe, per qualsiasi nuovo sottodominio da utilizzare, il primo passaggio consiste nel configurarlo. Puoi eseguire questa operazione tramite [Pannello di controllo Campaign della campagna](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it) o rivolgerti al tuo contatto tecnico Adobe. Ulteriori informazioni sulla configurazione del sottodominio [in questa pagina](https://experienceleague.adobe.com/it/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
+1. **Configura un nuovo sottodominio**. Per utilizzare un nuovo sottodominio da parte di Adobe, devi innanzitutto configurarlo. Puoi eseguire questa operazione tramite [Pannello di controllo Campaign della campagna](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=it) o rivolgerti al tuo contatto tecnico Adobe. Ulteriori informazioni sulla configurazione del sottodominio [in questa pagina](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup).
 
    >[!NOTE]
    >
@@ -34,4 +39,4 @@ In Campaign puoi aggiungere nuove entità della tua organizzazione o creare un n
 
 1. **Crea un modello di consegna** - Una volta che il nuovo brand è disponibile, è consigliabile creare almeno un nuovo modello di consegna vuoto che faccia riferimento a questo nuovo brand. [Ulteriori informazioni](branding-assign.md).
 
-1. **Verifica le linee guida per il recapito messaggi** - Prima di iniziare a utilizzare il nuovo dominio, la strategia deve essere discussa con il team di recapito messaggi di Adobe. Aiuteranno a definire le best practice, ad esempio se è necessario creare una nuova affinità per suddividere gli IP tra domini e/o se è necessario definire un piano di aumento graduale.
+1. **Verifica le linee guida per il recapito messaggi** - Prima di iniziare a utilizzare il nuovo dominio, discuti la strategia con il team di recapito messaggi di Adobe. Aiuteranno a definire le best practice, ad esempio se è necessario creare una nuova affinità per suddividere gli IP tra domini e/o se è necessario definire un piano di aumento graduale.
