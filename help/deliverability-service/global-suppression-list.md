@@ -6,13 +6,12 @@ exl-id: 40aef987-52a3-470b-88ca-c716a116bdfc
 TQID: https://experienceleague.adobe.com/gCmvM2zwg-6CmT-O1HjM24niis-mJRnJEXt3LunUZaI
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
+    internal-label: CX Enterprise
+source-git-commit: 4d6fa2af9541ffd61bfe4b26a84e574ea6a634c8
 workflow-type: tm+mt
-source-wordcount: 630
+source-wordcount: '630'
 ht-degree: 100%
-
 ---
-
 # Elenco di soppressione globale {#global-suppression-list}
 
 Un elenco di soppressione è costituito da indirizzi e-mail che i clienti desiderano escludere dalle consegne, in quanto l’invio a tali contatti potrebbe danneggiare la reputazione del mittente e i tassi di consegna. Al momento, Adobe possiede un elenco aggiornato di indirizzi e-mail non validi noti, che hanno dimostrato di essere deleteri per il coinvolgimento e la reputazione e garantisce che tali indirizzi non ricevano e-mail. Tale elenco viene gestito in un elenco di soppressione globale comune a tutti i clienti di Adobe. Gli indirizzi e i nomi di dominio contenuti nell’elenco di soppressione globale sono nascosti. Nei rapporti sulle consegne è indicato solo il numero di destinatari esclusi.
